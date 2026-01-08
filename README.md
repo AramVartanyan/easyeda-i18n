@@ -1,3 +1,8 @@
+# NOTICE
+
+EasyEDA Std edition no longer add new features anymore, this proejct is archived, suggesting you use the Pro edition for instead, the Pro edition i18n will be support soon
+
+Thank you
 
 
 # easyeda-i18n
