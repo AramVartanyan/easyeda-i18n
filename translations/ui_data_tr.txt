@@ -1017,6 +1017,8 @@ Filter nets = Ağları Filtrele
 Design Rule Checking = Tasarım Kuralı Denetimi
 Board Outline = Kart Anahattı
 Plane Zone = Düzlem Bölgesi
+Non-Plated =
+Non-Plated Pad =
 [drcRule]
 Width = Genişlik
 DRC Width = DRC Genişliği
@@ -1028,6 +1030,7 @@ Diameter = Çap
 DRC Diameter = DRC Çapı
 Object = Nesne
 DRC Clearance = DRC Açıklığı
+Clearance = Açıklığı
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue? = Bu ağın yolunu kaldırmak biraz zaman alacak, devam etmek istiyor musunuz?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Kabloda birden fazla ağ etiketi bulundu. Lütfen bunun doğru olup olmadığını kontrol edin, eğer bilerek tasarladıysanız lütfen bu uyarıyı dikkate almayın.
@@ -1039,6 +1042,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = Çap, Tasarım K
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Delgi çapı, Tasarım Kuralı Denetimi (DRC) delgi çapından daha az
 The track length is longer than Design Rule Checking (DRC) track length = Hat uzunluğu, Tasarım Kuralı Denetimi (DRC) hat uzunluğundan daha uzun
 The track width is less than Design Rule Checking (DRC) track width = Hat genişliği, Tasarım Kuralı Denetimi (DRC) hat genişliğinden daha az
+The pad is non-plated. Please check whether it is correct. =
 
 #Dialog Simulation
 Show your simulation report = Simülasyon raporunuzu gösteriniz
@@ -1682,7 +1686,7 @@ Please select its parent node = Lütfen üst düğümünü seçin
 Libraries can not be exported as active project pdf. = Kütüphaneler etkin proje pdf'i olarak dışa aktarılamaz.
 Error:No GND = Hata: GND Yok
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Bu devrede GND mevcut değil. Devreye eklemek için lütfen devre aracından GND'yi seçin.
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Mevcut devre Gerilim Kaynağı veya Akım Kaynağı sembolüne sahip değil, lütfen önce sol taraftaki EElib veya Spice Kütüphanesi'ne yerleştirin.
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = Mevcut devre Gerilim Kaynağı veya Akım Kaynağı sembolüne sahip değil, lütfen önce sol taraftaki EElib veya Spice Kütüphanesi'ne yerleştirin.
 Probe can not connect with ground(GND)! = Prob toprağa(GND) bağlanamıyor!
 Spice symbols's properties can't be empty. = Spice sembolü nitelikleri boş bırakılamaz.
 Error:No Spice Symbol = Hata: Spice Sembolü yok
@@ -1729,7 +1733,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = Sunucudan dosya alınamıyor, lütfen ağınızı kontrol edin ve tekrar deneyin
 Please open a schematic first! = Lütfen önce bir şema açın!
 Can not find the schematic of this PCB = Bu PCB'nin şemasını bulunamadı
-invalid points! = geçersiz noktalar!
+Invalid points! = geçersiz noktalar!
 This file does not support this operation. = Bu dosya bu işlemi desteklemiyor.
 Net Name Conflict = Ağ İsmi Çakışması
 Net name = Ağ ismi
@@ -1844,8 +1848,8 @@ SCR =
 Triac =
 Transform(US) =
 Transform(EU) =
-Transfrom(NEUTRAL-CTR TAP)(US) =
-Transfrom(NEUTRAL-CTR TAP)(EU) =
+Transform(NEUTRAL-CTR TAP)(US) =
+Transform(NEUTRAL-CTR TAP)(EU) =
 Mutual Inductors = Ortak İndüktörler
 Mutual Inductors2 = Ortak İndüktörler2
 Or Gate = Or Kapısı
@@ -1869,7 +1873,7 @@ Fuse = Sigorta
 Speaker = Hoparlör
 XTAL =
 5pin Operational Amplifier = 5pin Operasyonel Amplifikatör
-3pin Operational amplifier = 3pin Operasyonel Amplifikatör
+3pin Operational Amplifier = 3pin Operasyonel Amplifikatör
 Transmission Line = İletim Hattı
 Voltmeter = Voltmetre
 Ammeter = Ampermetre
@@ -2043,7 +2047,7 @@ Download = İndir
 Start = Başlat
 You have unsaved files, are you sure you want to log out without saving the files? = Kaydedilmemiş dosyalarınız var. Dosyaları kaydetmeden çıkış yapmak istediğinizden emin misiniz?
 Please use the web version to run this function. = Bu işlevi çalıştırmak için lütfen web sürümünü kullanın.
-Please save this file to you project! = Lütfen bu dosyayı projenize kaydedin!
+Please save this file to your project! = Lütfen bu dosyayı projenize kaydedin!
 Nothing changed = Bir değişiklik olmadı
 Delete Node = Node'u Sil
 This layer is invisible. = Bu katman görünmez.
@@ -2734,19 +2738,19 @@ Routing Rules = Yol Atama Kuralları
 Track Length Tuning... = Hat Uzunluğu Ayarlama
 Tracks with different net or non-track found in current targets. = Mevcut hedeflerde farklı ağ veya hat olmayan izler bulundu.
 Please select the signal tracks to be tuning. = Lütfen ayarlanacak sinyal rotalarını seçin.
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = Toplam uzunluk Tasarım Kuralı Denetimi (DRC) kısıtlamasını aşıyor, devam?
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? = Toplam uzunluk Tasarım Kuralı Denetimi (DRC) kısıtlamasını aşıyor, devam?
 45° Angle = 45° Açı
 90° Angle = 90° Açı
-DRC Track Length : = DRC Hat Uzunluğu:
-Current Length : = Mevcut Uzunluk:
-Additional Length : = İlave Uzunluk:
+DRC Track Length: = DRC Hat Uzunluğu:
+Current Length: = Mevcut Uzunluk:
+Additional Length: = İlave Uzunluk:
 Target Length: = Hedef Uzunluk:
 Current Length: = Mevcut Uzunluk:
 Adjust Type =
 Double Side =
 Single Side =
 
-can not connect to the server = sunucuya bağlanamadı
+Cannot connect to the server = sunucuya bağlanamadı
 
 #Dialog Copper Area Manager
 Copper Area Manager... = Bakır Alanı Yöneticisi...
@@ -2921,7 +2925,11 @@ No, Keep It = Hayır, Sakla.
 
 Download Client = İstemciyi İndir
 
-Search tutorial、open source projects etc. = Öğretici, açık kaynak projeleri vb. ara
+Search tutorial, open source projects etc. = Öğretici, açık kaynak projeleri vb. ara
+[search]
+Tutorials =
+OSHWLAB =
+[/search]
 
 Go to LCSC and search for = LCSC'ye git ve şunu ara
 Go to LCSC = LCSC'ye git
@@ -3395,3 +3403,22 @@ Incomplete Connection =
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
 
 Auto Pin Placement =
+About the Library Files Note =
+
+# upgrade notice
+New project notice =
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
+1. The features are more comprehensive and powerful. =
+2. Better performance and no pressure on large designs. =
+3. The feature is constantly updated, making drawing more efficient. =
+4. Support the batch migration of EasyEDA Std libraries and projects. =
+5. Support on premise hosting for enterprise. =
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
+The EasyEDA Std will no longer add new features, and enter maintenance phase. =
+Features comparison =
+Projects migration tutorials. =
+Apply trial for free =
+Migration Assistance Group =
+Don't show this notice again today. =
+New Pro Project =
+New Std Project =

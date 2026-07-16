@@ -1017,6 +1017,8 @@ Filter nets = Lọc mạch
 Design Rule Checking = Kiểm tra Quy tắc thiết kế
 Board Outline = Đường bao bo mạch
 Plane Zone = Vùng mặt phẳng
+Non-Plated =
+Non-Plated Pad =
 [drcRule]
 Width = Độ rộng
 DRC Width = Độ rộng DRC
@@ -1028,6 +1030,7 @@ Diameter = Đường kính
 DRC Diameter = Đường kính DRC
 Object = Linh kiện
 DRC Clearance = Khoảng hở DRC
+Clearance = khoảng cách
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Có nhiều tên mạch khác nhau trên cùng một Đường mạch, hãy kiểm tra lại xem có chuẩn không. Nếu đó là chủ định của bạn, hãy bỏ qua cảnh báo này.
@@ -1039,6 +1042,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = Đường kính 
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Đường kính lỗ khoan nhỏ hơn đường kính quy định trong Quy tắc thiết kế (DRC)
 The track length is longer than Design Rule Checking (DRC) track length =Chiều dài Đường mạch lớn hơn so với quy định trong Quy tắc thiết kế (DRC)
 The track width is less than Design Rule Checking (DRC) track width =Độ rộng Đường mạch này nhỏ hơn so với quy định trong Quy tắc thiết kế (DRC)
+The pad is non-plated. Please check whether it is correct. =
 
 #Dialog Simulation
 Show your simulation report = Hiển thị báo cáo mô phỏng
@@ -1682,7 +1686,7 @@ Please select its parent node = Hãy chọn nút cha
 Libraries can not be exported as active project pdf. = Không thể xuất tập tin tin thư viện thành tập tin dự án PDF
 Error:No GND = Lỗi: Không có nối mát (GND)
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Mạch điện này không nối mát (GND). Hãy nối mát trước từ công cụ nối mát.
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Mạch hiện thời không có linh kiện cấp nguồn áp hoặc dòng. Hãy đạt linh kiện cấp nguồn trước vào từ thư viện EElib ở bên trái hoặc thư viện linh kiện mô phỏng.
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = Mạch hiện thời không có linh kiện cấp nguồn áp hoặc dòng. Hãy đạt linh kiện cấp nguồn trước vào từ thư viện EElib ở bên trái hoặc thư viện linh kiện mô phỏng.
 Probe can not connect with ground(GND)! = Không thể nối đất (GND) Điểm so kiểm!
 Spice symbols's properties can't be empty. = Thuộc tính linh kiện mô phỏng không được để trống.
 Error:No Spice Symbol = Lỗi: Không có linh kiện mô phỏng
@@ -1729,7 +1733,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = Không thể lấy tập tin từ máy chủ hoặc tài liệu. Kiểm tra kết nối mạng và thử lại
 Please open a schematic first! = Hãy mở một bản vẽ trước!
 Can not find the schematic of this PCB = Không thể tìm được bản vẽ của mạch in này
-invalid points! = các điểm không hợp lệ
+Invalid points! = các điểm không hợp lệ
 This file does not support this operation. = Tập tin này không hỗ trợ hành động này
 Net Name Conflict = Tên mạch bị xung đột
 Net name = Tên Đường mạch
@@ -1844,8 +1848,8 @@ SCR = SCR
 Triac = Triac
 Transform(US) = Biến thế (US)
 Transform(EU) = Biến thế (EU)
-Transfrom(NEUTRAL-CTR TAP)(US) = Biến thế (NEUTRAL-CTR TAP)(US)
-Transfrom(NEUTRAL-CTR TAP)(EU) = Biến thế (NEUTRAL-CTR TAP)(EU)
+Transform(NEUTRAL-CTR TAP)(US) = Biến thế (NEUTRAL-CTR TAP)(US)
+Transform(NEUTRAL-CTR TAP)(EU) = Biến thế (NEUTRAL-CTR TAP)(EU)
 Mutual Inductors = Cuộn cảm tương hỗ
 Mutual Inductors2 = Cuộn cảm tương hỗ 2
 Or Gate = Cổng Or
@@ -1869,7 +1873,7 @@ Fuse = Cầu chì
 Speaker = Loa
 XTAL = XTAL
 5pin Operational Amplifier = Mạch khuyếch đại 5 chân
-3pin Operational amplifier = Mạch khuyếch đại 3 chân
+3pin Operational Amplifier = Mạch khuyếch đại 3 chân
 Transmission Line = Đường truyền
 Voltmeter = Vôn kế
 Ammeter = Ampe kế
@@ -2043,7 +2047,7 @@ Download = Tải về
 Start = Bắt đầu
 You have unsaved files, are you sure you want to log out without saving the files? = Có những tập tin tin chưa được lưu, bạn muốn bỏ qua và đăng xuất?
 Please use the web version to run this function. = Vui lòng sử dụng chức năng này trong phiên bản web
-Please save this file to you project! = Xin lưu tài liệu này vào dự án của bạn!
+Please save this file to your project! = Xin lưu tài liệu này vào dự án của bạn!
 Nothing changed = Không có gì thay đổi
 Delete Node = Xóa điểm mạch
 This layer is invisible. = Lớp này không hiển thị
@@ -2734,19 +2738,19 @@ Routing Rules = Quy tắc Đi mạch
 Track Length Tuning... = Tinh chỉnh chiều dài Đường mạch...
 Tracks with different net or non-track found in current targets. = Đường mạch thuộc mạch khác nhau hoặc không có Đường mạch nào trong vùng chọn.
 Please select the signal tracks to be tuning. = Chọn Đường mạch tín hiệu để tinh chỉnh
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = Tổng chiều dài vượt quá ngưỡng Quy tắc thiết kế (DRC), có thực hiện tiếp không?
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? = Tổng chiều dài vượt quá ngưỡng Quy tắc thiết kế (DRC), có thực hiện tiếp không?
 45° Angle = Góc 45°
 90° Angle = Góc 90°
-DRC Track Length : = Độ dài Đường mạch DRC:
-Current Length : = Độ dài Đường mạch hiện thời:
-Additional Length : = Độ dài bổ sung:
+DRC Track Length: = Độ dài Đường mạch DRC:
+Current Length: = Độ dài Đường mạch hiện thời:
+Additional Length: = Độ dài bổ sung:
 Target Length: = Độ dài mong muốn:
 Current Length: = Độ dài hiện thời:
 Adjust Type =
 Double Side =
 Single Side =
 
-can not connect to the server = Không kết nối được với máy chủ
+Cannot connect to the server = Không kết nối được với máy chủ
 
 #Dialog Copper Area Manager
 Copper Area Manager... = Trình quản lý Vùng phủ đồng
@@ -2921,7 +2925,11 @@ No, Keep It = Không, hãy giữ
 
 Download Client = Tải phần mềm cho máy để bàn
 
-Search tutorial、open source projects etc. = Tìm hướng dẫn, dự án mở vv.
+Search tutorial, open source projects etc. = Tìm hướng dẫn, dự án mở vv.
+[search]
+Tutorials =
+OSHWLAB =
+[/search]
 
 Go to LCSC and search for = Đến trang LCSC và tìm
 Go to LCSC = Đến trang LCSC
@@ -3395,3 +3403,22 @@ Incomplete Connection =
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
 
 Auto Pin Placement =
+About the Library Files Note =
+
+# upgrade notice
+New project notice =
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
+1. The features are more comprehensive and powerful. =
+2. Better performance and no pressure on large designs. =
+3. The feature is constantly updated, making drawing more efficient. =
+4. Support the batch migration of EasyEDA Std libraries and projects. =
+5. Support on premise hosting for enterprise. =
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
+The EasyEDA Std will no longer add new features, and enter maintenance phase. =
+Features comparison =
+Projects migration tutorials. =
+Apply trial for free =
+Migration Assistance Group =
+Don't show this notice again today. =
+New Pro Project =
+New Std Project =

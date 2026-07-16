@@ -1,0 +1,3424 @@
+# বাংলা (Bangla)
+
+#Menu
+User = ব্যবহারকারী
+Join... = যোগ দিন...
+Login... = লগইন...
+Log in = লগইন
+Logout = লগআউট
+Change password... = পাসওয়ার্ড পরিবর্তন...
+User Preference = ব্যবহারকারীর পছন্দ
+System Settings... = সিস্টেম সেটিংস...
+System Settings = সিস্টেম সেটিংস
+Crash = ক্র্যাশ
+Invite friends... = বন্ধুদের আমন্ত্রণ...
+Language = ভাষা
+Language Setting = ভাষা সেটিং
+
+Document Recovery = ডকুমেন্ট পুনরুদ্ধার
+Your Preferences Information = আপনার পছন্দের তথ্য
+File = ফাইল
+New = নতুন
+Project... = প্রকল্প...
+Schematic = স্কিম্যাটিক
+Schematic-Simulation = স্কিম্যাটিক-সিমুলেশন
+Spice Symbol = স্পাইস প্রতীক
+Spice Subckt = স্পাইস সাবসার্কিট
+spicePre = স্পাইসপ্রি
+PCB = পিসিবি
+Schematic Module = স্কিম্যাটিক মডিউল
+PCB Module = পিসিবি মডিউল
+Save... = সংরক্ষণ...
+Save As... = নতুন নামে সংরক্ষণ...
+Save As Module... = মডিউল হিসেবে সংরক্ষণ...
+Print = প্রিন্ট
+Export Document = ডকুমেন্ট এক্সপোর্ট
+LTspice... = LTspice...
+Eagle... = Eagle...
+Altium... = Altium...
+Cadence... = Cadence...
+Pads... = Pads...
+DXF = DXF
+Import = ইমপোর্ট
+
+
+Edit = সম্পাদনা
+Undo = পূর্বাবস্থায় ফেরত
+Redo = পুনরায় করুন
+Cut = কাটুন
+Copy = কপি
+Paste = পেস্ট
+Select = নির্বাচন
+Delete = মুছুন
+Clear All = সব পরিষ্কার
+Move = সরান
+Drag = টানুন
+Bring to Front = সামনে আনুন
+Send to Back = পেছনে পাঠান
+Align = সারিবদ্ধ
+Align Left = বামে সারিবদ্ধ
+Align Right = ডানে সারিবদ্ধ
+Align Top = উপরে সারিবদ্ধ
+Align Bottom = নিচে সারিবদ্ধ
+Align Horizontal Centers = অনুভূমিক কেন্দ্রে সারিবদ্ধ
+Align Vertical Centers = উল্লম্ব কেন্দ্রে সারিবদ্ধ
+Distribute Horizontally = অনুভূমিকভাবে বিতরণ
+Distribute Vertically = উল্লম্বভাবে বিতরণ
+Distribute Left Edges Equidistantly = বাম প্রান্তগুলি সমান দূরত্বে বিতরণ
+Distribute Top Edges Equidistantly = উপরের প্রান্তগুলি সমান দূরত্বে বিতরণ
+Align Grid = গ্রিড সারিবদ্ধ
+Rotate = ঘোরান
+Rotate Left = বামে ঘোরান
+Rotate Right = ডানে ঘোরান
+Flip Horizontal = অনুভূমিক উল্টান
+Flip Vertical = উল্লম্ব উল্টান
+Rotate and Flip = ঘোরান এবং উল্টান
+Group/Ungroup Symbol... = প্রতীক গ্রুপ/আনগ্রুপ...
+
+[menu_project]
+View = দেখুন
+[/menu_project]
+Find = খুঁজুন
+Zoom In = জুম ইন
+Zoom Out = জুম আউট
+Fit in Window = উইন্ডোতে ফিট
+Refresh = রিফ্রেশ
+Snap = স্ন্যাপ
+Cross Cursor = ক্রস কার্সার
+Toolbars = টুলবার
+Drawing Tools = অঙ্কন সরঞ্জাম
+Wiring Tools = তারের সরঞ্জাম
+Power Objects = পাওয়ার অবজেক্ট
+PCB Tools = পিসিবি সরঞ্জাম
+Footprint Tools = ফুটপ্রিন্ট সরঞ্জাম
+Layers Tool = লেয়ার সরঞ্জাম
+Layer Manager = লেয়ার ম্যানেজার
+Enable and Show All Layers = সব লেয়ার সক্রিয় ও দেখান
+Net Visible = নেট দৃশ্যমান
+Auto = অটো
+Digital Objects = ডিজিটাল অবজেক্ট
+Tools = সরঞ্জাম
+Arc Center = চাপ কেন্দ্র
+Arc Type = চাপের ধরন
+Center Point Arc = কেন্দ্র বিন্দু চাপ
+Two-point Arc = দুই-বিন্দু চাপ
+
+Place = রাখুন
+Drawing Tools = অঙ্কন সরঞ্জাম
+Arc = চাপ
+Elliptical Arc = উপবৃত্তাকার চাপ
+Ellipse = উপবৃত্ত
+Circle = বৃত্ত
+Pie = পাই
+Line = রেখা
+Polyline = পলিলাইন
+Rectangle = আয়তক্ষেত্র
+Rectangular = আয়তক্ষেত্রাকার
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = আয়তক্ষেত্র ৯০ ডিগ্রি ছাড়া অন্য কোণে ঘূর্ণন সমর্থন করে না। দয়া করে এর পরিবর্তে সলিড রিজিয়ন ব্যবহার করুন।
+
+Rect = আয়ত
+Round Rectangle = গোলাকার আয়তক্ষেত্র
+Polygon = বহুভুজ
+Bezier = বেজিয়ার
+Path = পথ
+Graphic = গ্রাফিক
+Bus = বাস
+Bus Entry = বাস এন্ট্রি
+Junction = জংশন
+Net Port = নেট পোর্ট
+Voltage Probe = ভোল্টেজ প্রোব
+Power Port = পাওয়ার পোর্ট
+Wire = তার
+Annotation = টীকা
+Track = ট্র্যাক
+Image = ছবি
+Arrow Head = তীর মাথা
+Arrowhead = তীর মাথা
+Arrow = তীর
+No Connect Flag = সংযোগ নেই ফ্ল্যাগ
+Place = রাখুন
+Pin = পিন
+Lock Selected Objects = নির্বাচিত অবজেক্ট লক করুন
+
+Miscellaneous = বিবিধ
+Find Component = কম্পোনেন্ট খুঁজুন
+Component = কম্পোনেন্ট
+Footprint... = ফুটপ্রিন্ট...
+This component is deleted! = এই কম্পোনেন্টটি মুছে ফেলা হয়েছে!
+Convert = রূপান্তর
+Convert Schematic to PCB = স্কিম্যাটিক থেকে পিসিবিতে রূপান্তর
+The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = কম্পোনেন্ট ID কম্পোনেন্ট প্রিফিক্স অনুযায়ী রিসেট হবে, এই অপারেশন আন্ডো হিস্টোরি মুছে দেবে। দয়া করে লক্ষ্য করুন:
+Please make sure the component prefixes of the schematic and PCB are corresponding = দয়া করে নিশ্চিত করুন যে স্কিম্যাটিক এবং পিসিবির কম্পোনেন্ট প্রিফিক্সগুলি সামঞ্জস্যপূর্ণ
+Please reset the component ID of corresponding schematic or corresponding PCB too = দয়া করে সংশ্লিষ্ট স্কিম্যাটিক বা সংশ্লিষ্ট পিসিবির কম্পোনেন্ট ID-ও রিসেট করুন
+Do you want to continue? = আপনি কি চালিয়ে যেতে চান?
+Reset Component Unique ID = কম্পোনেন্ট ইউনিক ID রিসেট
+Component ID reset successfully! = কম্পোনেন্ট ID সফলভাবে রিসেট হয়েছে!
+Convert to PCB = পিসিবিতে রূপান্তর
+Update PCB = পিসিবি আপডেট
+Shortcut Keys Setting = শর্টকাট কী সেটিং
+Edit Symbol... = প্রতীক সম্পাদনা...
+Highlight Net... = নেট হাইলাইট...
+Simulate = সিমুলেট
+Simulation = সিমুলেশন
+Standard Mode = স্ট্যান্ডার্ড মোড
+Simulation Mode = সিমুলেশন মোড
+Change to Standard Mode = স্ট্যান্ডার্ড মোডে পরিবর্তন
+Change to Simulation Mode = সিমুলেশন মোডে পরিবর্তন
+Welcome to Use JLCEDA = JLCEDA ব্যবহারে স্বাগতম
+Welcome to Use EasyEDA = EasyEDA ব্যবহারে স্বাগতম
+Enable Education Edition Features for Free >>> = বিনামূল্যে শিক্ষা সংস্করণের বৈশিষ্ট্যগুলি সক্রিয় করুন >>>
+Quick Start = দ্রুত শুরু
+More Help = আরো সাহায্য
+Explore = অন্বেষণ
+Message = বার্তা
+[start]
+Example = উদাহরণ
+Forum = ফোরাম
+Tutorials = টিউটোরিয়াল
+Videos = ভিডিও
+[/start]
+Custom Data = কাস্টম ডেটা
+JLCEDA = JLCEDA
+
+Copy Result Image = ফলাফল ছবি কপি
+Export Result Image = ফলাফল ছবি এক্সপোর্ট
+Simulation Result = সিমুলেশন ফলাফল
+Simulation Results... = সিমুলেশনের ফলাফল...
+Simulate this Sheet = এই শীট সিমুলেট করুন
+Simulate this Project = এই প্রকল্প সিমুলেট করুন
+Non-simulation mode, please switch to the simulation mode first and then run = নন-সিমুলেশন মোড, দয়া করে প্রথমে সিমুলেশন মোডে পরিবর্তন করুন তারপর চালান
+Run the Document = ডকুমেন্ট চালান
+Run the Project... = প্রকল্প চালান...
+Netlist for Document = ডকুমেন্টের জন্য নেটলিস্ট
+Netlist for Project = প্রকল্পের জন্য নেটলিস্ট
+LTspice for This Sheet... = এই শীটের জন্য LTspice...
+Spice for this Project... = এই প্রকল্পের জন্য Spice...
+Protel/Altium for PCB... = পিসিবির জন্য Protel/Altium...
+PADS for PCB... = পিসিবির জন্য PADS...
+FreePCB for PCB... = পিসিবির জন্য FreePCB...
+Eagle for PCB... = পিসিবির জন্য Eagle...
+Kicad for PCB... = পিসিবির জন্য KiCad...
+OrCAD for PCB... = পিসিবির জন্য OrCAD...
+BOM report... = BOM রিপোর্ট...
+BOM for Document... = ডকুমেন্টের জন্য BOM...
+BOM for Project... = প্রকল্পের জন্য BOM...
+Pin Manager... = পিন ম্যানেজার...
+Spice Model... = স্পাইস মডেল...
+Layer Manager... = লেয়ার ম্যানেজার...
+Net Color... = নেট রঙ...
+Design Rule... = ডিজাইন নিয়ম...
+Copper Area = কপার এরিয়া
+Rebuild Selected = নির্বাচিত পুনর্নির্মাণ
+Rebuild All = সব পুনর্নির্মাণ
+Copper Area Manager... = কপার এরিয়া ম্যানেজার...
+Export Pick and Place File = পিক এন্ড প্লেস ফাইল এক্সপোর্ট
+Measure Distance = দূরত্ব পরিমাপ
+Set Canvas Origin by Mouse Location = মাউস অবস্থান দ্বারা ক্যানভাস অরিজিন সেট
+Generates Pick and Place File = পিক এন্ড প্লেস ফাইল জেনারেট
+Unroute All = সব আনরুট
+Auto Route = অটো রুট
+Export Autorouter File(DSN) = অটোরাউটার ফাইল এক্সপোর্ট (DSN)
+Import Autorouter Session File(SES) = অটোরাউটার সেশন ফাইল ইমপোর্ট (SES)
+Autorouter File(DSN) = অটোরাউটার ফাইল (DSN)
+Autorouter Session File(SES) = অটোরাউটার সেশন ফাইল (SES)
+Terminate Routing Automatically = স্বয়ংক্রিয়ভাবে রাউটিং বন্ধ
+Delete Segments = সেগমেন্ট মুছুন
+Unroute Connections = সংযোগ আনরুট
+Unroute Connection = সংযোগ আনরুট
+Unroute Nets = নেট আনরুট
+Select = নির্বাচন
+Segments = সেগমেন্ট
+Connection = সংযোগ
+Net = নেট
+Apply Design Rule While Routing and Auto Placing Via = রাউটিং এবং অটো প্লেসিং ভায়ার সময় ডিজাইন নিয়ম প্রয়োগ
+
+Add SubPart = সাবপার্ট যোগ
+Annotate... = টীকা...
+Config = কনফিগ
+
+Help = সাহায্য
+About = সম্পর্কে
+Online Chat = অনলাইন চ্যাট
+Shortcut Keys = শর্টকাট কী
+FAQ = প্রশ্নোত্তর
+Tutorials = টিউটোরিয়াল
+Basic Tutorials = মৌলিক টিউটোরিয়াল
+Video Tutorials = ভিডিও টিউটোরিয়াল
+Essential Check = প্রয়োজনীয় চেক
+Simulation Tutorials = সিমুলেশন টিউটোরিয়াল
+Updated Instructions = আপডেট নির্দেশনা
+Open File Format = ওপেন ফাইল ফরম্যাট
+About Upgrade = আপগ্রেড সম্পর্কে
+User Forum = ব্যবহারকারী ফোরাম
+Feature Request = বৈশিষ্ট্যের অনুরোধ
+Feature Requests = বৈশিষ্ট্যের অনুরোধসমূহ
+Bug Report = বাগ রিপোর্ট
+Bug Reports = বাগ রিপোর্টসমূহ
+Tips & Skill = টিপস ও দক্ষতা
+Ask for Help = সাহায্য চান
+Schematic Capture = স্কিম্যাটিক ক্যাপচার
+Spice Simulation = স্পাইস সিমুলেশন
+Non-simulation mode = নন-সিমুলেশন মোড
+PCB Layout = পিসিবি লেআউট
+General Discussion = সাধারণ আলোচনা
+More Information = আরো তথ্য
+Privacy Policy = গোপনীয়তা নীতি
+#Terms of Use & Privacy Policy = ব্যবহারের শর্তাবলী ও গোপনীয়তা নীতি
+Terms of Service = সেবার শর্তাবলী
+Plans and Pricing = পরিকল্পনা ও মূল্য
+Help Translate = অনুবাদে সাহায্য করুন
+About Us = আমাদের সম্পর্কে
+Contact Us = আমাদের সাথে যোগাযোগ
+Change History = পরিবর্তনের ইতিহাস
+Join Us = আমাদের সাথে যোগ দিন
+#PCB Fabrication Capabilities = পিসিবি তৈরির ক্ষমতা
+PCB Fabrication = পিসিবি তৈরি
+Order Capabilities = অর্ডার ক্ষমতা
+Order Price = অর্ডার মূল্য
+Order Essential Check = অর্ডার প্রয়োজনীয় চেক
+Order FAQ = অর্ডার প্রশ্নোত্তর
+Order Process = অর্ডার প্রক্রিয়া
+Full Screen = ফুল স্ক্রিন
+
+Support = সাহায্য
+[leftNavTabs]
+Support = সাহায্য
+[/leftNavTabs]
+Historical Records... = ঐতিহাসিক রেকর্ড...
+Extensions = এক্সটেনশন
+Order PCB... = পিসিবি অর্ডার...
+Import Changes = পরিবর্তন ইমপোর্ট
+Press {0}F11{1} to switch to full screen. = ফুল স্ক্রিনে পরিবর্তনের জন্য {0}F11{1} চাপুন।
+Delete Selected = নির্বাচিত মুছুন
+Simulate... = সিমুলেট...
+Config = কনফিগ
+Terms of Service & Privacy Policy = সেবার শর্তাবলী ও গোপনীয়তা নীতি
+Help Topics = সাহায্যের বিষয়
+3D Model(obj) = 3D মডেল (obj)
+3D Model(step) = 3D মডেল (step)
+SVG Source... = SVG সোর্স...
+File Source = ফাইল সোর্স
+Group These Items as a Symbol = এই আইটেমগুলিকে একটি প্রতীক হিসাবে গ্রুপ করুন
+Group These Items as a Footprint = এই আইটেমগুলিকে একটি ফুটপ্রিন্ট হিসাবে গ্রুপ করুন
+Set Canvas Origin = ক্যানভাস অরিজিন সেট
+Document Setting = ডকুমেন্ট সেটিং
+Sheet Properties = শীট বৈশিষ্ট্য
+Set Board Outline = বোর্ড আউটলাইন সেট
+Teardrop... = টিয়ারড্রপ...
+Panelize... = প্যানেলাইজ...
+Check Dimension = মাত্রা পরীক্ষা
+Smart Dimension = স্মার্ট মাত্রা
+Footprint Wizard = ফুটপ্রিন্ট উইজার্ড
+Footprint Wizard... = ফুটপ্রিন্ট উইজার্ড...
+Select package type = প্যাকেজ টাইপ নির্বাচন
+Smart Dimension Properties = স্মার্ট মাত্রা বৈশিষ্ট্য
+Global Delete = গ্লোবাল ডিলিট
+Cross Probe = ক্রস প্রোব
+Cross Probe and Place = ক্রস প্রোব এবং প্লেস
+Paper Size = কাগজের আকার
+Register = নিবন্ধন
+User Center = ব্যবহারকারী কেন্দ্র
+
+By Mouse Location = মাউস অবস্থান দ্বারা
+Set Coordinate = স্থানাঙ্ক সেট
+By Coordinates... = স্থানাঙ্ক দ্বারা...
+By Center of Pads = প্যাডের কেন্দ্র দ্বারা
+By Center Grid of Symbols = প্রতীকের কেন্দ্র গ্রিড দ্বারা
+
+#Schematic Canvas Properties
+Properties = বৈশিষ্ট্য
+Apply = প্রয়োগ
+Save as default = ডিফল্ট হিসাবে সংরক্ষণ
+Canvas Properties = ক্যানভাস বৈশিষ্ট্য
+Width = প্রস্থ
+Height = উচ্চতা
+Background = পটভূমি
+Visible Grid = দৃশ্যমান গ্রিড
+Grid Visible = গ্রিড দৃশ্যমান
+Real-Time Track Length = রিয়েল-টাইম ট্র্যাক দৈর্ঘ্য
+Display Real-Time Track Length = রিয়েল-টাইম ট্র্যাক দৈর্ঘ্য প্রদর্শন
+Grid Color = গ্রিড রঙ
+Grid Size = গ্রিড আকার
+Grid Style = গ্রিড স্টাইল
+Grid.Line Width = গ্রিড.লাইন প্রস্থ
+Grid.Line Spacing = গ্রিড.লাইন ব্যবধান
+Copper to Board Outline = বোর্ড আউটলাইনে কপার
+Improve Fabrication = তৈরির উন্নতি
+Spoke Width = স্পোক প্রস্থ
+Stroke Color = স্ট্রোক রঙ
+Stroke Width = স্ট্রোক প্রস্থ
+Stroke Style = স্ট্রোক স্টাইল
+Fill Color = ভরাট রঙ
+Selected Objects = নির্বাচিত অবজেক্ট
+Frame Size = ফ্রেম আকার
+Alt Snap = Alt স্ন্যাপ
+Snap size when pressing the Alt key = Alt কী চাপার সময় স্ন্যাপ আকার
+Prefix Start = প্রিফিক্স শুরু
+
+#Text Properties
+Text Properties = টেক্সট বৈশিষ্ট্য
+Text = টেক্সট
+Color = রঙ
+Font Family = ফন্ট পরিবার
+Font Size = ফন্ট আকার
+Font Weight = ফন্ট ওজন
+Font Style = ফন্ট স্টাইল
+Text Type = টেক্সট টাইপ
+Text Anchor = টেক্সট অ্যাঙ্কর
+Baseline = বেসলাইন
+(Auto) = (অটো)
+(auto) = (অটো)
+start = শুরু
+middle = মধ্য
+end = শেষ
+inherit = উত্তরাধিকার
+comment = মন্তব্য
+spice = স্পাইস
+normal = স্বাভাবিক
+italic = তির্যক
+Default = ডিফল্ট
+Add = যোগ
+bold = গাঢ়
+bolder = আরো গাঢ়
+lighter = হালকা
+Failed to parse the font file: {name} = ফন্ট ফাইল পার্স করতে ব্যর্থ: {name}
+Please select a font file of ttf or woff format. = দয়া করে ttf বা woff ফরম্যাটের একটি ফন্ট ফাইল নির্বাচন করুন।
+Add font success: {name} = ফন্ট যোগ সফল: {name}
+Failed to add font: {name} = ফন্ট যোগ করতে ব্যর্থ: {name}
+Add Font = ফন্ট যোগ
+Failed to parse cached font: {name} = ক্যাশড ফন্ট পার্স করতে ব্যর্থ: {name}
+Load cached fonts fail! = ক্যাশড ফন্ট লোড ব্যর্থ!
+
+#Stroke
+Stroke Color = স্ট্রোক রঙ
+Stroke Width = স্ট্রোক প্রস্থ
+Stroke Style = স্ট্রোক স্টাইল
+Fill Color = ভরাট রঙ
+X Radius = X রেডিয়াস
+Y Radius = Y রেডিয়াস
+
+#spice
+Switch mode = মোড পরিবর্তন
+The current documents will be closed, and reopen after switching mode, do you want to continue? = বর্তমান ডকুমেন্টগুলি বন্ধ হবে, এবং মোড পরিবর্তনের পর পুনরায় খোলা হবে, আপনি কি চালিয়ে যেতে চান?
+PCB related documents are not allowed in emulation mode = এমুলেশন মোডে পিসিবি সম্পর্কিত ডকুমেন্ট অনুমোদিত নয়
+Please change the editor to "Simulation" mode first at the top left corner. = দয়া করে উপরের বাম কোণে এডিটরটি প্রথমে "সিমুলেশন" মোডে পরিবর্তন করুন।
+Please change the editor to "Standard" mode first at the top left corner. = দয়া করে উপরের বাম কোণে এডিটরটি প্রথমে "স্ট্যান্ডার্ড" মোডে পরিবর্তন করুন।
+Common = সাধারণ
+spice.open = spice.খোলা
+spice.close = spice.বন্ধ
+Sources = উৎস
+Instruments/Meters = যন্ত্র/মিটার
+Transistors = ট্রানজিস্টর
+Digital Circuits = ডিজিটাল সার্কিট
+Operational Amplifier = অপারেশনাল অ্যামপ্লিফায়ার
+multimeter = মাল্টিমিটার
+multimeter Settings = মাল্টিমিটার সেটিংস
+FunctionGenerator Settings = ফাংশন জেনারেটর সেটিংস
+Voltage Source Settings = ভোল্টেজ সোর্স সেটিংস
+Current Source Settings = কারেন্ট সোর্স সেটিংস
+Powersw Settings = পাওয়ারসুইচ সেটিংস
+Resistor Settings = রেজিস্টর সেটিংস
+Capacitor Settings = ক্যাপাসিটর সেটিংস
+Diode Settings = ডায়োড সেটিংস
+voltPowersw Settings = ভোল্ট পাওয়ারসুইচ সেটিংস
+Inductor Settings = ইনডাক্টর সেটিংস
+VCVS Settings = VCVS সেটিংস
+CCCS Settings = CCCS সেটিংস
+VCCS Settings = VCCS সেটিংস
+CCVS Settings = CCVS সেটিংস
+JFET Settings = JFET সেটিংস
+FET Settings = FET সেটিংস
+Transmission Line Settings = ট্রান্সমিশন লাইন সেটিংস
+Oscilloscope Settings = অসিলোস্কোপ সেটিংস
+XFMR Settings = XFMR সেটিংস
+LOGIC Settings = লজিক সেটিংস
+LOGICSTATE Settings = লজিকস্টেট সেটিংস
+DIGITALCLOCK Settings = ডিজিটাল ক্লক সেটিংস
+Potentiometer Settings = পটেনশিওমিটার সেটিংস
+MUTUAL_INDUCTORS Settings = মিউচুয়াল ইনডাক্টর সেটিংস
+NE555 Settings = NE555 সেটিংস
+THREE_PHASE Settings = থ্রি-ফেজ সেটিংস
+Logic_Probe Settings = লজিক প্রোব সেটিংস
+78XX Settings = 78XX সেটিংস
+79XX Settings = 79XX সেটিংস
+OPAMP5PEE Settings = OPAMP5PEE সেটিংস
+OPAMP5PEECN Settings = OPAMP5PEECN সেটিংস
+OPAMP3PEE Settings = OPAMP3PEE সেটিংস
+OPAMP3PEECN Settings = OPAMP3PEECN সেটিংস
+DELAY_FUSE Settings = ডিলে ফিউজ সেটিংস
+Ratio = অনুপাত
+K[%] = K[%]
+Model = মডেল
+States = অবস্থা
+Voltage[V] = ভোল্টেজ[V]
+Voltage gain[V/V] = ভোল্টেজ গেইন[V/V]
+Current gain[A/A] = কারেন্ট গেইন[A/A]
+Transconductance[Mho] = ট্রান্সকন্ডাক্ট্যান্স[Mho]
+Transresistance[Ω] = ট্রান্সরেজিস্ট্যান্স[Ω]
+Voltage Source Type = ভোল্টেজ সোর্স টাইপ
+Current Source Type = কারেন্ট সোর্স টাইপ
+multimeter type = মাল্টিমিটার টাইপ
+power type = পাওয়ার টাইপ
+Voltmeter Resistance(R)(Ω) = ভোল্টমিটারের রেজিস্ট্যান্স(R)(Ω)
+Amperometer Resistance(R)(Ω) = অ্যামিটারের রেজিস্ট্যান্স(R)(Ω)
+mu.V = μV
+mu.A = μA
+Sine Wave = সাইন ওয়েভ
+Triangular Wave = ত্রিভুজাকার ওয়েভ
+Rectangular Wave = আয়তক্ষেত্রাকার ওয়েভ
+AC = AC
+DC = DC
+SINE = SINE
+PULSE = PULSE
+EXP = EXP
+SFFM = SFFM
+PWL = PWL
+B.spice = B.spice
+DC Value[V] = DC মান[V]
+DC Value[A] = DC মান[A]
+DC offset[V] = DC অফসেট[V]
+DC offset[A] = DC অফসেট[A]
+Amplitude[V] = প্রশস্ততা[V]
+Amplitude[A] = প্রশস্ততা[A]
+Freq[Hz] = ফ্রিকোয়েন্সি[Hz]
+Theta[1/s] = থিটা[1/s]
+Tdelay[s] = T বিলম্ব[s]
+Phi[deg] = ফাই[ডিগ্রি]
+Tperiod[s] = T পিরিয়ড[s]
+Ton[s] = Ton[s]
+Tfall[s] = Tfall[s]
+Trise[s] = Trise[s]
+Von[V] = Von[V]
+Von[A] = Von[A]
+Vinitial[V] = প্রাথমিক ভোল্টেজ[V]
+Vinitial[A] = প্রাথমিক কারেন্ট[A]
+Vpulsed[V] = পালসড ভোল্টেজ[V]
+Vpulsed[A] = পালসড কারেন্ট[A]
+Rise Delay[s] = উত্থান বিলম্ব[s]
+Rise Tau[s] = উত্থান Tau[s]
+Fall Delay[s] = পতন বিলম্ব[s]
+Fall Tau[s] = পতন Tau[s]
+Carrier Freq[Hz] = ক্যারিয়ার ফ্রিকোয়েন্সি[Hz]
+Modulation Index = মডুলেশন ইনডেক্স
+Signal Freq[Hz] = সিগন্যাল ফ্রিকোয়েন্সি[Hz]
+Time[s] = সময়[s]
+Value[V] = মান[V]
+Value[A] = মান[A]
+Waveforms = তরঙ্গরূপ
+Duty cycle[%] = ডিউটি সাইকেল[%]
+Amplitude[Vp] = প্রশস্ততা[Vp]
+Offset[V] = অফসেট[V]
+Rise/Fall Time[sec] = উত্থান/পতন সময়[সেকেন্ড]
+Capacitance[F] = ক্যাপাসিট্যান্স[F]
+sComponent = s কম্পোনেন্ট
+Inductance[H] = ইনডাক্ট্যান্স[H]
+Gbw = Gbw
+Slewrate = স্লু রেট
+Avol = Avol
+Rout(Ω) = আউটপুট রেজিস্ট্যান্স(Ω)
+Rin(Ω) = ইনপুট রেজিস্ট্যান্স(Ω)
+Ibias[A] = বায়াস কারেন্ট[A]
+Inhi[V] = উচ্চ ইনপুট[V]
+Inlo[V] = নিম্ন ইনপুট[V]
+Isc[A] = শর্ট সার্কিট কারেন্ট[A]
+Outhi[V] = উচ্চ আউটপুট[V]
+Outlo[V] = নিম্ন আউটপুট[V]
+Vabsmax[V] = পরম সর্বোচ্চ ভোল্টেজ[V]
+Vmin[V] = সর্বনিম্ন ভোল্টেজ[V]
+Iq[A] = কোয়েসেন্ট কারেন্ট[A]
+Cin[F] = ইনপুট ক্যাপাসিট্যান্স[F]
+high = উচ্চ
+low = নিম্ন
+Oscilloscope = অসিলোস্কোপ
+Logic Analyzer = লজিক অ্যানালাইজার
+Channel_A = চ্যানেল_A
+Channel_B = চ্যানেল_B
+Channel A = চ্যানেল A
+Channel B = চ্যানেল B
+Time = সময়
+Reverse = বিপরীত
+Simulation file exceed = সিমুলেশন ফাইল সীমা অতিক্রম
+The simulation file is too large and has been stopped for performance reasons. = সিমুলেশন ফাইল অত্যন্ত বড় এবং কর্মক্ষমতার কারণে বন্ধ করা হয়েছে।
+Timebase = টাইমবেস
+Scale: = স্কেল:
+X pos.(Div): = X অবস্থান(বিভাগ):
+Y pos.(Div): = Y অবস্থান(বিভাগ):
+View meter... = মিটার দেখুন...
+The circuit has components without simulation model: = সার্কিটে সিমুলেশন মডেল ছাড়া কম্পোনেন্ট রয়েছে:
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = আপনার সিমুলেশন ইন্টারভাল সিমুলেট করার জন্য খুবই ছোট, দয়া করে ৫ সেকেন্ড অপেক্ষা করুন এবং আবার চেষ্টা করুন; যদি এখনও এই বার্তা দেখায়, হতে পারে আপনি দিনে সর্বোচ্চ সিমুলেশনের ৫০০ বারের বেশি সিমুলেট করেছেন।
+Resistor1_US = রেজিস্টর১_US
+Resistor1_EU/IEC = রেজিস্টর১_EU/IEC
+Resistor1_3D = রেজিস্টর১_3D
+Capacitor1_US = ক্যাপাসিটর১_US
+Capacitor1_EU/IEC = ক্যাপাসিটর১_EU/IEC
+Capacitor1_3D = ক্যাপাসিটর১_3D
+Rheostat_US = রিওস্ট্যাট_US
+Rheostat_EU/IEC = রিওস্ট্যাট_EU/IEC
+Rheostat_3D = রিওস্ট্যাট_3D
+Capacitor_Electrolytic_US = ইলেক্ট্রোলাইটিক_ক্যাপাসিটর_US
+Capacitor_Electrolytic_EU/IEC = ইলেক্ট্রোলাইটিক_ক্যাপাসিটর_EU/IEC
+Capacitor_Electrolytic_3D = ইলেক্ট্রোলাইটিক_ক্যাপাসিটর_3D
+Inductor_US = ইনডাক্টর_US
+Inductor_EU/IEC = ইনডাক্টর_EU/IEC
+Inductor_3D = ইনডাক্টর_3D
+Resistor2_US = রেজিস্টর২_US
+Resistor2_EU/IEC = রেজিস্টর২_EU/IEC
+Resistor2_3D = রেজিস্টর২_3D
+Multimeter = মাল্টিমিটার
+Multimeter_3D = মাল্টিমিটার_3D
+Oscilloscope = অসিলোস্কোপ
+Oscilloscope_3D = অসিলোস্কোপ_3D
+Signal_Generator = সিগন্যাল_জেনারেটর
+Signal Generator_3D = সিগন্যাল জেনারেটর_3D
+Wattmeter = ওয়াটমিটার
+Wattmeter_3D = ওয়াটমিটার_3D
+NSSWS1080T_3D = NSSWS1080T_3D
+Voltage_Source_VDC = ভোল্টেজ_সোর্স_VDC
+Voltage_Source_VSin = ভোল্টেজ_সোর্স_VSin
+Voltage_Source_VPULSE = ভোল্টেজ_সোর্স_VPULSE
+Voltage_Source_VEXP = ভোল্টেজ_সোর্স_VEXP
+Voltage_Source_VSFFM = ভোল্টেজ_সোর্স_VSFFM
+Voltage_Source_VPWL = ভোল্টেজ_সোর্স_VPWL
+Voltage_Source_V_Behavioral_Source = ভোল্টেজ_সোর্স_V_আচরণগত_সোর্স
+Current_Source_IDC = কারেন্ট_সোর্স_IDC
+Current_Source_ISin = কারেন্ট_সোর্স_ISin
+Current_Source_IPULSE = কারেন্ট_সোর্স_IPULSE
+Current_Source_IEXP = কারেন্ট_সোর্স_IEXP
+Current_Source_ISFFM = কারেন্ট_সোর্স_ISFFM
+Current_Source_IPWL = কারেন্ট_সোর্স_IPWL
+Current_Source_I_Behavioral_Source = কারেন্ট_সোর্স_I_আচরণগত_সোর্স
+CCCS_1 = CCCS_1
+CCCS_2 = CCCS_2
+CCVS_1 = CCVS_1
+CCVS_2 = CCVS_2
+VCCS = VCCS
+VCVS = VCVS
+Three_Phase_Wye_Load = থ্রি_ফেজ_ওয়াই_লোড
+Three_Phase_Delta_Load = থ্রি_ফেজ_ডেল্টা_লোড
+78XX = 78XX
+79XX = 79XX
+555 = 555
+555_3D = 555_3D
+Transformer_US = ট্রান্সফরমার_US
+Transformer_EU/IEC = ট্রান্সফরমার_EU/IEC
+Transformer_Center_Tapped_US = ট্রান্সফরমার_সেন্টার_ট্যাপড_US
+Transformer_Center_Tapped_EU/IEC = ট্রান্সফরমার_সেন্টার_ট্যাপড_EU/IEC
+Mutual_Inductor_US = মিউচুয়াল_ইনডাক্টর_US
+Mutual_Inductor_EU/IEC = মিউচুয়াল_ইনডাক্টর_EU/IEC
+Mutual_Inductor2_US = মিউচুয়াল_ইনডাক্টর২_US
+Mutual_Inductor2_EU/IEC = মিউচুয়াল_ইনডাক্টর২_EU/IEC
+OR2EE_US = OR2EE_US
+OR3EE_US = OR3EE_US
+OR4EE_US = OR4EE_US
+OR2EE_CN = OR2EE_CN
+OR3EE_CN = OR3EE_CN
+OR4EE_CN = OR4EE_CN
+NOR2EE_US = NOR2EE_US
+NOR3EE_US = NOR3EE_US
+NOR4EE_US = NOR4EE_US
+NOR2EE_CN = NOR2EE_CN
+NOR3EE_CN = NOR3EE_CN
+NOR4EE_CN = NOR4EE_CN
+AND2EE_US = AND2EE_US
+AND3EE_US = AND3EE_US
+AND4EE_US = AND4EE_US
+AND2EE_CN = AND2EE_CN
+AND3EE_CN = AND3EE_CN
+AND4EE_CN = AND4EE_CN
+NAND2EE_US = NAND2EE_US
+NAND3EE_US = NAND3EE_US
+NAND4EE_US = NAND4EE_US
+NAND2EE_CN = NAND2EE_CN
+NAND3EE_CN = NAND3EE_CN
+NAND4EE_CN = NAND4EE_CN
+XOR2EE_US = XOR2EE_US
+XOR2EE_CN = XOR2EE_CN
+XNOR2EE_US = XNOR2EE_US
+XNOR2EE_CN = XNOR2EE_CN
+Digital_Clock_1Hz = ডিজিটাল_ক্লক_1Hz
+Logicstate_0 = লজিকস্টেট_0
+Logicstate_1 = লজিকস্টেট_1
+Logic_Probe = লজিক_প্রোব
+Buffee = বাফার
+INVEE_US = INVEE_US
+INVEE_CN = INVEE_CN
+Schmittbuffee = শ্মিট বাফার
+LM358N_US = LM358N_US
+LM358N_CN = LM358N_CN
+OPAMP3PEE_US = OPAMP3PEE_US
+OPAMP3PEE_CN = OPAMP3PEE_CN
+OPAMP5PEE_US = OPAMP5PEE_US
+OPAMP5PEE_CN = OPAMP5PEE_CN
+Voltage_Controlled_Switch = ভোল্টেজ_নিয়ন্ত্রিত_সুইচ
+Current_Controlled_Switch = কারেন্ট_নিয়ন্ত্রিত_সুইচ
+FUSE = ফিউজ
+Delay_Fuse = বিলম্ব_ফিউজ
+Transmission_Line = ট্রান্সমিশন_লাইন
+Crystal = ক্রিস্টাল
+DFFEE = DFFEE
+TFFEE = TFFEE
+JKFFEE = JKFFEE
+SRFFEE = SRFFEE
+SRLATCHEE = SRLATCHEE
+SRNANDFFEE = SRNANDFFEE
+SRNORFFEE = SRNORFFEE
+INVTSEE = INVTSEE
+INVODEE = INVODEE
+Cbuffer = C বাফার
+SPDT_Open = SPDT_খোলা
+SPDT_Close = SPDT_বন্ধ
+SPST_Close = SPST_বন্ধ
+SPST_Open = SPST_খোলা
+Fast_Crystal = ফাস্ট_ক্রিস্টাল
+Lamp = ল্যাম্প
+BCD_Segment = BCD_সেগমেন্ট
+Seven_Segment = সেভেন_সেগমেন্ট
+Traffic_Light = ট্রাফিক_লাইট
+Lamp Settings = ল্যাম্প সেটিংস
+Power[W] = পাওয়ার[W]
+Dropout Voltage[V] = ড্রপআউট ভোল্টেজ[V]
+Current[A] = কারেন্ট[A]
+Threshold[V] = থ্রেশহোল্ড[V]
+Clock Rate = ক্লক রেট
+TrafficLight Settings = ট্রাফিক লাইট সেটিংস
+BCDSegment Settings = BCD সেগমেন্ট সেটিংস
+SevenSegment Settings = সেভেন সেগমেন্ট সেটিংস
+SPDT Settings = SPDT সেটিংস
+SPST Settings = SPST সেটিংস
+LogicAnalyzer Settings = লজিক অ্যানালাইজার সেটিংস
+Fuse Settings = ফিউজ সেটিংস
+Wattmeter Settings = ওয়াটমিটার সেটিংস
+open = খোলা
+close = বন্ধ
+Common Anode = কমন অ্যানোড
+Common Cathode = কমন ক্যাথোড
+AC Amplitude = AC প্রশস্ততা
+AC Phase = AC ফেজ
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = কিছু পার্টসের spice মডেল নেই, দয়া করে "সিমুলেশন" মোডের "লাইব্রেরি"-তে "EElib" এবং "Spice Symbol" ব্যবহার করুন, অথবা আপনি তাদের জন্য spice মডেল নির্ধারণ করতে পারেন:
+
+#Pin
+Pin Properties = পিন বৈশিষ্ট্য
+Orientation = অভিমুখ
+Line 45° = লাইন ৪৫°
+Line 90° = লাইন ৯০°
+Arc 45° = চাপ ৪৫°
+Arc 90° = চাপ ৯০°
+Free Angle = মুক্ত কোণ
+Start X = শুরু X
+Start Y = শুরু Y
+Length = দৈর্ঘ্য
+Name = নাম
+name = নাম
+Number = নম্বর
+Spice Pin Order = স্পাইস পিন ক্রম
+Display Number = নম্বর প্রদর্শন
+Clock = ক্লক
+Show = দেখান
+Electric = বৈদ্যুতিক
+
+#Junction
+Junction Properties = জংশন বৈশিষ্ট্য
+X Location = X অবস্থান
+Y Location = Y অবস্থান
+Size = আকার
+Color = রঙ
+
+#Net Label
+Net Label = নেট লেবেল
+
+#Part
+Prefix = প্রিফিক্স
+
+#Image Properties and Dialog
+Add Image = ছবি যোগ
+Image Properties = ছবির বৈশিষ্ট্য
+Image URL = ছবির URL
+Input an image URL = একটি ছবির URL ইনপুট করুন
+Invalid image URL = অবৈধ ছবির URL
+Invalid Prefix = অবৈধ প্রিফিক্স
+Failed to load the image = ছবি লোড করতে ব্যর্থ
+Image URL contains special characters = ছবির URL-এ বিশেষ অক্ষর রয়েছে
+From Web URL = ওয়েব URL থেকে
+From Local Computer = স্থানীয় কম্পিউটার থেকে
+Please select a png/gif/jpg file. = দয়া করে একটি png/gif/jpg ফাইল নির্বাচন করুন।
+Please select an image file. = দয়া করে একটি ছবির ফাইল নির্বাচন করুন।
+Select an image file = একটি ছবির ফাইল নির্বাচন করুন
+Insert Image to PCB = পিসিবিতে ছবি ঢোকান
+Tolerance = সহনশীলতা
+tolerance = সহনশীলতা
+capacitance = ক্যাপাসিট্যান্স
+frequency = ফ্রিকোয়েন্সি
+Rated Voltage = রেটেড ভোল্টেজ
+Rated Current = রেটেড কারেন্ট
+resistance = রেজিস্ট্যান্স
+Resistance = রেজিস্ট্যান্স
+Resistance[Ω] = রেজিস্ট্যান্স[Ω]
+inductance = ইনডাক্ট্যান্স
+Operating Temperature = অপারেটিং তাপমাত্রা
+Shape Invert = আকৃতি উল্টান
+Image Size = ছবির আকার
+Color Tolerance = রঙের সহনশীলতা
+Simplify Level = সরলীকরণ স্তর
+Corner Threshold = কোণের থ্রেশহোল্ড
+Despeckle Size = ডেস্পেকল আকার
+
+#PCB Canvas Properties
+Units = একক
+Snap Size = স্ন্যাপ আকার
+Other = অন্যান্য
+Routing Width = রাউটিং প্রস্থ
+[router]
+Routing Width = রাউটিং প্রস্থ
+[/router]
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = রাউটিংয়ের সময় ট্র্যাক প্রস্থ পরিবর্তনের জন্য দয়া করে হটকী {0}{key1}{1} বা {2}{key2}{3} ব্যবহার করুন।
+Routing Angle = রাউটিং কোণ
+Routing Conflict = রাউটিং দ্বন্দ্ব
+Remove Loop = লুপ সরান
+Cut SilkScreen = সিল্কস্ক্রিন কাটুন
+Grid = গ্রিড
+Grid 90 = গ্রিড ৯০
+Grid 45 = গ্রিড ৪৫
+Copper Zone = কপার জোন
+Visible = দৃশ্যমান
+Invisible = অদৃশ্য
+Ignore = উপেক্ষা
+Block = ব্লক
+RoundTrack = রাউন্ড ট্র্যাক
+
+#Track
+Track Properties = ট্র্যাক বৈশিষ্ট্য
+Layer = লেয়ার
+Net = নেট
+Start X = শুরু X
+Start Y = শুরু Y
+End X = শেষ X
+End Y = শেষ Y
+ID = ID
+
+#Pad Properties
+Pad Properties = প্যাড বৈশিষ্ট্য
+Shape = আকৃতি
+Hole(D) = হোল(D)
+Center X = কেন্দ্র X
+Center Y = কেন্দ্র Y
+Round = গোল
+Oval = ডিম্বাকার
+Hole Shape = হোলের আকৃতি
+Slot = স্লট
+Hole(Length) = হোল(দৈর্ঘ্য)
+Plated = প্লেটেড
+None = কিছুই নয়
+Paste Mask Expansion = পেস্ট মাস্ক সম্প্রসারণ
+Solder Mask Expansion = সোল্ডার মাস্ক সম্প্রসারণ
+
+#Via Properties
+Via Properties = ভায়া বৈশিষ্ট্য
+Diameter = ব্যাস
+Drill Diameter = ড্রিল ব্যাস
+
+#Hole Properties
+Hole Properties = হোল বৈশিষ্ট্য
+
+
+#TEXT
+Text Properties = টেক্সট বৈশিষ্ট্য
+Line Width = লাইন প্রস্থ
+Rotation = ঘূর্ণন
+Fonts Management = ফন্ট ব্যবস্থাপনা
+
+#Dimension Properties
+Dimension Properties = মাত্রা বৈশিষ্ট্য
+
+#Footprint Properties
+Component Properties = কম্পোনেন্ট বৈশিষ্ট্য
+Display Prefix = প্রিফিক্স প্রদর্শন
+Pin Name = পিন নাম
+Pin Number = পিন নম্বর
+Spice Pin Number = স্পাইস পিন নম্বর
+Graphics = গ্রাফিক্স
+Pattern = প্যাটার্ন
+
+Pin: = পিন:
+Netflag: = নেটফ্ল্যাগ:
+Netlabel: = নেটলেবেল:
+NetPort: = নেটপোর্ট:
+Voltage Probe: = ভোল্টেজ প্রোব:
+Pin: = পিন:
+Hidden Pin: = লুকানো পিন:
+Unknown: = অজানা:
+
+#Arc Properties
+Arc Properties = চাপ বৈশিষ্ট্য
+Start Angle = শুরুর কোণ
+End Angle = শেষের কোণ
+Rotation Direction = ঘূর্ণন দিক
+
+#Rect Properties
+Rect Properties = আয়ত বৈশিষ্ট্য
+Round radius = গোল রেডিয়াস
+
+#Circle Properties
+Circle Properties = বৃত্ত বৈশিষ্ত্য
+Radius = রেডিয়াস
+
+#CopperArea Properties
+CopperArea Properties = কপার এরিয়া বৈশিষ্ট্য
+Clearance = ক্লিয়ারেন্স
+Pad Connection = প্যাড সংযোগ
+Direct = সরাসরি
+Spoke = স্পোক
+Keep Island = দ্বীপ রাখুন
+Fill Style = ভরাট স্টাইল
+CopperArea conflict: copper area outlines in same layer with different net names must not overlap = কপার এরিয়া দ্বন্দ্ব: একই লেয়ারে ভিন্ন নেট নামের কপার এরিয়া আউটলাইনগুলি ওভারল্যাপ করতে পারবে না
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = কপার এরিয়া পুনর্নির্মাণ সম্পূর্ণ! খালি এলাকায় একক ক্লিকের পর ডান পাশের প্রপার্টি প্যানেলে "কপার জোন"-কে "দৃশ্যমান" হিসাবে সেট করতে পারেন।
+Please create board outline first. = দয়া করে প্রথমে বোর্ড আউটলাইন তৈরি করুন।
+Board outlines are not closed. = বোর্ড আউটলাইনগুলি বন্ধ নয়।
+Rebuild CopperArea = কপার এরিয়া পুনর্নির্মাণ
+Edit Points = পয়েন্ট সম্পাদনা
+Direct = সরাসরি
+Spoke = স্পোক
+No Solid = কোন সলিড নয়
+Board Cutout = বোর্ড কাটআউট
+Solid = সলিড
+[copperArea]
+None = কিছুই নয়
+[/copperArea]
+
+#Custom Properties
+Custom Properties = কাস্টম বৈশিষ্ট্য
+Fixed Properties = নির্দিষ্ট বৈশিষ্ট্য
+Add new parameter = নতুন প্যারামিটার যোগ
+Add New Parameter = নতুন প্যারামিটার যোগ
+Add New Supplier = নতুন সরবরাহকারী যোগ
+Mounted = মাউন্টেড
+Unknown = অজানা
+
+Custom = কাস্টম
+Scan the QR code below and open it on the mobile side = নিচের QR কোড স্ক্যান করুন এবং মোবাইল সাইডে খুলুন
+How to create a single layer PCB = একক লেয়ার পিসিবি কীভাবে তৈরি করবেন
+Currently doesn't support layout single layer directly, please refer at: = বর্তমানে সরাসরি একক লেয়ার লেআউট সমর্থন করে না, দয়া করে দেখুন:
+
+#Dialog Register
+Create an account = একটি অ্যাকাউন্ট তৈরি করুন
+Username = ব্যবহারকারীর নাম
+Password = পাসওয়ার্ড
+Confirm Password = পাসওয়ার্ড নিশ্চিত করুন
+Email = ইমেইল
+Please read this before you register = নিবন্ধনের আগে দয়া করে এটি পড়ুন
+Hi {username} = হ্যালো {username}
+
+#Dialog lostPassword
+Lost Password... = হারানো পাসওয়ার্ড...
+Find the password using your email = আপনার ইমেইল ব্যবহার করে পাসওয়ার্ড খুঁজুন
+
+
+
+#Dialog Login
+Login = লগইন
+Username or Email = ব্যবহারকারীর নাম বা ইমেইল
+Remember Me = আমাকে মনে রাখুন
+Third party = তৃতীয় পক্ষ
+Login and Register = লগইন এবং নিবন্ধন
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = আপনার লগইন তথ্য মেয়াদোত্তীর্ণ মনে হচ্ছে, দয়া করে আবার লগইন করুন। খোলা ফাইলগুলি বন্ধ করার প্রয়োজন নেই, লগইনের পর আপনি সেগুলি সংরক্ষণ চালিয়ে যেতে পারেন।
+
+#Dialog Reset Password
+Reset a password using your email = আপনার ইমেইল ব্যবহার করে পাসওয়ার্ড রিসেট করুন
+Your registered email = আপনার নিবন্ধিত ইমেইল
+
+#Dialog Reaction
+Re-send an activation code to your email = আপনার ইমেইলে একটি সক্রিয়করণ কোড পুনরায় পাঠান
+
+#Dialog Invite
+Invite friends to register = বন্ধুদের নিবন্ধনের জন্য আমন্ত্রণ জানান
+Your friend's email = আপনার বন্ধুর ইমেইল
+
+#Dialog Add A New Parameter
+Add a new parameter = একটি নতুন প্যারামিটার যোগ করুন
+Key = কী
+Value.new_para = মান.নতুন_প্যারা
+In BOM = BOM-এ
+Add into BOM = BOM-এ যোগ করুন
+Invalid key = অবৈধ কী
+This field is required. = এই ক্ষেত্রটি প্রয়োজনীয়।
+
+#Dialog Change Your Password
+Change your password = আপনার পাসওয়ার্ড পরিবর্তন করুন
+Old password = পুরাতন পাসওয়ার্ড
+New Password = নতুন পাসওয়ার্ড
+Confirm Password = পাসওয়ার্ড নিশ্চিত করুন
+
+#Dialog Create New Design
+Save as a New Project = নতুন প্রকল্প হিসাবে সংরক্ষণ
+Save as a schematic = স্কিম্যাটিক হিসাবে সংরক্ষণ
+Save as Symbol = প্রতীক হিসাবে সংরক্ষণ
+Save as a spice Symbol = স্পাইস প্রতীক হিসাবে সংরক্ষণ
+Save as a spice subckt = স্পাইস সাবসার্কিট হিসাবে সংরক্ষণ
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = আপনাকে অবশ্যই এই সাবসার্কিটের সাথে হুবহু একই নামে একটি স্পাইস প্রতীক তৈরি করতে হবে
+Save as a PCB file = পিসিবি ফাইল হিসাবে সংরক্ষণ
+Save as Footprint = ফুটপ্রিন্ট হিসাবে সংরক্ষণ
+Save as a Schematic Module = স্কিম্যাটিক মডিউল হিসাবে সংরক্ষণ
+Save as a PCB Module = পিসিবি মডিউল হিসাবে সংরক্ষণ
+Save as 3D Model = 3D মডেল হিসাবে সংরক্ষণ
+Save as a WaveForm = ওয়েভফর্ম হিসাবে সংরক্ষণ
+Do not allow saving to target project = টার্গেট প্রকল্পে সংরক্ষণের অনুমতি দেবেন না
+Title = শিরোনাম
+Share = শেয়ার
+Add file = ফাইল যোগ
+Visibility = দৃশ্যমানতা
+Allow Comments = মন্তব্য অনুমোদন
+Public (Anyone can see this project but only you can modify it.) = পাবলিক (যে কেউ এই প্রকল্প দেখতে পারে কিন্তু শুধুমাত্র আপনি এটি পরিবর্তন করতে পারেন।)
+Private (Only you can see and modify this project) = প্রাইভেট (শুধুমাত্র আপনি এই প্রকল্প দেখতে এবং পরিবর্তন করতে পারেন)
+Create new project success! = নতুন প্রকল্প তৈরি সফল!
+You can now create files under this project = আপনি এখন এই প্রকল্পের অধীনে ফাইল তৈরি করতে পারেন
+This file must be saved under a project, choose other project or create a new project = এই ফাইলটি অবশ্যই একটি প্রকল্পের অধীনে সংরক্ষণ করতে হবে, অন্য প্রকল্প নির্বাচন করুন বা নতুন প্রকল্প তৈরি করুন
+Please login to save this kind of document = এই ধরনের ডকুমেন্ট সংরক্ষণের জন্য দয়া করে লগইন করুন
+Duplicated project title = ডুপ্লিকেট প্রকল্পের শিরোনাম
+#Duplicated document title = ডুপ্লিকেট ডকুমেন্ট শিরোনাম
+Project does not exist = প্রকল্প বিদ্যমান নেই
+Document does not exist = ডকুমেন্ট বিদ্যমান নেই
+document not exists = ডকুমেন্ট বিদ্যমান নেই
+
+Categories = বিভাগ
+Project = প্রকল্প
+Short description = সংক্ষিপ্ত বিবরণ
+Content = বিষয়বস্তু
+Modify this project info. = এই প্রকল্পের তথ্য পরিবর্তন করুন।
+Modify this file info. = এই ফাইলের তথ্য পরিবর্তন করুন।
+Notice = নোটিশ
+Search for it before creating a new one. = নতুন একটি তৈরি করার আগে এটি খুঁজুন।
+Manufacturer Part Number = প্রস্তুতকারকের পার্ট নম্বর
+Supplier = সরবরাহকারী
+Or = অথবা
+Supplier Part = সরবরাহকারী পার্ট
+Supplier Part Number = সরবরাহকারী পার্ট নম্বর
+Link = লিংক
+link = লিংক
+The professional function please refer at: = পেশাদার ফাংশনের জন্য দয়া করে দেখুন:
+
+#Dialog Clone My Part
+#Clone it to a project = প্রকল্পে ক্লোন করুন
+#Clone it, then edit it = ক্লোন করুন, তারপর সম্পাদনা করুন
+Clone your file = আপনার ফাইল ক্লোন করুন
+
+#Dialog Subckt
+Attach a Subckt to this spice symbol = এই স্পাইস প্রতীকে একটি সাবসার্কিট সংযুক্ত করুন
+Subckt string = সাবসার্কিট স্ট্রিং
+Spice symbol title just allow [0-9][a-z][A-Z] and _ = স্পাইস প্রতীকের শিরোনাম শুধুমাত্র [0-9][a-z][A-Z] এবং _ অনুমোদিত
+
+#Design Manager
+Design Manager = ডিজাইন ম্যানেজার
+Nets = নেট
+DRC Errors = DRC ত্রুটি
+Are you sure you want to unroute this net? = আপনি কি নিশ্চিত যে এই নেট আনরুট করতে চান?
+Unroute = আনরুট
+Track Length = ট্র্যাক দৈর্ঘ্য
+Via/Hole Outer Size = ভায়া/হোল বাইরের আকার
+Filter nets = নেট ফিল্টার
+Design Rule Checking = ডিজাইন নিয়ম পরীক্ষা
+Board Outline = বোর্ড আউটলাইন
+Plane Zone = প্লেন জোন
+Non-Plated = নন-প্লেটেড
+Non-Plated Pad = নন-প্লেটেড প্যাড
+[drcRule]
+Width = প্রস্থ
+DRC Width = DRC প্রস্থ
+Length = দৈর্ঘ্য
+DRC Length = DRC দৈর্ঘ্য
+Drill Diameter = ড্রিল ব্যাস
+DRC Drill Diameter = DRC ড্রিল ব্যাস
+Diameter = ব্যাস
+DRC Diameter = DRC ব্যাস
+Object = অবজেক্ট
+DRC Clearance = DRC ক্লিয়ারেন্স
+Clearance = ক্লিয়ারেন্স
+[/drcRule]
+#It will take a while to unroute this net, do you want to continue? = এই নেট আনরুট করতে কিছুটা সময় লাগবে, আপনি কি চালিয়ে যেতে চান?
+More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = তারে একাধিক নেটলেবেল পাওয়া গেছে, দয়া করে পরীক্ষা করুন এটি সঠিক কিনা, যদি আপনি ইচ্ছাকৃতভাবে এটি ডিজাইন করেন তাহলে এই সতর্কতা উপেক্ষা করুন।
+Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = অসম্পূর্ণ নেট, একটি সম্পূর্ণ নেটে দুটি বা তার বেশি পিন থাকা উচিত, যদি আপনি ইচ্ছাকৃতভাবে এটি ডিজাইন করেন তাহলে এই সতর্কতা উপেক্ষা করুন।
+This netlabel is not connected with any pin. = এই নেটলেবেল কোনো পিনের সাথে সংযুক্ত নয়।
+Incomplete connection, please check. = অসম্পূর্ণ সংযোগ, দয়া করে পরীক্ষা করুন।
+The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = দুটি অবজেক্টের মধ্যে ক্লিয়ারেন্স ডিজাইন রুল চেকিং (DRC) ক্লিয়ারেন্সের চেয়ে কম যার বিভিন্ন নেট রয়েছে।
+The diameter is less than Design Rule Checking (DRC) diameter = ব্যাস ডিজাইন রুল চেকিং (DRC) ব্যাসের চেয়ে কম
+The drill diameter is less than Design Rule Checking (DRC) drill diameter = ড্রিল ব্যাস ডিজাইন রুল চেকিং (DRC) ড্রিল ব্যাসের চেয়ে কম
+The track length is longer than Design Rule Checking (DRC) track length = ট্র্যাক দৈর্ঘ্য ডিজাইন রুল চেকিং (DRC) ট্র্যাক দৈর্ঘ্যের চেয়ে দীর্ঘ
+The track width is less than Design Rule Checking (DRC) track width = ট্র্যাক প্রস্থ ডিজাইন রুল চেকিং (DRC) ট্র্যাক প্রস্থের চেয়ে কম
+The pad is non-plated. Please check whether it is correct. = প্যাডটি নন-প্লেটেড। দয়া করে পরীক্ষা করুন এটি সঠিক কিনা।
+
+#Dialog Simulation
+Show your simulation report = আপনার সিমুলেশন রিপোর্ট দেখান
+Download netlist = নেটলিস্ট ডাউনলোড
+Run = চালান
+Components = কম্পোনেন্ট
+
+#Dialog Import
+Import file from your computer = আপনার কম্পিউটার থেকে ফাইল ইমপোর্ট করুন
+Maximum file size: 30 MB = সর্বোচ্চ ফাইল সাইজ: ৩০ MB
+Maximum file size: 100 MB = সর্বোচ্চ ফাইল সাইজ: ১০০ MB
+Chose file = ফাইল নির্বাচন করুন
+File Operation = ফাইল অপারেশন
+Import File = ফাইল ইমপোর্ট
+Extract Libs = লাইব্রেরি এক্সট্র্যাক্ট
+No Libs! = কোনো লাইব্রেরি নেই!
+Import File and Extract Libs = ফাইল ইমপোর্ট এবং লাইব্রেরি এক্সট্র্যাক্ট
+File type = ফাইল টাইপ
+The file size is too large. = ফাইলের সাইজ অত্যন্ত বড়।
+Please selected the file type. = দয়া করে ফাইল টাইপ নির্বাচন করুন।
+No component was found! = কোনো কম্পোনেন্ট পাওয়া যায়নি!
+Import successfully = সফলভাবে ইমপোর্ট হয়েছে
+Import failed = ইমপোর্ট ব্যর্থ
+Click OK to continue with the import = ইমপোর্ট চালিয়ে যেতে OK ক্লিক করুন
+Select None = কিছুই নির্বাচন করুন না
+
+#Dialog Modify Symbol Information
+Modify symbol information = প্রতীক তথ্য পরিবর্তন
+Spice Prefix = স্পাইস প্রিফিক্স
+Hide Pin = পিন লুকান
+Pin Manager = পিন ম্যানেজার
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = যখন একটি পাওয়ার পিন লুকানো থাকে, এটি নেটলেবেল হিসাবে চিহ্নিত হবে, আপনার এটি তার করার প্রয়োজন নেই। যদি আপনি এটি সিমুলেশন হিসাবে ব্যবহার করেন, দয়া করে এটি দেখান বা এর জন্য একটি GND/VCC নেট তৈরি করুন।
+Assign = নির্ধারণ
+Supplier.bom = সরবরাহকারী.bom
+LCSC.bom = LCSC.bom
+Price = মূল্য
+Quantity.bom = পরিমাণ.bom
+Package.bom = প্যাকেজ.bom
+Components.bom = কম্পোনেন্ট.bom
+Manufacturer Part.bom = প্রস্তুতকারক পার্ট.bom
+Manufacturer.bom = প্রস্তুতকারক.bom
+
+One-click Purchasing at LCSC = LCSC-তে এক-ক্লিক ক্রয়
+Order Parts = পার্ট অর্ডার
+Export BOM = BOM এক্সপোর্ট
+Upload to LCSC ERP = LCSC ERP-তে আপলোড
+Order SMT Parts = SMT পার্ট অর্ডার
+No components, upload failed! = কোনো কম্পোনেন্ট নেই, আপলোড ব্যর্থ!
+Upload to LCSC ERP failed, please try again later. = LCSC ERP-তে আপলোড ব্যর্থ, দয়া করে পরে আবার চেষ্টা করুন।
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = বর্তমান BOM LCSC-এর চিপ ম্যানেজারে সফলভাবে আপলোড হয়েছে, চিপ ম্যানেজার অ্যাক্সেস করতে "OK" বোতাম ক্লিক করুন।
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = LCSC ERP-তে আপলোড ব্যর্থ, কিছু কম্পোনেন্টের কিছু বৈশিষ্ট্যের মান অনুপস্থিত পাওয়া গেছে, দয়া করে "ফুটপ্রিন্ট, প্রস্তুতকারক পার্ট" মান বিদ্যমান কিনা পরীক্ষা করুন।
+Export PCB BOM = PCB BOM এক্সপোর্ট
+Export Schematic BOM = স্কিম্যাটিক BOM এক্সপোর্ট
+ID.bom = ID.bom
+Name.bom = নাম.bom
+[bom]
+Name = নাম
+LCSC Assembly = LCSC অ্যাসেম্বলি
+Value = মান
+ID = ID
+Supplier = সরবরাহকারী
+LCSC = LCSC
+Price = মূল্য
+Quantity = পরিমাণ
+Package = প্যাকেজ
+Components = কম্পোনেন্ট
+Manufacturer = প্রস্তুতকারক
+[/bom]
+Manufacturer Part = প্রস্তুতকারক পার্ট
+Part Number = পার্ট নম্বর
+Part Code = পার্ট কোড
+
+#Dialog Run
+Run your simulation = আপনার সিমুলেশন চালান
+Transient = ট্রানজিয়েন্ট
+Maximum Timestep = সর্বোচ্চ টাইমস্টেপ
+Stop Time = স্টপ টাইম
+Start Time = স্টার্ট টাইম
+
+AC Analysis = AC বিশ্লেষণ
+Type of Sweep = সুইপের ধরন
+Number of points = পয়েন্টের সংখ্যা
+Start Frequency = স্টার্ট ফ্রিকোয়েন্সি
+Stop Frequency = স্টপ ফ্রিকোয়েন্সি
+
+DC sweep = DC সুইপ
+Source to Sweep = সুইপ করার সোর্স
+Start Value = স্টার্ট ভ্যালু
+Stop Value = স্টপ ভ্যালু
+Increment = ইনক্রিমেন্ট
+DC Transfer = DC ট্রান্সফার
+Output = আউটপুট
+Source = সোর্স
+
+DC op pnt = DC op pnt
+Compute the DC operating point treating capacitances as opens and inductances as shorts = ক্যাপাসিট্যান্সকে ওপেন এবং ইনডাক্ট্যান্সকে শর্ট হিসাবে বিবেচনা করে DC অপারেটিং পয়েন্ট গণনা করুন
+
+#Dialog Share Info
+Active File = সক্রিয় ফাইল
+Active Project = সক্রিয় প্রকল্প
+Readonly = শুধুমাত্র পঠনযোগ্য
+Editable = সম্পাদনাযোগ্য
+Active file's owner project page = সক্রিয় ফাইলের মালিক প্রকল্প পৃষ্ঠা
+Active project editor page = সক্রিয় প্রকল্প এডিটর পৃষ্ঠা
+
+#Dialog Document Recovery
+All Projects = সব প্রকল্প
+Document Recovery = ডকুমেন্ট পুনরুদ্ধার
+Unsaved files = অসংরক্ষিত ফাইল
+Please select a file! = দয়া করে একটি ফাইল নির্বাচন করুন!
+Please expand the folder first, then select a document to recover. = দয়া করে প্রথমে ফোল্ডার সম্প্রসারিত করুন, তারপর পুনরুদ্ধারের জন্য একটি ডকুমেন্ট নির্বাচন করুন।
+Are you sure you want to remove this backup? = আপনি কি নিশ্চিত যে এই ব্যাকআপ সরাতে চান?
+
+#Dialog Find Libs
+Search = অনুসন্ধান
+Search Results = অনুসন্ধানের ফলাফল
+Search and press Enter = অনুসন্ধান করুন এবং Enter চাপুন
+Keywords at least 3 characters = কীওয়ার্ড কমপক্ষে ৩টি অক্ষর
+Assembled = সংযুক্ত
+Verified = যাচাইকৃত
+In stock = স্টকে আছে
+{page} of {pagecount} pages = {pagecount} পৃষ্ঠার মধ্যে {page}
+Common Modules = সাধারণ মডিউল
+User Contributions = ব্যবহারকারীর অবদান
+More = আরো
+Modify Model... = মডেল পরিবর্তন...
+Add Favorite = প্রিয় যোগ করুন
+Remove Favorite = প্রিয় সরান
+Add Sub Part = সাব পার্ট যোগ করুন
+Add Sub Parts... = সাব পার্ট যোগ করুন...
+Please enter how many sub parts need to be added = দয়া করে বলুন কতগুলি সাব পার্ট যোগ করতে হবে
+Untagged = ট্যাগহীন
+Package = প্যাকেজ
+package = প্যাকেজ
+Title(PartNO) = শিরোনাম(পার্টNO)
+No Data! = কোনো ডেটা নেই!
+Quantity = পরিমাণ
+Manufacturer Part = প্রস্তুতকারক পার্ট
+manufacturer Part = প্রস্তুতকারক পার্ট
+Manufacturer = প্রস্তুতকারক
+manufacturer = প্রস্তুতকারক
+voltage = ভোল্টেজ
+Library = লাইব্রেরি
+LCSC Assembled = LCSC সংযুক্ত
+JLCPCB Assembled = JLCPCB সংযুক্ত
+User Contributed = ব্যবহারকারীর অবদান
+Symbol = প্রতীক
+Follow = ফলো
+Types = ধরন
+Classes = শ্রেণি
+power = পাওয়ার
+Power = পাওয়ার
+LCSC Part# = LCSC পার্ট#
+LCSC Stock = LCSC স্টক
+Report Error... = ত্রুটি রিপোর্ট...
+Report Error = ত্রুটি রিপোর্ট
+Thanks for your feedback! = আপনার ফিডব্যাকের জন্য ধন্যবাদ!
+Report error success, thanks for your report! = ত্রুটি রিপোর্ট সফল, আপনার রিপোর্টের জন্য ধন্যবাদ!
+The content must be at least 2 characters! = বিষয়বস্তু কমপক্ষে ২টি অক্ষর হতে হবে!
+This library is user contributed, please check before using. = এই লাইব্রেরি ব্যবহারকারীর অবদান, ব্যবহারের আগে দয়া করে পরীক্ষা করুন।
+[lib]
+All = সব
+System = সিস্টেম
+Personal = ব্যক্তিগত
+Created = তৈরিকৃত
+Favorite = প্রিয়
+No Team found. Please join or create a team first. = কোনো টিম পাওয়া যায়নি। দয়া করে প্রথমে একটি টিমে যোগ দিন বা তৈরি করুন।
+Create a team = একটি টিম তৈরি করুন
+No follow user found. Please follow your friend first. = কোনো ফলো করা ব্যবহারকারী পাওয়া যায়নি। দয়া করে প্রথমে আপনার বন্ধুকে ফলো করুন।
+[/lib]
+
+
+BUY = কিনুন
+In Stock = স্টকে আছে
+Out of Stock = স্টক শেষ
+Minimum = সর্বনিম্ন
+Distributor = পরিবেশক
+
+Capacitance = ক্যাপাসিট্যান্স
+Frequency Tolerance = ফ্রিকোয়েন্সি সহনশীলতা
+Power (Watts) = পাওয়ার (ওয়াট)
+Power - Max = পাওয়ার - সর্বোচ্চ
+Frequency = ফ্রিকোয়েন্সি
+Voltage Rating(Vdc,Vac) = ভোল্টেজ রেটিং(Vdc,Vac)
+Voltage = ভোল্টেজ
+Current Rating = কারেন্ট রেটিং
+Rated current = রেটেড কারেন্ট
+Resistance (Ohms) = রেজিস্ট্যান্স (ওহম)
+Resistance(Ohms) = রেজিস্ট্যান্স(ওহম)
+Inductance = ইনডাক্ট্যান্স
+FET Type = FET টাইপ
+Current Rating(Max) = কারেন্ট রেটিং(সর্বোচ্চ)
+Impedance @ Frequency = ইম্পিডেন্স @ ফ্রিকোয়েন্সি
+Voltage - Input (Max) = ভোল্টেজ - ইনপুট (সর্বোচ্চ)
+Voltage - Input (Min) = ভোল্টেজ - ইনপুট (সর্বনিম্ন)
+Voltage - Supply = ভোল্টেজ - সাপ্লাই
+Voltage - Max = ভোল্টেজ - সর্বোচ্চ
+Current - Output = কারেন্ট - আউটপুট
+
+#Dialog Export Your Works
+Export your works = আপনার কাজ এক্সপোর্ট করুন
+Export to = এক্সপোর্ট করুন
+Zoom = জুম
+Image Type = ছবির ধরন
+Qualify = গুণমান
+0 means real size = ০ মানে প্রকৃত আকার
+Merged layer = মার্জড লেয়ার
+Separated layer = আলাদা লেয়ার
+Paged layer = পৃষ্ঠাভিত্তিক লেয়ার
+Layer = লেয়ার
+Export = এক্সপোর্ট
+Mirror = আয়না
+TopLayer = টপ লেয়ার
+BottomLayer = বটম লেয়ার
+TopSilkLayer = টপ সিল্ক লেয়ার
+Protractor Properties = প্রোট্র্যাক্টর বৈশিষ্ট্য
+BottomSilkLayer = বটম সিল্ক লেয়ার
+
+BoardOutLine = বোর্ড আউটলাইন
+TopAssembly = টপ অ্যাসেম্বলি
+BottomAssembly = বটম অ্যাসেম্বলি
+Mechanical = যান্ত্রিক
+DocumentLayer = ডকুমেন্ট লেয়ার
+Inner{number} = ইনার{number}
+Substrate{number} = সাবস্ট্রেট{number}
+Color = রঙ
+Full Color = পূর্ণ রঙ
+Canvas Setting = ক্যানভাস সেটিং
+Full Graphics = পূর্ণ গ্রাফিক্স
+Assembly Drawings = অ্যাসেম্বলি ড্রয়িং
+Object Outlines = অবজেক্ট আউটলাইন
+Invalid file format = অবৈধ ফাইল ফরম্যাট
+Failed to export file = ফাইল এক্সপোর্ট ব্যর্থ
+Download now = এখনই ডাউনলোড
+Wire Width = তারের প্রস্থ
+Sheet = শীট
+Merged sheet = মার্জড শীট
+Separated sheet = আলাদা শীট
+Engine = ইঞ্জিন
+Exporting PDF = PDF এক্সপোর্ট করা হচ্ছে
+Export 3D Model = 3D মডেল এক্সপোর্ট
+[exportDocument]
+Size = আকার
+[/exportDocument]
+
+#Dialog Import Changes
+Confirm Importing changes information = পরিবর্তনের তথ্য ইমপোর্ট নিশ্চিত করুন
+You can't undo this operation, Please run a Design Rule Checking (DRC) after this operation. = আপনি এই অপারেশন আনডু করতে পারবেন না, দয়া করে এই অপারেশনের পর একটি ডিজাইন রুল চেকিং (DRC) চালান।
+Apply Changes = পরিবর্তন প্রয়োগ
+This is a simple Design Rule Checking (DRC). = এটি একটি সাধারণ ডিজাইন রুল চেকিং (DRC)।
+It just can help you to find the obvious errors = এটি শুধুমাত্র স্পষ্ট ত্রুটিগুলি খুঁজে পেতে সাহায্য করতে পারে
+There are some unfinished nets, do you want to check the nets first? = কিছু অসম্পূর্ণ নেট রয়েছে, আপনি কি প্রথমে নেটগুলি পরীক্ষা করতে চান?
+Yes, Check Nets = হ্যাঁ, নেট পরীক্ষা করুন
+No, Keep Going = না, চালিয়ে যান
+
+#Dialog Layer Manager
+Configured = কনফিগার করা
+Layer Name = লেয়ারের নাম
+TopPasterLayer = টপ পেস্টার লেয়ার
+BottomPasterLayer = বটম পেস্টার লেয়ার
+TopSolderLayer = টপ সোল্ডার লেয়ার
+BottomSolderLayer = বটম সোল্ডার লেয়ার
+TopPasteMaskLayer = টপ পেস্ট মাস্ক লেয়ার
+BottomPasteMaskLayer = বটম পেস্ট মাস্ক লেয়ার
+TopSolderMaskLayer = টপ সোল্ডার মাস্ক লেয়ার
+BottomSolderMaskLayer = বটম সোল্ডার মাস্ক লেয়ার
+ComponentShapeLayer = কম্পোনেন্ট শেপ লেয়ার
+LeadShapeLayer = লিড শেপ লেয়ার
+ComponentMarkingLayer = কম্পোনেন্ট মার্কিং লেয়ার
+Ratlines = র‍্যাটলাইন
+Ratlines Color = র‍্যাটলাইন রঙ
+Manage Colors = রঙ ব্যবস্থাপনা
+BoardOutline = বোর্ড আউটলাইন
+Multi-Layer = মাল্টি-লেয়ার
+Hole = হোল
+DRCError = DRC ত্রুটি
+Setting = সেটিং
+Drawing area = অঙ্কন এলাকা
+Export area = এক্সপোর্ট এলাকা
+Transparency(%) = স্বচ্ছতা(%)
+Copper Layer = কপার লেয়ার
+Signal = সিগন্যাল
+Plane = প্লেন
+Non-Signal = নন-সিগন্যাল
+Other = অন্যান্য
+Please delete all the objects of the layers first! The layers are: = দয়া করে প্রথমে লেয়ারের সব অবজেক্ট মুছুন! লেয়ারগুলি হল:
+You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. = আপনি সিগন্যাল লেয়ারকে প্লেন লেয়ারে রূপান্তর করছেন, নিম্নলিখিত লেয়ারে কিছু নন-ট্র্যাক অবজেক্ট রয়ে গেছে। দয়া করে ক্যানভাসে ম্যানুয়ালি অবজেক্টগুলি মুছুন।
+Please delete all the objects of this layer first! = দয়া করে প্রথমে এই লেয়ারের সব অবজেক্ট মুছুন!
+
+#Dialog Fabrication Output
+Create Files = ফাইল তৈরি করুন
+Check your {0}Gerber files{1} carefully before sending them to the factory = কারখানায় পাঠানোর আগে আপনার {0}Gerber ফাইল{1} সাবধানে পরীক্ষা করুন
+Download free Gerber Viewer (gerbv) = বিনামূল্যে Gerber ভিউয়ার (gerbv) ডাউনলোড করুন
+Before generating the Gerber files = Gerber ফাইল তৈরি করার আগে
+Please check the packages size and orientation carefully. = দয়া করে প্যাকেজের আকার এবং অভিমুখ সাবধানে পরীক্ষা করুন।
+Please check for Design Rule Checking (DRC) errors in the Design Manager. = দয়া করে ডিজাইন ম্যানেজারে ডিজাইন রুল চেকিং (DRC) ত্রুটি পরীক্ষা করুন।
+Please rebuild the copper area after modifying tracks and packages. = ট্র্যাক এবং প্যাকেজ পরিবর্তনের পর দয়া করে কপার এরিয়া পুনর্নির্মাণ করুন।
+After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Gerber ফাইল তৈরি করার পর, দয়া করে {0}Gerber ভিউয়ার{1} ব্যবহার করে পরীক্ষা করুন এটি ডিজাইনের প্রয়োজনীয়তা অনুযায়ী কিনা।
+Order PCB/SMT = PCB/SMT অর্ডার
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = জটিল পলিগন পাওয়া গেছে যা Gerber-এ অবজেক্ট তৈরি করতে পারে না, দয়া করে সরান বা প্রতিস্থাপন করুন
+ID: {id}, Object: {object}, Location: {location} = ID: {id}, অবজেক্ট: {object}, অবস্থান: {location}
+
+#Dialog DRC
+Item = আইটেম
+Value = মান
+value = মান
+Unit = একক
+Track Width = ট্র্যাক প্রস্থ
+Track to Track = ট্র্যাক থেকে ট্র্যাক
+Track to Pad = ট্র্যাক থেকে প্যাড
+Pad to Pad = প্যাড থেকে প্যাড
+Via to Via = ভায়া থেকে ভায়া
+Via Hole Size = ভায়া হোল সাইজ
+Realtime DRC = রিয়েলটাইম DRC
+{0} is too small! = {0} অত্যন্ত ছোট!
+Invalid DRC Rule = অবৈধ DRC নিয়ম
+Rule = নিয়ম
+Via Diameter = ভায়া ব্যাস
+Via Drill Diameter = ভায়া ড্রিল ব্যাস
+Net List = নেট তালিকা
+Rule = নিয়ম
+Set Rule = নিয়ম সেট
+Check Object to Copper Area = কপার এরিয়ায় অবজেক্ট পরীক্ষা
+Show DRC Boundary while Routing = রাউটিংয়ের সময় DRC বাউন্ডারি দেখান
+Check Object to Board Outline = বোর্ড আউটলাইনে অবজেক্ট পরীক্ষা
+Rule name already exists! = নিয়মের নাম ইতিমধ্যে বিদ্যমান!
+You should not delete default rule! = আপনার ডিফল্ট নিয়ম মুছে ফেলা উচিত নয়!
+Rule list contains invalid rule setting! = নিয়মের তালিকায় অবৈধ নিয়ম সেটিং রয়েছে!
+Duplicate rule name exists! = ডুপ্লিকেট নিয়মের নাম বিদ্যমান!
+via diameter is smaller than via drill diameter! = ভায়া ব্যাস ভায়া ড্রিল ব্যাসের চেয়ে ছোট!
+Currently rule name is not allowed to contain magical characters like . and $ = বর্তমানে নিয়মের নামে . এবং $ এর মতো জাদুকরী অক্ষর অনুমোদিত নয়
+Track Width (min) = ট্র্যাক প্রস্থ (সর্বনিম্ন)
+Clearance (min) = ক্লিয়ারেন্স (সর্বনিম্ন)
+Via Diameter (min) = ভায়া ব্যাস (সর্বনিম্ন)
+Via Drill Diameter (min) = ভায়া ড্রিল ব্যাস (সর্বনিম্ন)
+Track Length (max) = ট্র্যাক দৈর্ঘ্য (সর্বোচ্চ)
+[drcRule]
+All = সব
+[/drcRule]
+
+#Dialog Hotkey
+Change Canvas Unit = ক্যানভাস একক পরিবর্তন
+Copy Selected Object(s) by Reference Point = রেফারেন্স পয়েন্ট দ্বারা নির্বাচিত অবজেক্ট(গুলি) কপি
+Fullscreen = ফুলস্ক্রিন
+Undo the Previous Draw = পূর্ববর্তী আঁকা আনডু
+Set Canvas Origin by Coordinate = স্থানাঙ্ক দ্বারা ক্যানভাস অরিজিন সেট
+Switch to the Next Signal Layer = পরবর্তী সিগন্যাল লেয়ারে সুইচ
+Switch to the Previous Signal Layer = পূর্ববর্তী সিগন্যাল লেয়ারে সুইচ
+Switch object to top layer or bottom layer = অবজেক্ট টপ লেয়ার বা বটম লেয়ারে সুইচ
+Cycle Forward to the Next Open Tabbed Document = পরবর্তী খোলা ট্যাবড ডকুমেন্টে এগিয়ে সাইকেল
+Cycle Backward to the Previous Open Tabbed Document = পূর্ববর্তী খোলা ট্যাবড ডকুমেন্টে পিছনে সাইকেল
+Switch to the Previous Layer(on the Numeric Keypad) = পূর্ববর্তী লেয়ারে সুইচ(সংখ্যাসূচক কীপ্যাডে)
+Switch to the Next Layer(on the Numeric Keypad) = পরবর্তী লেয়ারে সুইচ(সংখ্যাসূচক কীপ্যাডে)
+Toggle Layers Which is Not Active = যে লেয়ার সক্রিয় নয় তা টগল
+Hotkey Setting = হটকী সেটিং
+Document Type = ডকুমেন্ট টাইপ
+Shortcut = শর্টকাট
+Function = ফাংশন
+ALL = সব
+SCH = SCH
+Rotate Selected Objects = নির্বাচিত অবজেক্ট ঘোরান
+Scroll or Move Selected Left = নির্বাচিত বামে স্ক্রোল বা সরান
+Scroll or Move Selected Right = নির্বাচিত ডানে স্ক্রোল বা সরান
+Scroll or Move Selected Up = নির্বাচিত উপরে স্ক্রোল বা সরান
+Scroll or Move Selected Down = নির্বাচিত নিচে স্ক্রোল বা সরান
+Set canvas origin to the center grid of graphics in symbol; Set canvas origin to the center of pads in footprint. = প্রতীকে গ্রাফিক্সের কেন্দ্র গ্রিডে ক্যানভাস অরিজিন সেট করুন; ফুটপ্রিন্টে প্যাডের কেন্দ্রে ক্যানভাস অরিজিন সেট করুন।
+Cross Document Paste = ক্রস ডকুমেন্ট পেস্ট
+Explore & Find Components = কম্পোনেন্ট অন্বেষণ ও খুঁজুন
+Select All = সব নির্বাচন
+Cancel Current Drawing = বর্তমান আঁকা বাতিল
+Save = সংরক্ষণ
+Drag Tool = ড্র্যাগ টুল
+Draw Wire = তার আঁকুন
+Draw Bus = বাস আঁকুন
+Bus Entry = বাস এন্ট্রি
+Junction = জংশন
+Net Flag GND = নেট ফ্ল্যাগ GND
+Net Flag = নেট ফ্ল্যাগ
+Draw Polyline = পলিলাইন আঁকুন
+Draw Polygon = পলিগন আঁকুন
+Draw Bezier = বেজিয়ার আঁকুন
+Draw Arc = চাপ আঁকুন
+Draw Rect = আয়ত আঁকুন
+Draw Ellipse = উপবৃত্ত আঁকুন
+Freehand Draw = হাতে আঁকা
+Freedraw = ফ্রিড্র
+Draw Text = টেক্সট আঁকুন
+Edit Selected Symbol = নির্বাচিত প্রতীক সম্পাদনা
+Draw Track = ট্র্যাক আঁকুন
+Draw Circle = বৃত্ত আঁকুন
+Cycle Select Object at Current Location = বর্তমান অবস্থানে অবজেক্ট সাইকেল নির্বাচন
+Draw Dimension = মাত্রা আঁকুন
+Draw Connect = সংযোগ আঁকুন
+Draw CopperArea = কপার এরিয়া আঁকুন
+Change to TopLayer;<br/>Change Selected Component's Layer to TopLayer; = টপ লেয়ারে পরিবর্তন;<br/>নির্বাচিত কম্পোনেন্টের লেয়ার টপ লেয়ারে পরিবর্তন;
+Change to BottomLayer;<br/>Change Selected Component's Layer to BottomLayer; = বটম লেয়ারে পরিবর্তন;<br/>নির্বাচিত কম্পোনেন্টের লেয়ার বটম লেয়ারে পরিবর্তন;
+Change to Inner1 = ইনার১ এ পরিবর্তন
+Change to Inner2 = ইনার২ এ পরিবর্তন
+Change to Inner3 = ইনার৩ এ পরিবর্তন
+Change to Inner4 = ইনার৪ এ পরিবর্তন
+Highlight Net = নেট হাইলাইট
+Highlight Network = নেটওয়ার্ক হাইলাইট
+Unhighlight Network = নেটওয়ার্ক আনহাইলাইট
+Place Pad = প্যাড রাখুন
+Place Via = ভায়া রাখুন
+Measure = পরিমাপ
+Change Routing Angle = রাউটিং কোণ পরিবর্তন
+Change Routing Conflict = রাউটিং দ্বন্দ্ব পরিবর্তন
+Decrease Routing Width = রাউটিং প্রস্থ কমান
+Increase Routing Width = রাউটিং প্রস্থ বাড়ান
+Decrease Snap Size = স্ন্যাপ সাইজ কমান
+Increase Snap Size = স্ন্যাপ সাইজ বাড়ান
+Change Copper Zone Visible or Invisible = কপার জোন দৃশ্যমান বা অদৃশ্য পরিবর্তন
+Rebuild All Copper Area = সব কপার এরিয়া পুনর্নির্মাণ
+Toggle PCB Net Display = PCB নেট ডিসপ্লে টগল
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = অবজেক্ট রাখার সময় প্রপার্টি ডায়ালগ দেখান;<br/>অবজেক্ট(গুলি) পেস্ট করার সময় লোকেশন সেটিং ডায়ালগ দেখান
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = অবজেক্ট রাখার সময় প্রপার্টি ডায়ালগ দেখান;<br/>অবজেক্ট(গুলি) নির্বাচনের সময় পরম অফসেট ডায়ালগ দেখান;<br/>অবজেক্ট(গুলি) পেস্ট করার সময় লোকেশন সেটিং ডায়ালগ দেখান
+Show Relative Offset Dialog When Selecting Object(s) = অবজেক্ট(গুলি) নির্বাচনের সময় আপেক্ষিক অফসেট ডায়ালগ দেখান
+Open the FAQ Page = FAQ পৃষ্ঠা খুলুন
+Move Object(s) by Reference Point = রেফারেন্স পয়েন্ট দ্বারা অবজেক্ট(গুলি) সরান
+Choose Favorite Track Width While Routing = রাউটিংয়ের সময় প্রিয় ট্র্যাক প্রস্থ নির্বাচন
+Copy Selected Object(s) and Paste Repeatedly = নির্বাচিত অবজেক্ট(গুলি) কপি এবং বারবার পেস্ট
+
+#My Projects Tree Menu
+New Project = নতুন প্রকল্প
+New Schematic = নতুন স্কিম্যাটিক
+New PCB = নতুন PCB
+New Spice Subckt = নতুন স্পাইস সাবসার্কিট
+Modify = পরিবর্তন
+Delete = মুছুন
+Add sub part = সাব পার্ট যোগ
+Clone = ক্লোন
+Version History = সংস্করণ ইতিহাস
+Refresh List = তালিকা রিফ্রেশ
+Create New Project = নতুন প্রকল্প তৈরি
+Delete = মুছুন
+Attachment = সংযুক্তি
+Archive = আর্কাইভ
+Transfer = স্থানান্তর
+Manage Project = প্রকল্প ব্যবস্থাপনা
+
+#Dialog Verify Package
+Footprints Verification = ফুটপ্রিন্ট যাচাইকরণ
+
+#Dialog Edit Polygon Pad points
+Edit Points = পয়েন্ট সম্পাদনা
+Center point is outside the pad = কেন্দ্র বিন্দু প্যাডের বাইরে
+Hole should be inside the pad = হোল প্যাডের ভিতরে থাকা উচিত
+Hole is draggable = হোল টানা যায়
+
+#My Part Tree Menu
+Clone = ক্লোন
+Reload parts = পার্ট পুনরায় লোড
+Layers = লেয়ার
+
+#Dialog Preferences
+Language = ভাষা
+Display Name = প্রদর্শন নাম
+HotKey Sync = হটকী সিঙ্ক
+My Theme Sync = আমার থিম সিঙ্ক
+Document Recovery Setting = ডকুমেন্ট পুনরুদ্ধার সেটিং
+Enable auto backup = অটো ব্যাকআপ সক্রিয়
+Maximum backup level = সর্বোচ্চ ব্যাকআপ স্তর
+Auto backup interval = অটো ব্যাকআপ ইন্টারভাল
+days = দিন
+hours = ঘণ্টা
+minutes = মিনিট
+seconds = সেকেন্ড
+Save to Server = সার্ভারে সংরক্ষণ
+Load from Server = সার্ভার থেকে লোড
+
+
+#Dialog Schematic Library Wizard
+Symbol Wizard = প্রতীক উইজার্ড
+Style = স্টাইল
+Picture = ছবি
+Pin Names = পিনের নাম
+Contributor = অবদানকারী
+contributor = অবদানকারী
+owner = মালিক
+
+#Dialog Annotate
+Annotate = টীকা
+Scope = পরিসর
+All pages = সব পৃষ্ঠা
+Current page only = শুধুমাত্র বর্তমান পৃষ্ঠা
+Selected components = নির্বাচিত কম্পোনেন্ট
+All Opened Schematics = সব খোলা স্কিম্যাটিক
+Method = পদ্ধতি
+Re-annotate all = সব পুনরায় টীকা
+Keep existing annotation = বিদ্যমান টীকা রাখুন
+Direction = দিক
+Rows = সারি
+Cols = কলাম
+Reset = রিসেট
+
+#Dialog Order
+Order... = অর্ডার...
+PCB Qty. = PCB সংখ্যা
+PCB Thickness = PCB পুরুত্ব
+PCB Dimension = PCB মাত্রা
+Automatic calculation = স্বয়ংক্রিয় গণনা
+PCB Color = PCB রঙ
+Green = সবুজ
+White = সাদা
+Blue = নীল
+Red = লাল
+Yellow = হলুদ
+Black = কালো
+Purple = বেগুনি
+Copper = কপার
+Gold = সোনা
+Silver = রূপা
+Surface Finish = সারফেস ফিনিশ
+Hasl = Hasl
+Hasl(Lead Free) = Hasl(সীসামুক্ত)
+ENIG = ENIG
+
+#Dialog Hot Key config
+Restore All Default Shortcuts = সব ডিফল্ট শর্টকাট পুনরুদ্ধার
+Save Changes = পরিবর্তন সংরক্ষণ
+
+
+
+#Dialog Polyline Maybe Wire
+To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = বৈদ্যুতিক উপাদান সংযোগের জন্য, দয়া করে তার (W হটকী) ব্যবহার করুন লাইন (L হটকী) নয়।
+
+Anonymous File = বেনামী ফাইল
+Anonymous File can not be cloned, but you can open it, then save it as a new file. = বেনামী ফাইল ক্লোন করা যায় না, তবে আপনি এটি খুলতে পারেন, তারপর নতুন ফাইল হিসাবে সংরক্ষণ করতে পারেন।
+Free Documents = বিনামূল্যে ডকুমেন্ট
+You must close the file before delete it! = এটি মুছে ফেলার আগে আপনাকে অবশ্যই ফাইল বন্ধ করতে হবে!
+Offline Project = অফলাইন প্রকল্প
+
+#Message box
+Confirmation = নিশ্চিতকরণ
+Alert = সতর্কতা
+Information = তথ্য
+information = তথ্য
+Prompt = প্রম্পট
+Error = ত্রুটি
+error = ত্রুটি
+error! = ত্রুটি!
+Warning = সতর্কতা
+Imported ok! = ইমপোর্ট ঠিক আছে!
+Some changes have not been saved. = কিছু পরিবর্তন সংরক্ষিত হয়নি।
+Your file hasn't been saved. Please save first! = আপনার ফাইল সংরক্ষিত হয়নি। দয়া করে প্রথমে সংরক্ষণ করুন!
+Your file hasn't been saved. Are you sure you want to close it? = আপনার ফাইল সংরক্ষিত হয়নি। আপনি কি নিশ্চিত যে এটি বন্ধ করতে চান?
+Error! Please try again later. = ত্রুটি! দয়া করে পরে আবার চেষ্টা করুন।
+Are you sure you want to reload this page? = আপনি কি নিশ্চিত যে এই পৃষ্ঠা পুনরায় লোড করতে চান?
+Are you sure you want to leave this page? = আপনি কি নিশ্চিত যে এই পৃষ্ঠা ছেড়ে যেতে চান?
+Confirm Reload = পুনরায় লোড নিশ্চিত করুন
+Confirm Close = বন্ধ নিশ্চিত করুন
+Reload this page = এই পৃষ্ঠা পুনরায় লোড করুন
+Leave this page = এই পৃষ্ঠা ছেড়ে যান
+Stay on this page = এই পৃষ্ঠায় থাকুন
+Don't reload = পুনরায় লোড করবেন না
+No connect flag only can be placed on Pin dot or the wire which is connected one Pin. = নো কানেক্ট ফ্ল্যাগ শুধুমাত্র পিন ডট বা একটি পিনের সাথে সংযুক্ত তারে রাখা যেতে পারে।
+can not be placed on the wire which is placing No Connect Flag. = নো কানেক্ট ফ্ল্যাগ রাখা তারে রাখা যাবে না।
+The footprint transfer to LCSC library class successfully = ফুটপ্রিন্ট LCSC লাইব্রেরি ক্লাসে সফলভাবে স্থানান্তরিত
+Device/Footprint goes into "SMT Device/Footprint Verified" list successfully = ডিভাইস/ফুটপ্রিন্ট সফলভাবে "SMT ডিভাইস/ফুটপ্রিন্ট যাচাইকৃত" তালিকায় যুক্ত
+
+Load failure! = লোড ব্যর্থতা!
+Load projects failed = প্রকল্প লোড ব্যর্থ
+error info = ত্রুটির তথ্য
+error information = ত্রুটির তথ্য
+Guest can't create a new project. Please login! = অতিথি নতুন প্রকল্প তৈরি করতে পারে না। দয়া করে লগইন করুন!
+Please create a project before you do this! = এটি করার আগে দয়া করে একটি প্রকল্প তৈরি করুন!
+Add Part success = পার্ট যোগ সফল
+Click the new part and then edit it! = নতুন পার্টে ক্লিক করুন এবং তারপর এটি সম্পাদনা করুন!
+Delete my work = আমার কাজ মুছুন
+Delete my work. (Only deletes it from this list but not from the server) = আমার কাজ মুছুন। (শুধুমাত্র এই তালিকা থেকে মুছে দেয় কিন্তু সার্ভার থেকে নয়)
+Do you confirm this? = আপনি কি এটি নিশ্চিত করেন?
+Successfully deleted! = সফলভাবে মুছে ফেলা হয়েছে!
+Successfully Copied! = সফলভাবে কপি হয়েছে!
+Cloning success! = ক্লোনিং সফল!
+Your title is too short! = আপনার শিরোনাম অত্যন্ত ছোট!
+Remove this part = এই পার্ট সরান
+Find and Jump to ... = খুঁজুন এবং জাম্প করুন ...
+Please type the prefix, such as U1, R1, C1 = দয়া করে প্রিফিক্স টাইপ করুন, যেমন U1, R1, C1
+Zoom as 1:1, you can print it and then create artwork for etching the PCB. = 1:1 হিসাবে জুম করুন, আপনি এটি প্রিন্ট করতে পারেন এবং তারপর PCB ইচিংয়ের জন্য আর্টওয়ার্ক তৈরি করতে পারেন।
+Exporting your works! = আপনার কাজ এক্সপোর্ট করা হচ্ছে!
+Guests can't import a file. Please login! = অতিথি ফাইল ইমপোর্ট করতে পারে না। দয়া করে লগইন করুন!
+Please create a project before you import a file! = ফাইল ইমপোর্ট করার আগে দয়া করে একটি প্রকল্প তৈরি করুন!
+Import your LTspice file! = আপনার LTspice ফাইল ইমপোর্ট করুন!
+Open LTspice file = LTspice ফাইল খুলুন
+Open EasyEDA file = EasyEDA ফাইল খুলুন
+Please make sure the selected LTspice file is a file saved in LTspice V and above. = দয়া করে নিশ্চিত করুন যে নির্বাচিত LTspice ফাইল LTspice V এবং উপরে সংরক্ষিত একটি ফাইল।
+Saved successfully! = সফলভাবে সংরক্ষিত!
+Save failed! = সংরক্ষণ ব্যর্থ!
+Can not place parts into this document. = এই ডকুমেন্টে পার্ট রাখা যাবে না।
+User Package = ব্যবহারকারী প্যাকেজ
+System Package = সিস্টেম প্যাকেজ
+File error = ফাইল ত্রুটি
+Please save your file first! = দয়া করে প্রথমে আপনার ফাইল সংরক্ষণ করুন!
+Email address is too short! = ইমেইল ঠিকানা অত্যন্ত ছোট!
+You have not selected a file to upload. = আপনি আপলোড করার জন্য কোনো ফাইল নির্বাচন করেননি।
+Update = আপডেট
+No changes, the PCB already matches the schematic! = কোনো পরিবর্তন নেই, PCB ইতিমধ্যে স্কিম্যাটিকের সাথে মিলে!
+Only public files can be shared = শুধুমাত্র পাবলিক ফাইল শেয়ার করা যেতে পারে
+Conversion to PCB has failed! = PCB-তে রূপান্তর ব্যর্থ হয়েছে!
+Your username is too short! = আপনার ব্যবহারকারীর নাম অত্যন্ত ছোট!
+Your password is too short, it must be more than 6 characters! = আপনার পাসওয়ার্ড অত্যন্ত ছোট, এটি অবশ্যই ৬টি অক্ষরের বেশি হতে হবে!
+Conflicting shortcut = দ্বন্দ্বমূলক শর্টকাট
+There is an empty PCB file. Please first run Convert Schematic to PCB... from the schematic = একটি খালি PCB ফাইল আছে। দয়া করে প্রথমে স্কিম্যাটিক থেকে স্কিম্যাটিক থেকে PCB-তে রূপান্তর... চালান
+This file has been modified, are you sure you want to run this simulation before saving it first? = এই ফাইল পরিবর্তিত হয়েছে, আপনি কি নিশ্চিত যে প্রথমে সংরক্ষণ না করে এই সিমুলেশন চালাতে চান?
+Please enter the Maximum Timestep! = দয়া করে সর্বোচ্চ টাইমস্টেপ প্রবেশ করান!
+Please enter the Stop Time! = দয়া করে স্টপ টাইম প্রবেশ করান!
+All of these fields are needed. = এই সব ক্ষেত্র প্রয়োজন।
+Either your spice netlist is too big or the server is busy. Please try again later. = হয় আপনার spice নেটলিস্ট অত্যন্ত বড় বা সার্ভার ব্যস্ত। দয়া করে পরে আবার চেষ্টা করুন।
+Your spice netlist is too big! Try breaking your circuit into smaller simulatable blocks. = আপনার spice নেটলিস্ট অত্যন্ত বড়! আপনার সার্কিটকে ছোট সিমুলেটেবল ব্লকে ভাঙার চেষ্টা করুন।
+Too many users in simulation. Please try again later! = সিমুলেশনে অত্যন্ত বেশি ব্যবহারকারী। দয়া করে পরে আবার চেষ্টা করুন!
+Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = সীমিত সার্ভার রিসোর্সের কারণে, প্রতিবার সিমুলেশনে ইন্টারভালের জন্য দয়া করে ১০ সেকেন্ড অপেক্ষা করুন।
+Your circuit is too complex, we have not enough CPU resource to support this simulation, please reduce your circuit as small as you can. = আপনার সার্কিট অত্যন্ত জটিল, এই সিমুলেশন সমর্থন করার জন্য আমাদের পর্যাপ্ত CPU রিসোর্স নেই, দয়া করে আপনার সার্কিট যতটা সম্ভব ছোট করুন।
+Simulation is queuing, try again after 30s. = সিমুলেশন কিউয়ে আছে, ৩০ সেকেন্ড পর আবার চেষ্টা করুন।
+Timeout = টাইমআউট
+Demo accounts don't support simulation, please login first = ডেমো অ্যাকাউন্ট সিমুলেশন সমর্থন করে না, দয়া করে প্রথমে লগইন করুন
+Please login first = দয়া করে প্রথমে লগইন করুন
+The schematic is showing errors, please check the simulation report carefully! = স্কিম্যাটিক ত্রুটি দেখাচ্ছে, দয়া করে সিমুলেশন রিপোর্ট সাবধানে পরীক্ষা করুন!
+Simulation too long, maybe your schematic is too complex. = সিমুলেশন অত্যন্ত দীর্ঘ, হতে পারে আপনার স্কিম্যাটিক অত্যন্ত জটিল।
+Non-simulated file = নন-সিমুলেটেড ফাইল
+This file can only be opened in standard mode. To open it, please switch to standard mode. = এই ফাইল শুধুমাত্র স্ট্যান্ডার্ড মোডে খোলা যেতে পারে। এটি খুলতে, দয়া করে স্ট্যান্ডার্ড মোডে সুইচ করুন।
+Load your preferences success! = আপনার পছন্দ লোড সফল!
+Save your preferences success! = আপনার পছন্দ সংরক্ষণ সফল!
+Update subckt ok! = সাবসার্কিট আপডেট ঠিক আছে!
+Clone your file = আপনার ফাইল ক্লোন করুন
+Please type a new file name = দয়া করে একটি নতুন ফাইলের নাম টাইপ করুন
+Create file failure! = ফাইল তৈরি ব্যর্থতা!
+Schematics and PCBs can't be imported under My Libs folder, please choose a different folder = স্কিম্যাটিক এবং PCB আমার লাইব্রেরি ফোল্ডারে ইমপোর্ট করা যাবে না, দয়া করে একটি ভিন্ন ফোল্ডার নির্বাচন করুন
+Libraries to be imported under My Libs folder = আমার লাইব্রেরি ফোল্ডারে ইমপোর্ট করার জন্য লাইব্রেরি
+Please choose only the libraries needed = দয়া করে শুধুমাত্র প্রয়োজনীয় লাইব্রেরি নির্বাচন করুন
+Maximum import is 200 libs at one time! = একসাথে সর্বোচ্চ ২০০টি লাইব্রেরি ইমপোর্ট!
+You libraries will be found under the My Libs folder = আপনার লাইব্রেরি আমার লাইব্রেরি ফোল্ডারে পাওয়া যাবে
+Add to Library = লাইব্রেরিতে যোগ করুন
+No items have been checked! = কোনো আইটেম চেক করা হয়নি!
+Nothing was found, please create it for yourself = কিছুই পাওয়া যায়নি, দয়া করে নিজের জন্য তৈরি করুন
+Search result = অনুসন্ধানের ফলাফল
+At least 3 characters needed = কমপক্ষে ৩টি অক্ষর প্রয়োজন
+Add to my Favorite Parts = আমার প্রিয় পার্টে যোগ করুন
+Added it OK. Please find it in your Favorite Parts = এটি ঠিক আছে যোগ করা হয়েছে। দয়া করে আপনার প্রিয় পার্টে এটি খুঁজুন
+Please select its parent node = দয়া করে এর প্যারেন্ট নোড নির্বাচন করুন
+Libraries can not be exported as active project pdf. = লাইব্রেরি সক্রিয় প্রকল্প pdf হিসাবে এক্সপোর্ট করা যাবে না।
+Error:No GND = ত্রুটি:কোনো GND নেই
+This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = এই সার্কিটে GND নেই। সার্কিটে যোগ করতে দয়া করে সার্কিট টুল থেকে GND নির্বাচন করুন।
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = বর্তমান সার্কিটে ভোল্টেজ রিসোর্স বা কারেন্ট রিসোর্স প্রতীক নেই, দয়া করে এটি প্রথমে বাম পাশের EElib বা Spice লাইব্রেরিতে রাখুন।
+Probe can not connect with ground(GND)! = প্রোব গ্রাউন্ড(GND) এর সাথে সংযোগ করতে পারে না!
+Spice symbols's properties can't be empty. = স্পাইস প্রতীকের বৈশিষ্ট্য খালি থাকতে পারে না।
+Error:No Spice Symbol = ত্রুটি:কোনো স্পাইস প্রতীক নেই
+Simulation limit = সিমুলেশন সীমা
+There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = সার্কিটে একটি মাল্টিমিটার আছে যা .tran বা .op এমুলেশন কমান্ড ব্যবহার করে সিমুলেট করতে হবে
+An oscilloscope exists in the circuit and needs to be simulated using the simulation command .tran = সার্কিটে একটি অসিলোস্কোপ আছে এবং .tran সিমুলেশন কমান্ড ব্যবহার করে সিমুলেট করতে হবে
+There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. = এই সার্কিটে এমন কম্পোনেন্ট আছে যার সিমুলেশন মডেল নেই। সিমুলেশনের জন্য দয়া করে সিমুলেশন মোডের বেস লাইব্রেরি কম্পোনেন্ট ব্যবহার করুন।
+Circuit does not have a probe = সার্কিটে কোনো প্রোব নেই
+Make sure your pin numbers are even numbers = নিশ্চিত করুন যে আপনার পিন নম্বরগুলি জোড় সংখ্যা
+Duplicate Components Prefix = ডুপ্লিকেট কম্পোনেন্ট প্রিফিক্স
+All components are hidden successfully! = সব কম্পোনেন্ট সফলভাবে লুকানো হয়েছে!
+All ratlines are hidden successfully! = সব র‍্যাটলাইন সফলভাবে লুকানো হয়েছে!
+Hidden the ratline of net {netName} successfully! = নেট {netName} এর র‍্যাটলাইন সফলভাবে লুকানো হয়েছে!
+Duplicate Component Prefix = ডুপ্লিকেট কম্পোনেন্ট প্রিফিক্স
+{0} exist = {0} বিদ্যমান
+Modify successfully, but {0} already exists = সফলভাবে পরিবর্তিত, কিন্তু {0} ইতিমধ্যে বিদ্যমান
+There are some invalid packages, are you sure? = কিছু অবৈধ প্যাকেজ আছে, আপনি কি নিশ্চিত?
+Invalid Characters, library only allows [0-9a-zA-Z-_] = অবৈধ অক্ষর, লাইব্রেরি শুধুমাত্র [0-9a-zA-Z-_] অনুমোদন করে
+Annotation success = টীকা সফল
+If you accept this annotation operation, please save your files. If not, close your files without saving. = আপনি যদি এই টীকা অপারেশন গ্রহণ করেন, দয়া করে আপনার ফাইল সংরক্ষণ করুন। যদি না করেন, সংরক্ষণ না করে আপনার ফাইল বন্ধ করুন।
+This file can't be saved under libs project. Please choose other project or create a new project = এই ফাইল লাইব্রেরি প্রকল্পের অধীনে সংরক্ষিত হতে পারে না। দয়া করে অন্য প্রকল্প নির্বাচন করুন বা নতুন প্রকল্প তৈরি করুন
+Your file is unsaved. = আপনার ফাইল অসংরক্ষিত।
+You can close the editor now. Have a good day! = আপনি এখন এডিটর বন্ধ করতে পারেন। ভালো দিন কাটুক!
+Successfully logged out = সফলভাবে লগআউট
+You have at least one unsaved file open. Please save it or close it. = আপনার কমপক্ষে একটি অসংরক্ষিত ফাইল খোলা আছে। দয়া করে এটি সংরক্ষণ করুন বা বন্ধ করুন।
+Please select a reference point = দয়া করে একটি রেফারেন্স পয়েন্ট নির্বাচন করুন
+Please save your file before this operation = এই অপারেশনের আগে দয়া করে আপনার ফাইল সংরক্ষণ করুন
+Please open a PCB document = দয়া করে একটি PCB ডকুমেন্ট খুলুন
+Please save your file before '{0}'. = '{0}' এর আগে দয়া করে আপনার ফাইল সংরক্ষণ করুন।
+Please try again after saving this file. = এই ফাইল সংরক্ষণের পর দয়া করে আবার চেষ্টা করুন।
+This text can not be empty! = এই টেক্সট খালি থাকতে পারে না!
+Export to Altium fail, please try again or contact us. = Altium-এ এক্সপোর্ট ব্যর্থ, দয়া করে আবার চেষ্টা করুন বা আমাদের সাথে যোগাযোগ করুন।
+Connecting to server = সার্ভারের সাথে সংযোগ
+Please login before asking for help = সাহায্য চাওয়ার আগে দয়া করে লগইন করুন
+This file has been modified, please save it first! = এই ফাইল পরিবর্তিত হয়েছে, দয়া করে প্রথমে এটি সংরক্ষণ করুন!
+Remove this param = এই প্যারাম সরান
+You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = আপনি একটি পার্ট ক্যানভাসে টানতে পারবেন না, দয়া করে পার্টে ক্লিক করুন এবং কার্সর ক্যানভাসে সরান এবং তারপর রাখতে রাইট-ক্লিক করুন।
+Undo/Redo temporary error = আনডু/রিডু অস্থায়ী ত্রুটি
+We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = আমরা দুঃখিত কিন্তু আনডু/রিডু প্রক্রিয়ায় একটি অপ্রত্যাশিত ত্রুটি আছে। এই সমস্যা শীঘ্রই সমাধান হবে কিন্তু ইতিমধ্যে আপনার ডিজাইনে কাজ চালিয়ে যাওয়া নিরাপদ।
+The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = স্কিম্যাটিকে কম্পোনেন্টের ডুপ্লিকেট প্রিফিক্স আছে, দয়া করে সেগুলি অনন্য করুন। আপনি ডিজাইন ম্যানেজার ব্যবহার করে সেগুলি পরীক্ষা করতে পারেন।
+Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. = ডুপ্লিকেট প্রিফিক্স কম্পোনেন্ট পাওয়া গেছে, পরিবর্তন ইমপোর্ট করতে পারে না, দয়া করে ডুপ্লিকেট প্রিফিক্স পরিবর্তন করুন বা সংশ্লিষ্ট কম্পোনেন্ট মুছুন।
+Please click the below help button to find out how to fix this problem. = এই সমস্যা কীভাবে সমাধান করবেন তা জানতে দয়া করে নিচের সাহায্য বোতামে ক্লিক করুন।
+Please create a board outline! Click the help button to find out how to create a board outline. = দয়া করে একটি বোর্ড আউটলাইন তৈরি করুন! বোর্ড আউটলাইন কীভাবে তৈরি করবেন তা জানতে সাহায্য বোতামে ক্লিক করুন।
+Can not fetch files from server, please check your network and try again = সার্ভার থেকে ফাইল আনতে পারে না, দয়া করে আপনার নেটওয়ার্ক পরীক্ষা করুন এবং আবার চেষ্টা করুন
+Please open a schematic first! = দয়া করে প্রথমে একটি স্কিম্যাটিক খুলুন!
+Can not find the schematic of this PCB = এই PCB এর স্কিম্যাটিক খুঁজে পাওয়া যাচ্ছে না
+Invalid points! = অবৈধ পয়েন্ট!
+This file does not support this operation. = এই ফাইল এই অপারেশন সমর্থন করে না।
+Net Name Conflict = নেট নাম দ্বন্দ্ব
+Net name = নেট নাম
+{0} are in the same wire, please remove others and just keep one. = {0} একই তারে আছে, দয়া করে অন্যগুলি সরান এবং শুধু একটি রাখুন।
+This field can't be removed! = এই ক্ষেত্র সরানো যাবে না!
+Annular ring of the pad/via is too small = প্যাড/ভায়ার অ্যানুলার রিং অত্যন্ত ছোট
+The size of the hole cannot exceed the size of the pad = হোলের আকার প্যাডের আকার ছাড়িয়ে যেতে পারে না
+Are you sure you want to create a multi-sheet designs? = আপনি কি নিশ্চিত যে মাল্টি-শীট ডিজাইন তৈরি করতে চান?
+Are you sure you want to create a {0}multi-sheet designs{1}? = আপনি কি নিশ্চিত যে {0}মাল্টি-শীট ডিজাইন{1} তৈরি করতে চান?
+Please build the copper area! Click the help button to find out how to build the copper area. = দয়া করে কপার এরিয়া তৈরি করুন! কপার এরিয়া কীভাবে তৈরি করবেন তা জানতে সাহায্য বোতামে ক্লিক করুন।
+Suggest to set a package for this component first! = প্রথমে এই কম্পোনেন্টের জন্য একটি প্যাকেজ সেট করার পরামর্শ!
+Please select an opened document first. = দয়া করে প্রথমে একটি খোলা ডকুমেন্ট নির্বাচন করুন।
+Some files failed to load. Please reload the page. = কিছু ফাইল লোড হতে ব্যর্থ। দয়া করে পৃষ্ঠা পুনরায় লোড করুন।
+
+#UI Intro
+Skip = এড়িয়ে যান
+« Back = « পিছনে
+Next » = পরবর্তী »
+Done = সম্পন্ন
+This is the user management menu. = এটি ব্যবহারকারী ব্যবস্থাপনা মেনু।
+This is the toolbar. = এটি টুলবার।
+This is the navigation list. Under here you can find projects, files, parts and libraries. = এটি নেভিগেশন তালিকা। এখানে আপনি প্রকল্প, ফাইল, অংশ এবং লাইব্রেরি খুঁজে পেতে পারেন।
+Show or hide the toolbar to the top of the window here. = উইন্ডোর উপরে টুলবার দেখান বা লুকান।
+Show, resize or hide the left sidebar to the left of the window here. = উইন্ডোর বাম দিকে বাম সাইডবার দেখান, রিসাইজ করুন বা লুকান।
+Show or hide the right sidebar to the right of the window here. = উইন্ডোর ডান দিকে ডান সাইডবার দেখান বা লুকান।
+
+#Standard libs
+Passive Components = প্যাসিভ কম্পোনেন্ট
+Power Supply = বিদ্যুৎ সরবরাহ
+Diodes = ডায়োড
+Regulator = রেগুলেটর
+Transistor = ট্রানজিস্টর
+Transformers = ট্রান্সফর্মার
+Gates = গেট
+Vacuum Tubes = ভ্যাকুয়াম টিউব
+Switch = সুইচ
+Relay = রিলে
+Capacitor(US) = ক্যাপাসিটর (US)
+Capacitor(EU) = ক্যাপাসিটর (EU)
+Capacitor(EU)2 = ক্যাপাসিটর (EU)২
+Electrolytic Capacitor(US) = ইলেক্ট্রোলাইটিক ক্যাপাসিটর (US)
+Electrolytic Capacitor(EU) = ইলেক্ট্রোলাইটিক ক্যাপাসিটর (EU)
+Electrolytic Capacitor(US)2 = ইলেক্ট্রোলাইটিক ক্যাপাসিটর (US)২
+Electrolytic Capacitor(EU)2 = ইলেক্ট্রোলাইটিক ক্যাপাসিটর (EU)২
+Inductor(US) = ইন্ডাক্টর (US)
+Inductor(EU) = ইন্ডাক্টর (EU)
+Potentiometer_US = পটেনশিওমিটার_US
+Potentiometer_EU/IEC = পটেনশিওমিটার_EU/IEC
+Potentiometer_3D = পটেনশিওমিটার_3D
+Resistor(US) = রেজিস্টর (US)
+Resistor(EU) = রেজিস্টর (EU)
+Resistor 45 Deg(US) = রেজিস্টর ৪৫ ডিগ্রি (US)
+Resistor 45 Deg(EU) = রেজিস্টর ৪৫ ডিগ্রি (EU)
+Variable Capacitor(US) = ভেরিয়েবল ক্যাপাসিটর (US)
+Variable Capacitor(EU) = ভেরিয়েবল ক্যাপাসিটর (EU)
+Variable Resistor(US) = ভেরিয়েবল রেজিস্টর (US)
+Variable Resistor(EU) = ভেরিয়েবল রেজিস্টর (EU)
+Variable Inductor(US) = ভেরিয়েবল ইন্ডাক্টর (US)
+Variable Inductor(EU) = ভেরিয়েবল ইন্ডাক্টর (EU)
+Varistor = ভ্যারিস্টর
+Inductor2(US) = ইন্ডাক্টর২ (US)
+Inductor2(EU) = ইন্ডাক্টর২ (EU)
+Battery = ব্যাটারি
+Voltage Source = ভোল্টেজ সোর্স
+Current Source = কারেন্ট সোর্স
+CCCS(Current Controlled Current Source) = CCCS (কারেন্ট নিয়ন্ত্রিত কারেন্ট সোর্স)
+CCCS2(Current Controlled Current Source) = CCCS২ (কারেন্ট নিয়ন্ত্রিত কারেন্ট সোর্স)
+VCCS(Voltage Controlled Current Source) = VCCS (ভোল্টেজ নিয়ন্ত্রিত কারেন্ট সোর্স)
+VCVS(Voltage Controlled Voltage Source) = VCVS (ভোল্টেজ নিয়ন্ত্রিত ভোল্টেজ সোর্স)
+CCVS(Current Controlled Voltage Source) = CCVS (কারেন্ট নিয়ন্ত্রিত ভোল্টেজ সোর্স)
+CCVS2(Current Controlled Voltage Source) = CCVS২ (কারেন্ট নিয়ন্ত্রিত ভোল্টেজ সোর্স)
+
+BV(Behavioral Voltage Sources) = BV (আচরণগত ভোল্টেজ সোর্স)
+BI(Behavioral Voltage Sources) = BI (আচরণগত ভোল্টেজ সোর্স)
+Epoly(Non-linear Voltage Source) = Epoly (নন-লিনিয়ার ভোল্টেজ সোর্স)
+Gpoly(Non-linear Current Source) = Gpoly (নন-লিনিয়ার কারেন্ট সোর্স)
+
+Diode = ডায়োড
+LED = LED
+LED_3D = LED_3D
+Schottky Diode = শটকি ডায়োড
+Varactor Diode = ভ্যারাক্টর ডায়োড
+Zener = জেনার
+Unidirectional TVS Diode = একমুখী TVS ডায়োড
+Bidirectional TVS Diode = দ্বিমুখী TVS ডায়োড
+Diac = ডায়াক
+Bridge = ব্রিজ
+78XX = 78XX
+79XX = 79XX
+LM317 = LM317
+LM337 = LM337
+TL431 = TL431
+BJT(NPN) = BJT (NPN)
+BJT(PNP) = BJT (PNP)
+MOSFET(Nch) = MOSFET (Nch)
+MOSFET(Nch) Depletion Four-pins = MOSFET (Nch) ডিপ্লিশন চার-পিন
+MOSFET(Nch) Enhancement = MOSFET (Nch) এনহ্যান্সমেন্ট
+MOSFET(Nch) Enhancement Four-pins = MOSFET (Nch) এনহ্যান্সমেন্ট চার-পিন
+MOSFET(Pch) = MOSFET (Pch)
+MOSFET(Pch) Depletion Four-pins = MOSFET (Pch) ডিপ্লিশন চার-পিন
+MOSFET(Pch) Enhancement = MOSFET (Pch) এনহ্যান্সমেন্ট
+MOSFET(Pch) Enhancement Four-pins = MOSFET (Pch) এনহ্যান্সমেন্ট চার-পিন
+JFET(Nch) = JFET (Nch)
+JFET(Pch) = JFET (Pch)
+Darlington NPN = ডার্লিংটন NPN
+Darlington PNP = ডার্লিংটন PNP
+MESFET(Nch) = MESFET (Nch)
+MESFET(Pch) = MESFET (Pch)
+
+IGBT = IGBT
+SCR = SCR
+Triac = ট্রায়াক
+Transform(US) = ট্রান্সফর্ম (US)
+Transform(EU) = ট্রান্সফর্ম (EU)
+Transform(NEUTRAL-CTR TAP)(US) = ট্রান্সফর্ম (নিউট্রাল-সেন্টার ট্যাপ) (US)
+Transform(NEUTRAL-CTR TAP)(EU) = ট্রান্সফর্ম (নিউট্রাল-সেন্টার ট্যাপ) (EU)
+Mutual Inductors = মিউচুয়াল ইন্ডাক্টর
+Mutual Inductors2 = মিউচুয়াল ইন্ডাক্টর২
+Or Gate = অর গেট
+Xor Gate = এক্সঅর গেট
+And Gate = এন্ড গেট
+Nor Gate = নর গেট
+Nand Gate = ন্যান্ড গেট
+Not Gate = নট গেট
+Xnor Gate = এক্সনর গেট
+Tube Diode = টিউব ডায়োড
+Tube Triode = টিউব ট্রায়োড
+Tube Tetrode = টিউব টেট্রোড
+Tube Pentode = টিউব পেন্টোড
+Voltage Controlled Switch = ভোল্টেজ নিয়ন্ত্রিত সুইচ
+Current Controlled Switch = কারেন্ট নিয়ন্ত্রিত সুইচ
+SPST ON = SPST চালু
+SPST OFF = SPST বন্ধ
+Fuse = ফিউজ
+555 = 555
+555(Style2) = 555(স্টাইল২)
+Speaker = স্পিকার
+XTAL = XTAL
+5pin Operational Amplifier = ৫পিন অপারেশনাল এম্প্লিফায়ার
+3pin Operational Amplifier = ৩পিন অপারেশনাল এম্প্লিফায়ার
+Transmission Line = ট্রান্সমিশন লাইন
+Voltmeter = ভোল্টমিটার
+Ammeter = অ্যামিটার
+LAMP = ল্যাম্প
+Opto Transistor = অপটো ট্রানজিস্টর
+
+#Server Message
+Need login = লগইন প্রয়োজন
+Bad password = খারাপ পাসওয়ার্ড
+We can't find your username or your email, please check it! = আমরা আপনার ব্যবহারকারীর নাম বা ইমেইল খুঁজে পাচ্ছি না, অনুগ্রহ করে চেক করুন!
+Make sure your uploaded file size is less than 3MB! = নিশ্চিত করুন যে আপনার আপলোড করা ফাইলের আকার ৩MB এর কম!
+Bad file type = খারাপ ফাইল টাইপ
+Empty file or bad file type, ensure your file is Eagle 6.0+ = খালি ফাইল বা খারাপ ফাইল টাইপ, নিশ্চিত করুন যে আপনার ফাইল Eagle 6.0+
+This operation not supported on demo account = এই অপারেশন ডেমো অ্যাকাউন্টে সমর্থিত নয়
+Can not share this file under a private project, please set the active project to public! = প্রাইভেট প্রকল্পের অধীনে এই ফাইল শেয়ার করা যাবে না, অনুগ্রহ করে সক্রিয় প্রকল্পটি পাবলিক সেট করুন!
+Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = লগইন ব্যর্থ অনেক বেশি চেষ্টা। যদি আপনি আপনার পাসওয়ার্ড ভুলে গেছেন, অনুগ্রহ করে {0}আপনার পাসওয়ার্ড রিসেট করুন{1} বা support@easyeda.com এ একটি ইমেইল পাঠান
+
+#Dialog Common Buttons
+Common Buttons Setting = সাধারণ বোতাম সেটিং
+Menu Setting... = মেনু সেটিং...
+Show/Hide = দেখান/লুকান
+Move Up = উপরে সরান
+Move Down = নিচে সরান
+Reset All = সব রিসেট করুন
+Zoom = জুম
+Place Pin = পিন স্থাপন করুন
+
+#System Setting Dialog
+System = সিস্টেম
+Zoom Mode = জুম মোড
+Scroll Key = স্ক্রল কী
+CTRL + Scroll = CTRL + স্ক্রল
+Canvas Coordinate System = ক্যানভাস কোঅর্ডিনেট সিস্টেম
+SVG Coordinate = SVG কোঅর্ডিনেট
+Cartesian Coordinate = কার্তেসিয়ান কোঅর্ডিনেট
+Open Wizard Dialog for New Schematic = নতুন স্কিম্যাটিকের জন্য উইজার্ড ডায়ালগ খুলুন
+Default Unit = ডিফল্ট ইউনিট
+Canvas Zoom Effect = ক্যানভাস জুম এফেক্ট
+Quality Priority = গুণমান অগ্রাধিকার
+Speed Priority = গতি অগ্রাধিকার
+Rotation Step = ঘূর্ণন ধাপ
+Add Teardrop Automatically = স্বয়ংক্রিয়ভাবে টিয়ারড্রপ যোগ করুন
+Assign Net for Free Track/Arc/Circle = ফ্রি ট্র্যাক/আর্ক/বৃত্তের জন্য নেট অ্যাসাইন করুন
+Open Wizard Dialog for New PCB = নতুন PCB এর জন্য উইজার্ড ডায়ালগ খুলুন
+Rebuild Plane Automatically = স্বয়ংক্রিয়ভাবে প্লেন পুনর্নির্মাণ করুন
+The Track's Routing Follows Component's Rotation = ট্র্যাকের রাউটিং কম্পোনেন্টের ঘূর্ণন অনুসরণ করে
+Display Pad's Number and Net = প্যাডের নাম্বার এবং নেট প্রদর্শন করুন
+Favorite Track width = পছন্দের ট্র্যাক প্রস্থ
+Track Width Setting = ট্র্যাক প্রস্থ সেটিং
+
+#Dialog Access Control
+Permissions = অনুমতি
+Operations = অপারেশন
+Access Control = অ্যাক্সেস কন্ট্রোল
+Project Access Control = প্রকল্প অ্যাক্সেস কন্ট্রোল
+Reject = প্রত্যাখ্যান
+Add User = ব্যবহারকারী যোগ করুন
+Bad email address = খারাপ ইমেইল ঠিকানা
+Permissions Error = অনুমতি ত্রুটি
+
+#error info from backend
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = EasyEDA তে এই ইমেইল ঠিকানা খুঁজে পাওয়া যাচ্ছে না। আপনার সঙ্গী অবশ্যই একজন EasyEDA ব্যবহারকারী হতে হবে।
+
+#Dialog waveForm
+Grid Background = গ্রিড ব্যাকগ্রাউন্ড
+Pane Background = প্যান ব্যাকগ্রাউন্ড
+WaveForm Config = ওয়েভফর্ম কনফিগ
+Export Waveform = ওয়েভফর্ম এক্সপোর্ট করুন
+
+
+#attr-canvas-grid-style
+dot = বিন্দু
+line = লাইন
+
+#attr-canvas-frame-size
+Other = অন্যান্য
+A4 Portrait = A4 পোর্ট্রেট
+A4 Landscape = A4 ল্যান্ডস্কেপ
+A3 Portrait = A3 পোর্ট্রেট
+A3 Landscape = A3 ল্যান্ডস্কেপ
+A2 Portrait = A2 পোর্ট্রেট
+A2 Landscape = A2 ল্যান্ডস্কেপ
+A1 Portrait = A1 পোর্ট্রেট
+A1 Landscape = A1 ল্যান্ডস্কেপ
+Landscape = ল্যান্ডস্কেপ
+Portrait = পোর্ট্রেট
+
+#Stroke Style
+solid = কঠিন
+dashed = ড্যাশড
+dotted = বিন্দুযুক্ত
+
+#Solid Region
+Solid Region = কঠিন অঞ্চল
+Type = ধরন
+type = ধরন
+
+#Dialog Libs Management
+Report error = ত্রুটি রিপোর্ট করুন
+Please give us some information to help us find the problem. = সমস্যা খুঁজে পেতে সাহায্য করার জন্য অনুগ্রহ করে আমাদের কিছু তথ্য দিন।
+Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = এই ডকুমেন্টে অংশ স্থাপন করা যায় না: স্কিম্যাটিক সিম্বল শুধুমাত্র একটি স্কিম্যাটিকে স্থাপন করা যায়; PCB ফুটপ্রিন্ট শুধুমাত্র একটি PCB তে স্থাপন করা যায়।
+Save it as a favorite part = এটি একটি পছন্দের অংশ হিসেবে সংরক্ষণ করুন
+Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = শুধুমাত্র লগইন করা ব্যবহারকারীরা এই কম্পোনেন্টটি একটি পছন্দের অংশ হিসেবে সংরক্ষণ করতে পারেন কিন্তু অতিথি (বেনামী) ব্যবহারকারীরা এই কম্পোনেন্টটি সরাসরি তাদের ডিজাইনে স্থাপন করতে পারেন। আপনি কি এখন এই কম্পোনেন্টটি স্থাপন করতে চান?
+
+#Others
+Find libs = লাইব খুঁজুন
+My Projects = আমার প্রকল্প
+My Parts = আমার অংশ
+My Modules = আমার মডিউল
+Assembly LCSC Components = অ্যাসেম্বলি LCSC কম্পোনেন্ট
+Modules = মডিউল
+SCH Module = SCH মডিউল
+PCB Module = PCB মডিউল
+System IC = সিস্টেম IC
+LCSC (Official) = LCSC (অফিসিয়াল)
+LCSC Electronics = LCSC ইলেকট্রনিক্স
+Simple Mode = সিম্পল মোড
+Expand Mode = এক্সপান্ড মোড
+Help Verify = সাহায্য যাচাই করুন
+Favorite Parts = পছন্দের অংশ
+Shared With Me = আমার সাথে শেয়ার করা
+Preview = প্রিভিউ
+Preview Window = প্রিভিউ উইন্ডো
+System Default = সিস্টেম ডিফল্ট
+User Defined = ব্যবহারকারী নির্ধারিত
+Theme = থিম
+Theme Setting = থিম সেটিং
+Close = বন্ধ করুন
+Open = খুলুন
+Toggle toolbar = টুলবার চালু/বন্ধ করুন
+Toggle left bar = বাম পাশের বার চালু/বন্ধ করুন
+Toggle right bar = ডান পাশের বার চালু/বন্ধ করুন
+Reload = রিলোড করুন
+Mouse-X = মাউস-X
+Mouse-Y = মাউস-Y
+Mouse-DX = মাউস-DX
+Mouse-DY = মাউস-DY
+Bus entry x1 = বাস এন্ট্রি x1
+Bus entry x2 = বাস এন্ট্রি x2
+Bus entry y1 = বাস এন্ট্রি y1
+Bus entry y2 = বাস এন্ট্রি y2
+Yes = হ্যাঁ
+No = না
+OK = ঠিক আছে
+Confirm = নিশ্চিত করুন
+Continue = চালিয়ে যান
+Cancel = বাতিল করুন
+Update = আপডেট করুন
+Bus entry = বাস এন্ট্রি
+Filter = ফিল্টার
+Check = চেক করুন
+Share my work = আমার কাজ শেয়ার করুন
+Share it by e-mail, IM, blog, etc. = ই-মেইল, IM, ব্লগ ইত্যাদির মাধ্যমে এটি শেয়ার করুন
+
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = এই বক্সের বিষয়বস্তু একটি টেক্সট এডিটরে কপি করুন, তারপর ফাইলটি সংরক্ষণ করুন। সম্পাদিত টেক্সট এই বক্সে পেস্ট করুন এবং প্রদর্শন আপডেট করতে Apply ক্লিক করুন।
+Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = এই বক্সের বিষয়বস্তু একটি টেক্সট এডিটরে কপি করুন, তারপর .svg এক্সটেনশন সহ ফাইলটি সংরক্ষণ করুন। আপনি এটি Inkscape এ সম্পাদনা করতে পারেন বা আপনার ব্রাউজারে খুলতে পারেন।
+Content is too big to show, you can download it directly. = বিষয়বস্তু দেখানোর জন্য খুব বড়, আপনি এটি সরাসরি ডাউনলোড করতে পারেন।
+SVG format = SVG ফরম্যাট
+SVG File = SVG ফাইল
+Description should be no more than 250 letters = বর্ণনা ২৫০ অক্ষরের বেশি হওয়া উচিত নয়
+The file save operation has timed out. Try again and check your Internet connection. = ফাইল সেভ অপারেশনের সময় শেষ হয়েছে। আবার চেষ্টা করুন এবং আপনার ইন্টারনেট সংযোগ চেক করুন।
+Export Netlist = নেটলিস্ট এক্সপোর্ট করুন
+Notifications = বিজ্ঞপ্তি
+Please select txt or json files. = অনুগ্রহ করে txt বা json ফাইল নির্বাচন করুন।
+Please select EasyEDA files. = অনুগ্রহ করে EasyEDA ফাইল নির্বাচন করুন।
+Failed to read file [{file}] = ফাইল পড়তে ব্যর্থ [{file}]
+[{file}] is not a valid json file = [{file}] একটি বৈধ json ফাইল নয়
+Invalid parameters! = অবৈধ প্যারামিটার!
+Download = ডাউনলোড করুন
+Start = শুরু করুন
+You have unsaved files, are you sure you want to log out without saving the files? = আপনার কিছু অসংরক্ষিত ফাইল আছে, আপনি কি নিশ্চিত যে আপনি ফাইলগুলি সংরক্ষণ না করে লগ আউট করতে চান?
+Please use the web version to run this function. = এই ফাংশন চালাতে অনুগ্রহ করে ওয়েব সংস্করণ ব্যবহার করুন।
+Please save this file to your project! = অনুগ্রহ করে এই ফাইলটি আপনার প্রকল্পে সংরক্ষণ করুন!
+Nothing changed = কিছুই পরিবর্তিত হয়নি
+Delete Node = নোড মুছুন
+This layer is invisible. = এই লেয়ারটি অদৃশ্য।
+When the solid region is Board Cutout, please set the layer to Multi-Layer. = যখন সলিড অঞ্চল বোর্ড কাটআউট হয়, অনুগ্রহ করে লেয়ারটি মাল্টি-লেয়ারে সেট করুন।
+You should not try to assign a net to a Board Cutout solid region. = আপনার বোর্ড কাটআউট সলিড অঞ্চলে একটি নেট অ্যাসাইন করার চেষ্টা করা উচিত নয়।
+Net Length = নেট দৈর্ঘ্য
+You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = আপনি স্কিম্যাটিকে একটি পিন স্থাপন করতে পারেন, কিন্তু সব পিনগুলিকে একটি স্কিম্যাটিক কম্পোনেন্টে গ্রুপ করতে ভুলবেন না। কিভাবে সেগুলি গ্রুপ করবেন তা জানতে অনুগ্রহ করে সাহায্য বোতামে ক্লিক করুন। যদি আপনি শুধু ওয়্যার মার্ক করতে চান, অনুগ্রহ করে NetPort বা NetLabel ব্যবহার করুন।
+Please input the modification = অনুগ্রহ করে পরিবর্তন ইনপুট করুন
+The content must be between {0} and {1} characters = বিষয়বস্তু {0} এবং {1} অক্ষরের মধ্যে হতে হবে
+Please input a number between {0} and {1} = অনুগ্রহ করে {0} এবং {1} এর মধ্যে একটি সংখ্যা ইনপুট করুন
+
+Coming soon = শীঘ্রই আসছে
+No tool = কোন টুল নেই
+Help us translate into your language = আপনার ভাষায় অনুবাদ করতে আমাদের সাহায্য করুন
+Pad = প্যাড
+Via/Hole = ভায়া/ছিদ্র
+PCB Layers = PCB লেয়ার
+Order PCB = PCB অর্ডার করুন
+Share = শেয়ার করুন
+Free = ফ্রি
+Small = ছোট
+Medium = মাঝারি
+Big = বড়
+
+
+Embed = এম্বেড
+HTML = HTML
+URL = URL
+BBCode = BBCode
+PNG = PNG
+Exporting as = হিসেবে এক্সপোর্ট করা হচ্ছে
+Exporting as image = ইমেজ হিসেবে এক্সপোর্ট করা হচ্ছে
+Exporting as {0}SVG{1} file. = {0}SVG{1} ফাইল হিসেবে এক্সপোর্ট করা হচ্ছে।
+Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = pdf হিসেবে এক্সপোর্ট করার পরামর্শ দেওয়া হচ্ছে: pdf ভাল মানের প্রিন্ট আউটপুট এবং ছোট ফাইল সাইজ দেয়।
+Generate PCB Fabrication File(Gerber) = PCB ফ্যাব্রিকেশন ফাইল (গারবার) তৈরি করুন
+PenWidth-Increase = পেনের প্রস্থ বৃদ্ধি
+
+#Generate Gerber
+Generate Gerber = গারবার তৈরি করুন
+Gerber View = গারবার ভিউ
+Dimensions = মাত্রা
+1-2 days = ১-২ দিন
+Build Time = বিল্ড টাইম
+Dimensions(Estimated) = মাত্রা (আনুমানিক)
+PCB Qty = PCB পরিমাণ
+Copper Weight = কপার ওজন
+PCB Price = PCB মূল্য
+Estimated Delivery Time = আনুমানিক ডেলিভারি টাইম
+
+HASL(with lead) = HASL (লিড সহ)
+LeadFree HASL-RoHS = লিডফ্রি HASL-RoHS
+ENIG-RoHS = ENIG-RoHS
+Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = গারবার ফাইল তৈরি করার আগে আপনি কি ডিজাইন রুল চেকিং (DRC) করতে চান?
+Yes, Check DRC = হ্যাঁ, DRC চেক করুন
+No, Generate Gerber = না, গারবার তৈরি করুন
+No, Continue to order = না, অর্ডার চালিয়ে যান
+This PCB has uncompleted connection(s), do you want to check the connection(s)? = এই PCB এ অসম্পূর্ণ সংযোগ আছে, আপনি কি সংযোগ(গুলি) চেক করতে চান?
+Yes, Check Connection(s) = হ্যাঁ, সংযোগ(গুলি) চেক করুন
+It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = এটি তারপর তৃতীয় পক্ষের JLCPCB এর ওয়েব সাইটে রিডাইরেক্ট করবে যার সাথে আমরা সহযোগিতা করি। আপনি কি প্রস্তুত?
+Failed to submit your order, please contact us via support@easyeda.com for help. = আপনার অর্ডার জমা দিতে ব্যর্থ, সাহায্যের জন্য অনুগ্রহ করে support@easyeda.com এর মাধ্যমে আমাদের সাথে যোগাযোগ করুন।
+Failed to submit your order, please contact us. = আপনার অর্ডার জমা দিতে ব্যর্থ, অনুগ্রহ করে আমাদের সাথে যোগাযোগ করুন।
+Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. = অর্ডার ডেটা (গারবার, পিক এন্ড প্লেস ফাইল, BOM) তৈরি সম্পন্ন, অনুগ্রহ করে OK বোতাম ক্লিক করুন এবং চালিয়ে যান।
+[generateGerber]
+Layers = লেয়ার
+[/generateGerber]
+
+[version]
+Switch = সুইচ
+[/version]
+
+
+Export your file, then print it yourself. = আপনার ফাইল এক্সপোর্ট করুন, তারপর নিজেই প্রিন্ট করুন।
+Trace width is too small = ট্রেসের প্রস্থ খুব ছোট
+Share = শেয়ার করুন
+
+Images Property = ইমেজের বৈশিষ্ট্য
+Connect Pad to Pad = প্যাড থেকে প্যাড সংযোগ করুন
+Copper Area = কপার এলাকা
+Dimension = মাত্রা
+
+
+Please check that you have used Wire and not Line to connect electrical elements. = অনুগ্রহ করে চেক করুন যে আপনি বৈদ্যুতিক এলিমেন্ট সংযোগ করতে Line নয় Wire ব্যবহার করেছেন।
+PCB Fabrication Prices & capabilities = PCB ফ্যাব্রিকেশন মূল্য এবং ক্ষমতা
+Flip all texts on bottom layer = নিচের লেয়ারের সব টেক্সট ফ্লিপ করুন
+Create New Document = নতুন ডকুমেন্ট তৈরি করুন
+General Package = সাধারণ প্যাকেজ
+General Packages = সাধারণ প্যাকেজ
+favorite Package = পছন্দের প্যাকেজ
+Board Cutout = বোর্ড কাটআউট
+Surface Mount = সারফেস মাউন্ট
+JLCPCB Part Class = JLCPCB অংশের শ্রেণী
+base = বেস
+expand = সম্প্রসারণ
+recommend = সুপারিশ
+Basic Part = মৌলিক অংশ
+Extended Part = সম্প্রসারিত অংশ
+Recommended Part = সুপারিশকৃত অংশ
+smtWeld = SMT ওয়েল্ড
+thtWeld = THT ওয়েল্ড
+manualWeld = ম্যানুয়াল ওয়েল্ড
+furnaceWeld = ফার্নেস ওয়েল্ড
+Multi-Layer = মাল্টি-লেয়ার
+Markdown Syntax = মার্কডাউন সিনট্যাক্স
+Markdown supported = মার্কডাউন সমর্থিত
+Read only = শুধুমাত্র পড়ুন
+Read/Write = পড়ুন/লিখুন
+More Libraries... = আরো লাইব্রেরি...
+Decompress failed! = ডিকম্প্রেস ব্যর্থ!
+Load failed! = লোড ব্যর্থ!
+Loading = লোড হচ্ছে
+No Result = কোন ফলাফল নেই
+
+#Dialog Place Pin in schematic warning
+Place Pin in schematic warning = স্কিম্যাটিকে পিন স্থাপনের সতর্কতা
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = আপনি স্কিম্যাটিকে একটি পিন স্থাপন করতে পারেন, কিন্তু সব পিনগুলিকে একটি স্কিম্যাটিক কম্পোনেন্টে গ্রুপ করতে ভুলবেন না, কিভাবে সেগুলি গ্রুপ করবেন তা জানতে অনুগ্রহ করে সাহায্য বোতামে ক্লিক করুন। যদি আপনি শুধু ওয়্যার মার্ক করতে চান, অনুগ্রহ করে NetPort বা NetLabel ব্যবহার করুন।
+I know. Do not show this again. = আমি জানি। এটি আর দেখাবেন না।
+
+#Extensions Setting
+Extensions Setting = এক্সটেনশন সেটিংস
+Remove = সরান
+Disable = নিষ্ক্রিয় করুন
+Enable = সক্রিয় করুন
+(Disabled) = (নিষ্ক্রিয়)
+(Enabled) = (সক্রিয়)
+Load Extension = এক্সটেনশন লোড করুন
+Enable or disable will be applied after reload page = সক্রিয় বা নিষ্ক্রিয় করার জন্য পৃষ্ঠা রিলোড করতে হবে
+Your browser cannot run this function. = আপনার ব্রাউজার এই ফাংশনটি চালাতে পারে না।
+Your browser mode does not support indexedDB. Some features may not work properly. Are you using Private Browsing Mode? = আপনার ব্রাউজার মোড indexedDB সমর্থন করে না। কিছু বৈশিষ্ট্য সঠিকভাবে কাজ নাও করতে পারে। আপনি কি প্রাইভেট ব্রাউজিং মোড ব্যবহার করছেন?
+Extension Files = এক্সটেনশন ফাইল
+Extension ID = এক্সটেনশন আইডি
+Select Files = ফাইল নির্বাচন করুন
+
+#Scripts
+Script = স্ক্রিপ্ট
+Scripts = স্ক্রিপ্টসমূহ
+Script Content = স্ক্রিপ্ট বিষয়বস্তু
+Load from js file = js ফাইল থেকে লোড করুন
+UTF-8 encoded js file = UTF-8 এনকোডেড js ফাইল
+Description = বর্ণনা
+description = বর্ণনা
+Not a *.js file = এটি একটি *.js ফাইল নয়
+Failed to read file = ফাইল পড়তে ব্যর্থ
+System scripts cannot be modified = সিস্টেম স্ক্রিপ্ট পরিবর্তন করা যায় না
+Create Subfolder = সাবফোল্ডার তৈরি করুন
+Create Script = স্ক্রিপ্ট তৈরি করুন
+Install Script = স্ক্রিপ্ট ইনস্টল করুন
+Install = ইনস্টল করুন
+Desktop Client = ডেস্কটপ ক্লায়েন্ট
+Are you sure you want to remove this script? = আপনি কি নিশ্চিত যে এই স্ক্রিপ্টটি সরাতে চান?
+Folder Name = ফোল্ডারের নাম
+Rename = নাম পরিবর্তন করুন
+Please select a script = অনুগ্রহ করে একটি স্ক্রিপ্ট নির্বাচন করুন
+Failed to load script = স্ক্রিপ্ট লোড করতে ব্যর্থ
+Run Script = স্ক্রিপ্ট চালান
+Load Script = স্ক্রিপ্ট লোড করুন
+Title is required = শিরোনাম প্রয়োজন
+Script content is required = স্ক্রিপ্ট বিষয়বস্তু প্রয়োজন
+System Scripts = সিস্টেম স্ক্রিপ্ট
+User Scripts = ব্যবহারকারী স্ক্রিপ্ট
+You can right click on the tree nodes. = আপনি ট্রি নোডে ডান ক্লিক করতে পারেন।
+
+#PCB photoView toolbar
+Top Side = উপরের দিক
+Bottom Side = নিচের দিক
+With Silk Layer = সিল্ক লেয়ার সহ
+No Silk Layer = সিল্ক লেয়ার ছাড়া
+Photo View = ফটো ভিউ
+
+#check update
+Check Update = আপডেট পরীক্ষা করুন
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA Editor {ver} প্রকাশিত হয়েছে। আপনি কি এখনই নতুন সংস্করণে স্যুইচ করতে চান?
+JLCEDA Editor {ver} is released. Would you like to switch to the new version now? = JLCEDA Editor {ver} প্রকাশিত হয়েছে। আপনি কি এখনই নতুন সংস্করণে স্যুইচ করতে চান?
+Switch to New Version = নতুন সংস্করণে স্যুইচ করুন
+Next Time = পরের বার
+
+#download project dialog
+Generating download link... = ডাউনলোড লিঙ্ক তৈরি করা হচ্ছে...
+Download project now = এখনই প্রজেক্ট ডাউনলোড করুন
+
+#Import DXF
+Import DXF = DXF ইমপোর্ট করুন
+Apply Unit = ইউনিট প্রয়োগ করুন
+Convert circle to HOLE on BoardOutLine layer = BoardOutLine লেয়ারে বৃত্তকে HOLE-এ রূপান্তর করুন
+No shapes found = কোনো আকৃতি পাওয়া যায়নি
+Fail to load the file = ফাইল লোড করতে ব্যর্থ
+Please select a DXF file. = অনুগ্রহ করে একটি DXF ফাইল নির্বাচন করুন।
+This feature only works for PCB document. = এই বৈশিষ্ট্যটি শুধুমাত্র PCB ডকুমেন্টের জন্য কাজ করে।
+Select a DXF file = একটি DXF ফাইল নির্বাচন করুন
+
+#Export DXF
+Export DXF = DXF এক্সপোর্ট করুন
+Plated-Through-Hole Pads = প্লেটেড-থ্রু-হোল প্যাড
+Non-Plated-Through-Hole Pads = নন-প্লেটেড-থ্রু-হোল প্যাড
+Silkscreen = সিল্কস্ক্রিন
+Surface Pad = সারফেস প্যাড
+
+#Data Sync
+Data Sync = ডেটা সিঙ্ক
+Data Conflicts = ডেটা দ্বন্দ্ব
+Project or Document = প্রজেক্ট বা ডকুমেন্ট
+Cloud-Side = ক্লাউড-সাইড
+Local-Side = লোকাল-সাইড
+Decision = সিদ্ধান্ত
+Modified = পরিবর্তিত
+Deleted = মুছে ফেলা হয়েছে
+As Cloud = ক্লাউড হিসাবে
+As Local = লোকাল হিসাবে
+Skip = এড়িয়ে যান
+Data sync completed = ডেটা সিঙ্ক সম্পূর্ণ হয়েছে
+
+#Team
+Team = টিম
+Teams = টিমসমূহ
+Switching team = টিম পরিবর্তন করা হচ্ছে
+Switch team failed = টিম পরিবর্তন ব্যর্থ হয়েছে
+Load team info fail! = টিম তথ্য লোড ব্যর্থ!
+Load team info fail! Please reload. = টিম তথ্য লোড ব্যর্থ! অনুগ্রহ করে রিলোড করুন।
+My Teams = আমার টিমসমূহ
+Create Team = টিম তৈরি করুন
+
+#Dialog Footprint Manager
+Footprint Manager = ফুটপ্রিন্ট ম্যানেজার
+Open Footprint Manager = ফুটপ্রিন্ট ম্যানেজার খুলুন
+Schematic Components = স্কিমেটিক কম্পোনেন্ট
+Edit Pin Map Information = পিন ম্যাপ তথ্য সম্পাদনা করুন
+Package Categories = প্যাকেজ বিভাগ
+Components List = কম্পোনেন্ট তালিকা
+Personal = ব্যক্তিগত
+Component PIN information = কম্পোনেন্ট PIN তথ্য
+Footprint PAD information = ফুটপ্রিন্ট PAD তথ্য
+Footprint Categories = ফুটপ্রিন্ট বিভাগ
+Pad Number = প্যাড নাম্বার
+Search Footprint = ফুটপ্রিন্ট খুঁজুন
+Select Footprint = ফুটপ্রিন্ট নির্বাচন করুন
+Search 3D Model = 3D মডেল খুঁজুন
+Select 3D Model = 3D মডেল নির্বাচন করুন
+Filter by keyword = কীওয়ার্ড দিয়ে ফিল্টার করুন
+System Libs = সিস্টেম লাইব্রেরি
+
+#dialog global delete
+Drawings = অঙ্কন
+Netlabel and netFlag = নেটলেবেল এবং নেটফ্ল্যাগ
+Texts = টেক্সট
+Wires = তার
+Board outlines = বোর্ড আউটলাইন
+Footprints = ফুটপ্রিন্ট
+Footprint = ফুটপ্রিন্ট
+Tracks = ট্র্যাক
+
+#dialog board outline settings
+Current Size = বর্তমান আকার
+Parameters = প্যারামিটার
+Start X: = শুরু X:
+Start Y: = শুরু Y:
+Round Rectangular = গোলাকার আয়তক্ষেত্র
+radius = ব্যাসার্ধ
+only number is allowed! = শুধুমাত্র সংখ্যা অনুমোদিত!
+please input valid value of width! = অনুগ্রহ করে প্রস্থের জন্য বৈধ মান ইনপুট করুন!
+please input valid value of height! = অনুগ্রহ করে উচ্চতার জন্য বৈধ মান ইনপুট করুন!
+please input valid value of radius! = অনুগ্রহ করে ব্যাসার্ধের জন্য বৈধ মান ইনপুট করুন!
+
+#cross probe
+The object you selected was not found in other documents. = আপনার নির্বাচিত অবজেক্টটি অন্যান্য ডকুমেন্টে পাওয়া যায়নি।
+No valid object for cross probe selected. = ক্রস প্রোবের জন্য কোনো বৈধ অবজেক্ট নির্বাচিত নেই।
+Can not probe. Refreshing the window may get it to work. = প্রোব করতে পারছে না। উইন্ডো রিফ্রেশ করলে কাজ করতে পারে।
+You need to login for this function to work. = এই ফাংশনটি কাজ করার জন্য আপনাকে লগইন করতে হবে।
+
+#About Dialog
+An Easier EDA Experience = আরো সহজ EDA অভিজ্ঞতা
+Version = সংস্করণ
+BuiltDate = নির্মাণের তারিখ
+
+#Auto Router Dialog
+Auto Router Config = অটো রাউটার কনফিগ
+General Options = সাধারণ অপশন
+All Layers = সব লেয়ার
+Configure = কনফিগার করুন
+Sorry, your web browser does not support this feature. Please run a modern browser. = দুঃখিত, আপনার ওয়েব ব্রাউজার এই বৈশিষ্ট্যটি সমর্থন করে না। অনুগ্রহ করে একটি আধুনিক ব্রাউজার চালান।
+Please make sure all objects with net are inside the board outline! = অনুগ্রহ করে নিশ্চিত করুন যে নেট সহ সমস্ত অবজেক্ট বোর্ড আউটলাইনের ভিতরে রয়েছে!
+Cannot start again before previous activity is stopped = পূর্ববর্তী কার্যকলাপ বন্ধ হওয়ার আগে আবার শুরু করা যাবে না
+Please select a net = অনুগ্রহ করে একটি নেট নির্বাচন করুন
+TrackWidth cannot be empty = ট্র্যাক প্রস্থ খালি থাকতে পারবে না
+Clearance cannot be empty = ক্লিয়ারেন্স খালি থাকতে পারবে না
+Router is time out. = রাউটার টাইম আউট হয়েছে।
+Server is busy, please try again later. = সার্ভার ব্যস্ত, অনুগ্রহ করে পরে আবার চেষ্টা করুন।
+Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) = {0}রাউটার সার্ভার{1} রিসোর্সের সীমাবদ্ধতার কারণে, একাধিক রাউটার একযোগে চালানো সমর্থিত নয়, অনুগ্রহ করে পরে আবার চেষ্টা করুন বা এটি ম্যানুয়ালি করুন :-)
+Track Width is invalid = ট্র্যাক প্রস্থ অবৈধ
+General Clearance is invalid = সাধারণ ক্লিয়ারেন্স অবৈধ
+SMD Clearance is invalid = SMD ক্লিয়ারেন্স অবৈধ
+Diameter is invalid = ব্যাস অবৈধ
+Drill Diameter is invalid = ড্রিল ব্যাস অবৈধ
+Track width cannot be less than Design Rule Checking (DRC) setting value. = ট্র্যাক প্রস্থ ডিজাইন রুল চেকিং (DRC) সেটিং মানের চেয়ে কম হতে পারবে না।
+General Clearance cannot be less than Design Rule Checking (DRC) setting value. = সাধারণ ক্লিয়ারেন্স ডিজাইন রুল চেকিং (DRC) সেটিং মানের চেয়ে কম হতে পারবে না।
+SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = SMD ক্লিয়ারেন্স ডিজাইন রুল চেকিং (DRC) সেটিং মানের চেয়ে কম হতে পারবে না।
+Hole size cannot be less than Design Rule Checking (DRC) setting value. = হোল সাইজ ডিজাইন রুল চেকিং (DRC) সেটিং মানের চেয়ে কম হতে পারবে না।
+Design Rule's via diameter must be larger than via drill diameter = ডিজাইন রুলের ভায়া ব্যাস ভায়া ড্রিল ব্যাসের চেয়ে বড় হতে হবে
+Clearance cannot be less than Design Rule Checking (DRC) setting value. = ক্লিয়ারেন্স ডিজাইন রুল চেকিং (DRC) সেটিং মানের চেয়ে কম হতে পারবে না।
+Not a valid PCB, please check it again = বৈধ PCB নয়, অনুগ্রহ করে আবার পরীক্ষা করুন
+Previous connection must be closed = পূর্ববর্তী সংযোগ বন্ধ করতে হবে
+Network error. Please try again. = নেটওয়ার্ক ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন।
+Router error. = রাউটার ত্রুটি।
+Invalid PCB. = অবৈধ PCB।
+General Clearance = সাধারণ ক্লিয়ারেন্স
+SMD Clearance = SMD ক্লিয়ারেন্স
+#Ripup Nets = #রিপআপ নেট
+Skip Routed Nets = রুট করা নেট এড়িয়ে যান
+Remove Existing Tracks = বিদ্যমান ট্র্যাক সরান
+Real-time Display = রিয়েল-টাইম প্রদর্শন
+Router Layers = রাউটার লেয়ার
+Via = ভায়া
+Special = বিশেষ
+Special Nets = বিশেষ নেট
+Skip Nets = নেট এড়িয়ে যান
+Router Server = রাউটার সার্ভার
+Local = স্থানীয়
+Cloud = ক্লাউড
+Available = উপলব্ধ
+Unavailable = অনুপলব্ধ
+Checking = পরীক্ষা করা হচ্ছে
+Install Local Auto Router = স্থানীয় অটো রাউটার ইনস্টল করুন
+Checking local auto router server... = স্থানীয় অটো রাউটার সার্ভার পরীক্ষা করা হচ্ছে...
+Stop Router = রাউটার বন্ধ করুন
+Auto Router is running... = অটো রাউটার চলছে...
+
+#Left Sidebar
+Common Library = সাধারণ লাইব্রেরি
+Basic = মৌলিক
+Extend = প্রসারিত
+Design Manager = ডিজাইন ম্যানেজার
+Library = লাইব্রেরি
+Spice Library = স্পাইস লাইব্রেরি
+Shared = শেয়ারড
+LCSC = LCSC
+LCSC Parts = LCSC পার্টস
+Supply Flag = সাপ্লাই ফ্ল্যাগ
+US = US
+EU/IEC = EU/IEC
+US Style = US স্টাইল
+Resistor = রেজিস্টর
+Capacitor = ক্যাপাসিটর
+Inductor = ইন্ডাক্টর
+Switch/Key = সুইচ/কী
+EU/IEC Style = EU/IEC স্টাইল
+CN = CN
+Connector = কানেক্টর
+Switch/Relay = সুইচ/রিলে
+JLCPCB = JLCPCB
+Recycle Bin = রিসাইকেল বিন
+
+#Protractor
+Font Height = ফন্ট উচ্চতা
+Precision = নির্ভুলতা
+Protractor = প্রোট্রাক্টর
+
+#attr-pcbtext-line-width
+Only default font family supports to change font width. = শুধুমাত্র ডিফল্ট ফন্ট ফ্যামিলি ফন্ট প্রস্থ পরিবর্তন সমর্থন করে।
+Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = ফন্ট অনুপস্থিত! আপনি ডায়ালগ নিশ্চিত করে ডিফল্ট ফন্ট ব্যবহার করতে পারেন অথবা ডায়ালগ বাতিল করে আপনার ফন্ট আপলোড করে আবার করতে পারেন।
+
+#Common
+Owner = মালিক
+License = লাইসেন্স
+Part Pins = পার্ট পিন
+Part Properties = পার্ট বৈশিষ্ট্য
+Net Pins = নেট পিন
+Net Ratlines = নেট র্যাটলাইন
+Add Parameter = প্যারামিটার যোগ করুন
+Histories record = ইতিহাস রেকর্ড
+Create Team = টিম তৈরি করুন
+Can't find this footprint on the server, please re-associate it. = সার্ভারে এই ফুটপ্রিন্টটি খুঁজে পাওয়া যাচ্ছে না, অনুগ্রহ করে এটি পুনরায় সংযুক্ত করুন।
+The footprint name associated with the component and the footprint name on the server are inconsistent, please re-associate it. = কম্পোনেন্টের সাথে যুক্ত ফুটপ্রিন্ট নাম এবং সার্ভারের ফুটপ্রিন্ট নাম অসামঞ্জস্যপূর্ণ, অনুগ্রহ করে এটি পুনরায় সংযুক্ত করুন।
+The symbol pin number(s) of the component does not match the associated footprint pad number(s), please modify the symbol pin number(s) or re-associate the footprint = কম্পোনেন্টের সিম্বল পিন নাম্বার(গুলি) সংযুক্ত ফুটপ্রিন্ট প্যাড নাম্বার(গুলি) এর সাথে মেলে না, অনুগ্রহ করে সিম্বল পিন নাম্বার(গুলি) পরিবর্তন করুন অথবা ফুটপ্রিন্ট পুনরায় সংযুক্ত করুন
+No footprint, please associate the footprint first. = কোনো ফুটপ্রিন্ট নেই, অনুগ্রহ করে প্রথমে ফুটপ্রিন্ট সংযুক্ত করুন।
+Can't find the package = প্যাকেজ খুঁজে পাওয়া যাচ্ছে না
+The path is for the project URL identify, it is unique (the identity of the project owned by the user cannot be the same) = পাথটি প্রজেক্ট URL চিহ্নিতকরণের জন্য, এটি অনন্য (ব্যবহারকারীর মালিকানাধীন প্রজেক্টের পরিচয় একই হতে পারে না)
+It's with a letter or a number and can contain only numbers, letters, line-through, underscores, and points. It cannot be modified after saving. = এটি একটি অক্ষর বা সংখ্যা দিয়ে শুরু হয় এবং শুধুমাত্র সংখ্যা, অক্ষর, হাইফেন, আন্ডারস্কোর এবং ডট থাকতে পারে। সেভ করার পর এটি পরিবর্তন করা যাবে না।
+Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = ডকুমেন্টটি নতুন ফরম্যাটে আপডেট করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন......শেষ হওয়ার পর অনুগ্রহ করে Ctrl + S দিয়ে আপনার ডকুমেন্ট সেভ করুন।
+Open at current project? = বর্তমান প্রজেক্টে খুলবেন?
+Please select a history to recover. = পুনরুদ্ধারের জন্য অনুগ্রহ করে একটি ইতিহাস নির্বাচন করুন।
+Be careful! When you click the "Recover" button, this sheet will be overwritten! = সাবধান! যখন আপনি "পুনরুদ্ধার" বাটনে ক্লিক করবেন, এই শীটটি প্রতিস্থাপিত হবে!
+Recover = পুনরুদ্ধার
+There is no PCB under this project, would you like to create one? = এই প্রজেক্টের অধীনে কোনো PCB নেই, আপনি কি একটি তৈরি করতে চান?
+Please make sure that the chose Altium Designer files are saved as ASCII files. = অনুগ্রহ করে নিশ্চিত করুন যে নির্বাচিত Altium Designer ফাইলগুলি ASCII ফাইল হিসাবে সেভ করা হয়েছে।
+Export to Altium function is currently in beta: = Altium-এ এক্সপোর্ট ফাংশনটি বর্তমানে বেটায় রয়েছে:
+1. Please be sure to read the notice before exporting: = ১. এক্সপোর্ট করার আগে অনুগ্রহ করে নোটিশটি পড়ুন:
+Export Altium notice and disclaimer = Altium এক্সপোর্ট নোটিশ এবং দাবিত্যাগ
+2. Please be sure to check again after export! = ২. এক্সপোর্টের পর অনুগ্রহ করে আবার পরীক্ষা করুন!
+I have read and agree = আমি পড়েছি এবং সম্মত
+Export to Altium = Altium-এ এক্সপোর্ট করুন
+Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = অনুগ্রহ করে নিশ্চিত করুন যে নির্বাচিত Eagle ফাইলগুলি Eagle v6.0 এবং তার উপরে সেভ করা হয়েছে।
+Please make sure that the Kicad files were compressed as the .zip file. = অনুগ্রহ করে নিশ্চিত করুন যে Kicad ফাইলগুলি .zip ফাইল হিসাবে কম্প্রেস করা হয়েছে।
+Open Altium Designer file = Altium Designer ফাইল খুলুন
+The more information please refer at : = আরও তথ্যের জন্য অনুগ্রহ করে দেখুন :
+Please use Gerber file instead of exporting Altium if you are going to do PCB manufacturing. All PCB factories support the Gerber file. Is it ok to Generate the Gerber file? = যদি আপনি PCB উৎপাদন করতে যাচ্ছেন তাহলে Altium এক্সপোর্ট করার পরিবর্তে Gerber ফাইল ব্যবহার করুন। সমস্ত PCB কারখানা Gerber ফাইল সমর্থন করে। Gerber ফাইল জেনারেট করা কি ঠিক আছে?
+Yes, Generate Gerber = হ্যাঁ, Gerber জেনারেট করুন
+No, Export Altium = না, Altium এক্সপোর্ট করুন
+Open Eagle file = Eagle ফাইল খুলুন
+Open Kicad file = Kicad ফাইল খুলুন
+Select file(s) = ফাইল(গুলি) নির্বাচন করুন
+Append to current project? = বর্তমান প্রজেক্টে যোগ করবেন?
+Append = যোগ করুন
+Open as new project = নতুন প্রজেক্ট হিসাবে খুলুন
+Tip: Press {0}SPACE{1} or {2}R{3} to rotate the placing object or selected object. = টিপ: স্থাপনকৃত অবজেক্ট বা নির্বাচিত অবজেক্ট ঘোরানোর জন্য {0}SPACE{1} বা {2}R{3} চাপুন।
+Hotkeys Setting = হটকী সেটিং
+I know. Don't show this again. = আমি জানি। এটি আর দেখাবেন না।
+Manufacturer Part Number can not be less than 2 characters. = প্রস্তুতকারকের পার্ট নাম্বার ২ অক্ষরের কম হতে পারে না।
+This prefix was changed to non-subpart format. = এই প্রিফিক্সটি নন-সাবপার্ট ফরম্যাটে পরিবর্তিত হয়েছে।
+Save as New Project = নতুন প্রজেক্ট হিসাবে সেভ করুন
+Save to Existing Project = বিদ্যমান প্রজেক্টে সেভ করুন
+Sheet Setting = শীট সেটিং
+Sheet Size = শীটের আকার
+Pre = পূর্ব
+pre = পূর্ব
+Invalid Data = অবৈধ ডেটা
+Others = অন্যান্য
+You are not authorized to share this project. = আপনি এই প্রজেক্টটি শেয়ার করার জন্য অনুমোদিত নন।
+This project is private: if you continue sharing it will be made public. = এই প্রজেক্টটি প্রাইভেট: যদি আপনি শেয়ার করা অব্যাহত রাখেন তাহলে এটি পাবলিক হয়ে যাবে।
+Modify file info = ফাইল তথ্য পরিবর্তন করুন
+Please input search keyword = অনুগ্রহ করে অনুসন্ধান কীওয়ার্ড ইনপুট করুন
+Sort Projects by = প্রজেক্ট সাজান
+Date Created = তৈরির তারিখ
+Date Modified = পরিবর্তনের তারিখ
+Title = শিরোনাম
+Ascending = ক্রমবর্ধমান
+Descending = ক্রমহ্রাসমান
+Pin to Top = উপরে পিন করুন
+Unpin from Top = উপর থেকে আনপিন করুন
+Collapse / Expand = সংকুচিত / সম্প্রসারিত
+Expand = সম্প্রসারিত করুন
+Expand All = সব সম্প্রসারিত করুন
+Collapse = সংকুচিত করুন
+Collapse All = সব সংকুচিত করুন
+Your file hasn't been saved, do you want to save it? = আপনার ফাইলটি সেভ করা হয়নি, আপনি কি এটি সেভ করতে চান?
+Don't Save = সেভ করবেন না
+Library Owner: = লাইব্রেরি মালিক:
+verifyPkg.Value = verifyPkg.Value
+State = স্ট্যাটাস
+Please select! = অনুগ্রহ করে নির্বাচন করুন!
+Route = রুট
+Import successfully: = সফলভাবে ইমপোর্ট হয়েছে:
+Import failed: = ইমপোর্ট ব্যর্থ:
+Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = পাথে শুধুমাত্র 'a-z、A-Z、- 、 _ 、0-9' থাকতে পারে!
+Path must begin as 'a-z、A-Z、0-9'! = পাথ অবশ্যই 'a-z、A-Z、0-9' দিয়ে শুরু হতে হবে!
+The path length must be between 4~128 characters! = পাথের দৈর্ঘ্য ৪~১২৮ অক্ষরের মধ্যে হতে হবে!
+The title length must be between 2 ~ 128 characters. = শিরোনামের দৈর্ঘ্য ২ ~ ১২৮ অক্ষরের মধ্যে হতে হবে।
+Please select an owner = অনুগ্রহ করে একজন মালিক নির্বাচন করুন
+Please select obj, wrl or zip file. = অনুগ্রহ করে obj, wrl বা zip ফাইল নির্বাচন করুন।
+Do you want to delete this file? = আপনি কি এই ফাইলটি মুছে ফেলতে চান?
+Add sub part success = সাব পার্ট যোগ করা সফল হয়েছে
+Please input name and prefix! = অনুগ্রহ করে নাম এবং প্রিফিক্স ইনপুট করুন!
+Board outlines are not closed = বোর্ড আউটলাইন বন্ধ নয়
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = ইমপোর্ট ব্যর্থ! ইমপোর্ট করা ফাইলগুলি ASCII ফরম্যাটে ছিল না, অনুগ্রহ করে প্রথমে Altium Designer-এ ফাইলগুলিকে "Advanced Schematic ascii(*.SchDoc)" বা "PCB ASCII File(*.PcbDoc)" হিসাবে সেভ করুন, তারপর ইমপোর্ট করুন।
+The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = পিন "{0}" গ্রিড পয়েন্টে স্ন্যাপ করা নেই! এই অংশটি স্কিমেটিকে কিছু ত্রুটি সৃষ্টি করতে পারে।
+Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = সেভ ব্যর্থ! পিন নাম্বার পুনরাবৃত্তি অনুমোদিত নয়! নিচের পিন নাম্বার পুনরাবৃত্তি হয়েছে: {0}
+Check Pin = পিন পরীক্ষা করুন
+Failed to read {0} = {0} পড়তে ব্যর্থ
+{0} is invalid = {0} অবৈধ
+{0} not found = {0} পাওয়া যায়নি
+Failed to execute script: = স্ক্রিপ্ট চালাতে ব্যর্থ:
+One or more js files not found = একটি বা একাধিক js ফাইল পাওয়া যায়নি
+Only ONE {0} file is required = শুধুমাত্র একটি {0} ফাইল প্রয়োজন
+Extension ID is required = এক্সটেনশন আইডি প্রয়োজন
+Extension ID is invalid = এক্সটেনশন আইডি অবৈধ
+Extension ID is duplicated = এক্সটেনশন আইডি ডুপ্লিকেট
+No Result! = কোনো ফলাফল নেই!
+Load Error = লোড ত্রুটি
+loading = লোড হচ্ছে
+Failed to load spice data = spice ডেটা লোড করতে ব্যর্থ
+Netlist = নেটলিস্ট
+Tags = ট্যাগ
+Pin Information: = পিন তথ্য:
+Format incorrect, please check for the extra spaces or commas! = ফরম্যাট ভুল, অনুগ্রহ করে অতিরিক্ত স্পেস বা কমা পরীক্ষা করুন!
+Round Radius = গোলাকার ব্যাসার্ধ
+Keyword: = কীওয়ার্ড:
+Image = ছবি
+Image copied. = ছবি কপি করা হয়েছে।
+Copy failed. = কপি ব্যর্থ।
+Copy success. = কপি সফল।
+Image Property = ছবির বৈশিষ্ট্য
+Locked = লক করা
+Unlock All = সব আনলক করুন
+Unlock = আনলক করুন
+Lock = লক করুন
+Please input pin name and pin number! = অনুগ্রহ করে পিনের নাম এবং পিন নাম্বার ইনপুট করুন!
+Left-Hand Panel = বাম দিকের প্যানেল
+Right-Hand Panel = ডান দিকের প্যানেল
+Update Components from Library = লাইব্রেরি থেকে কম্পোনেন্ট আপডেট করুন
+The pin number(s) can't find the same pad number(s) = পিন নাম্বার(গুলি) একই প্যাড নাম্বার(গুলি) খুঁজে পাচ্ছে না
+Designator = ডেজিগনেটর
+Replace = প্রতিস্থাপন করুন
+Update failed = আপডেট ব্যর্থ
+Successfully updated = সফলভাবে আপডেট হয়েছে
+Update failed! = আপডেট ব্যর্থ!
+Successfully updated! = সফলভাবে আপডেট হয়েছে!
+Successfully updated {0} component(s)! = সফলভাবে {0} কম্পোনেন্ট আপডেট হয়েছে!
+Change = পরিবর্তন করুন
+Check Footprints = ফুটপ্রিন্ট পরীক্ষা করুন
+Network Error! = নেটওয়ার্ক ত্রুটি!
+Find Similar Objects = অনুরূপ অবজেক্ট খুঁজুন
+Current Sheet = বর্তমান শীট
+All Sheets = সব শীট
+Kind = ধরন
+Range = পরিসর
+Net Label/Net Flag/Net Port/Voltage Probe = নেট লেবেল/নেট ফ্ল্যাগ/নেট পোর্ট/ভোল্টেজ প্রোব
+Bezier/Freehand Draw = বেজিয়ার/ফ্রিহ্যান্ড অঙ্কন
+Arc/Pie = আর্ক/পাই
+Objects Properties = অবজেক্ট বৈশিষ্ট্য
+Any = যেকোনো
+Same = একই
+Different = ভিন্ন
+Circular = বৃত্তাকার
+Expose Copper = কপার উন্মুক্ত করুন
+"{0}" font is missing. Please add the font to the font family list. = "{0}" ফন্ট অনুপস্থিত। অনুগ্রহ করে ফন্ট পরিবারের তালিকায় ফন্টটি যোগ করুন।
+Place Component = কম্পোনেন্ট স্থাপন করুন
+Delete Segment = সেগমেন্ট মুছুন
+Angle = কোণ
+Board Thickness = বোর্ডের পুরুত্ব
+Layer Distance = লেয়ারের দূরত্ব
+Silk Screen = সিল্ক স্ক্রিন
+Surface Finish Color = সারফেস ফিনিশ রঙ
+Colors = রঙ
+Board Color = বোর্ডের রঙ
+Board Side = বোর্ডের পাশ
+Silk Screen = সিল্ক স্ক্রিন
+Silk Screen Color = সিল্ক স্ক্রিনের রঙ
+Display = প্রদর্শন
+
+#Array and Clone
+Distribute Array = বিতরণ অ্যারে
+Array Type = অ্যারে টাইপ
+Matrix Array = ম্যাট্রিক্স অ্যারে
+Circular Array = বৃত্তাকার অ্যারে
+Item Rotation = আইটেম ঘূর্ণন
+Location = অবস্থান
+Items per Column = প্রতি কলামে আইটেম
+Items per Row = প্রতি সারিতে আইটেম
+#Column Spacing = #কলাম স্পেসিং
+#Row Spacing = #সারি স্পেসিং
+Spacing(Degrees) = স্পেসিং(ডিগ্রি)
+Start Degree = শুরুর ডিগ্রি
+Rotate Item to Match = মিলানোর জন্য আইটেম ঘোরান
+Clockwise = ঘড়ির কাঁটার দিকে
+Anti-Clockwise = ঘড়ির কাঁটার বিপরীত দিকে
+Distribute by = বিতরণ করুন
+Column = কলাম
+Row = সারি
+Array Clone = অ্যারে ক্লোন
+Number of Rows = সারির সংখ্যা
+Number of Columns = কলামের সংখ্যা
+Number of Copies = কপির সংখ্যা
+Distribute Range(Degrees) = বিতরণ পরিসর(ডিগ্রি)
+
+#Theme color dialog
+BusEntry = বাসএন্ট্রি
+Foreground = ফোরগ্রাউন্ড
+Common Used = সাধারণভাবে ব্যবহৃত
+Original Theme = মূল থিম
+Theme Setting = থিম সেটিং
+Change the theme colors of your design = আপনার ডিজাইনের থিম রঙ পরিবর্তন করুন
+White on Black = কালোর উপর সাদা
+Black on White = সাদার উপর কালো
+Custom Theme = কাস্টম থিম
+Color Setting = রঙ সেটিং
+Apply Setting = সেটিং প্রয়োগ করুন
+Theme Setting... = থিম সেটিং...
+Bus Entry = বাস এন্ট্রি
+Symbol Graphics = সিম্বল গ্রাফিক্স
+Common Used = সাধারণভাবে ব্যবহৃত
+Draw = অঙ্কন
+Sheet = শীট
+The original theme only works for placing the new symbols. = মূল থিমটি শুধুমাত্র নতুন সিম্বল স্থাপনের জন্য কাজ করে।
+Selection Highlight = নির্বাচন হাইলাইট
+Net Label / Port = নেট লেবেল / পোর্ট
+
+My Theme = আমার থিম
+My Theme Settings = আমার থিম সেটিংস
+Apply 'Custom Theme' On = 'কাস্টম থিম' প্রয়োগ করুন
+Creating New Schematic = নতুন স্কিমেটিক তৈরি করা
+Opening Existed Schematic = বিদ্যমান স্কিমেটিক খোলা
+Please fill in all parameters! = অনুগ্রহ করে সব প্যারামিটার পূরণ করুন!
+Convert to Board Cutout = বোর্ড কাটআউটে রূপান্তর করুন
+Prefix Position = প্রিফিক্স অবস্থান
+Name Position = নামের অবস্থান
+Center = কেন্দ্র
+Top = উপর
+Bottom = নিচ
+Left = বাম
+Right = ডান
+Does not support multiple objects to convert to Board Cutout at the same time = একসাথে একাধিক অবজেক্টকে বোর্ড কাটআউটে রূপান্তর সমর্থিত নয়
+Does not support multiple objects to convert to pad at the same time = একসাথে একাধিক অবজেক্টকে প্যাডে রূপান্তর সমর্থিত নয়
+Convert to Board Cutout = বোর্ড কাটআউটে রূপান্তর করুন
+Convert to Pad = প্যাডে রূপান্তর করুন
+Convert to Component Shape = কম্পোনেন্ট আকৃতিতে রূপান্তর করুন
+Combine to Continuous Track = একটানা ট্র্যাকে সংযুক্ত করুন
+Convert to Solid Region = সলিড রিজিয়নে রূপান্তর করুন
+Substrate = সাবস্ট্রেট
+3D View = 3D ভিউ
+2D View = 2D ভিউ
+Pin Color = পিনের রঙ
+Name Color = নামের রঙ
+Number Color = নাম্বারের রঙ
+Dot = ডট
+
+[theme]
+Sheet = শীট
+[/theme]
+
+
+#history dialog
+[history-dlg]
+Number = নাম্বার
+Editor = এডিটর
+[/history-dlg]
+View File History = ফাইল ইতিহাস দেখুন
+Save Time = সেভের সময়
+
+Invalid Format = অবৈধ ফরম্যাট
+
+#Dialog Teardrop
+Round Pad / Via = গোলাকার প্যাড / ভায়া
+Rectangle / Oval / Polygon Pad = আয়তক্ষেত্র / ওভাল / বহুভুজ প্যাড
+Applying Teardrops = টিয়ারড্রপ প্রয়োগ করা হচ্ছে
+Removing Teardrops = টিয়ারড্রপ সরানো হচ্ছে
+Waiting = অপেক্ষা করা হচ্ছে
+Progressing... = অগ্রগতি হচ্ছে...
+
+No schematic in the project! = প্রজেক্টে কোনো স্কিমেটিক নেই!
+
+Move Forward = এগিয়ে নিয়ে যান
+Move Backward = পিছনে নিয়ে যান
+
+#Dialog Panelize
+V-CUT = V-CUT
+Stamp Hole = স্ট্যাম্প হোল
+No Panelize = প্যানেলাইজ নেই
+Border and Marking = বর্ডার এবং মার্কিং
+Create Border = বর্ডার তৈরি করুন
+Border Height = বর্ডারের উচ্চতা
+Border Position = বর্ডারের অবস্থান
+Create Positioning Holes = পজিশনিং হোল তৈরি করুন
+Create Fiducial Marks = ফিডুসিয়াল মার্ক তৈরি করুন
+Top and Bottom = উপর এবং নিচ
+Left and Right = বাম এবং ডান
+Stamp Hole Group - Column = স্ট্যাম্প হোল গ্রুপ - কলাম
+Stamp Hole Group - Row = স্ট্যাম্প হোল গ্রুপ - সারি
+The number of rows and columns cannot be set to 1 simultaneously = সারি এবং কলামের সংখ্যা একসাথে ১ সেট করা যাবে না
+When panelize number is 1 x 1, you need to enable the "Create Boarder" = যখন প্যানেলাইজ সংখ্যা ১ x ১, আপনাকে "বর্ডার তৈরি করুন" সক্রিয় করতে হবে
+
+#edit path point
+[editPathPoints-dlg]
+Arc(R) = আর্ক(R)
+Type = ধরন
+Action = কার্য
+add before = আগে যোগ করুন
+add after = পরে যোগ করুন
+delete = মুছুন
+[/editPathPoints-dlg]
+
+#edit polygon point
+[editPolygonPoints-dlg]
+Action = কার্য
+add before = আগে যোগ করুন
+add after = পরে যোগ করুন
+delete = মুছুন
+[/editPolygonPoints-dlg]
+You have unconfirmed edit! = আপনার অনিশ্চিত সম্পাদনা রয়েছে!
+Invalid edit! = অবৈধ সম্পাদনা!
+
+#Dialog PCB Information
+PCB Information... = PCB তথ্য...
+Signal Layers = সিগন্যাল লেয়ার
+None Signal Layers = নন-সিগন্যাল লেয়ার
+Pads = প্যাড
+Surface Pads = সারফেস প্যাড
+Plated Through-hole Pads = প্লেটেড থ্রু-হোল প্যাড
+None Plated Through-hole Pads = নন-প্লেটেড থ্রু-হোল প্যাড
+Holes = হোল
+Vias = ভায়া
+Length of Tracks = ট্র্যাকের দৈর্ঘ্য
+Copper Areas = কপার এলাকা
+
+#Differential Pair Routing
+Differential Pair Routing = ডিফারেনশিয়াল পেয়ার রাউটিং
+Differential Pair Rule Setting = ডিফারেনশিয়াল পেয়ার রুল সেটিং
+Please input track width = অনুগ্রহ করে ট্র্যাক প্রস্থ ইনপুট করুন
+Please input clearance = অনুগ্রহ করে ক্লিয়ারেন্স ইনপুট করুন
+Routing Rules = রাউটিং রুল
+
+#Route Length Tuning
+Track Length Tuning... = ট্র্যাক দৈর্ঘ্য টিউনিং...
+Tracks with different net or non-track found in current targets. = বর্তমান টার্গেটে ভিন্ন নেট বা নন-ট্র্যাক পাওয়া গেছে।
+Please select the signal tracks to be tuning. = অনুগ্রহ করে টিউনিং করার জন্য সিগন্যাল ট্র্যাক নির্বাচন করুন।
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? = মোট দৈর্ঘ্য ডিজাইন রুল চেকিং (DRC) সীমাবদ্ধতা অতিক্রম করেছে, চালিয়ে যাবেন?
+45° Angle = ৪৫° কোণ
+90° Angle = ৯০° কোণ
+DRC Track Length: = DRC ট্র্যাক দৈর্ঘ্য :
+Current Length: = বর্তমান দৈর্ঘ্য :
+Additional Length: = অতিরিক্ত দৈর্ঘ্য :
+Target Length: = টার্গেট দৈর্ঘ্য:
+Current Length: = বর্তমান দৈর্ঘ্য:
+Adjust Type = অ্যাডজাস্ট টাইপ
+Double Side = ডাবল সাইড
+Single Side = সিঙ্গেল সাইড
+
+Cannot connect to the server = সার্ভারের সাথে সংযোগ করতে পারে না
+
+#Dialog Copper Area Manager
+Copper Area Manager... = কপার এরিয়া ম্যানেজার...
+Copper Area Manager = কপার এরিয়া ম্যানেজার
+Order = ক্রম
+Name = নাম
+Layer = লেয়ার
+Color = রঙ
+Net = নেট
+Move Up = উপরে সরান
+Move Down = নিচে সরান
+Apply = প্রয়োগ
+Cancel = বাতিল
+Copper Area do not allow self-intersection! = কপার এরিয়া স্ব-ছেদন অনুমতি দেয় না!
+No copper area! = কোন কপার এরিয়া নেই!
+#Dialog report error
+Datasheet = ডেটাশিট
+Verification = যাচাইকরণ
+Symbol = সিম্বল
+Pad Number = প্যাড নম্বর
+Pad Size = প্যাড সাইজ
+Remark = মন্তব্য
+Correct = সঠিক
+Incorrect = ভুল
+Submit = জমা দিন
+Tip = টিপ
+Please select one component = একটি কম্পোনেন্ট নির্বাচন করুন
+Location X = অবস্থান X
+Location Y = অবস্থান Y
+Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = আপনার বর্তমান ব্রাউজার সংস্করণ কিছু ফিচার সাপোর্ট নাও করতে পারে। ক্রোম বা ফায়ারফক্সের সর্বশেষ সংস্করণ ব্যবহার করুন, অথবা ডেস্কটপ ক্লায়েন্ট ব্যবহার করুন।
+EasyEDA Client = EasyEDA ক্লায়েন্ট
+JLCEDA Client = JLCEDA ক্লায়েন্ট
+Chrome = ক্রোম
+FireFox = ফায়ারফক্স
+New Version = নতুন সংস্করণ
+Switch Version = সংস্করণ পরিবর্তন
+Members = সদস্যগণ
+Update Time = আপডেট সময়
+Editor = এডিটর
+Current Version = বর্তমান সংস্করণ
+Latest Version = সর্বশেষ সংস্করণ
+Please select a different version to switch; If you want to edit different version in the same time, please open them in different browsers. = পরিবর্তনের জন্য একটি ভিন্ন সংস্করণ নির্বাচন করুন; একই সময়ে ভিন্ন সংস্করণ সম্পাদনা করতে চাইলে, তাদের ভিন্ন ব্রাউজারে খুলুন।
+3D Model = 3D মডেল
+Board Side = বোর্ড সাইড
+Display = প্রদর্শন
+Copper = কপার
+Create New Version = নতুন সংস্করণ তৈরি করুন
+Create new version success! = নতুন সংস্করণ সফলভাবে তৈরি!
+Version Management = সংস্করণ ব্যবস্থাপনা
+Switch success! = সফলভাবে পরিবর্তন!
+Please close current version's documents first! = প্রথমে বর্তমান সংস্করণের ডকুমেন্টগুলি বন্ধ করুন!
+Creator = নির্মাতা
+creator = নির্মাতা
+Create Time = তৈরির সময়
+Fail to connect to server! Please check your internet connection status and try again! = সার্ভারের সাথে সংযোগ ব্যর্থ! আপনার ইন্টারনেট সংযোগ অবস্থা পরীক্ষা করুন এবং আবার চেষ্টা করুন!
+Spice Number = স্পাইস নম্বর
+Create = তৈরি করুন
+3D Outline = 3D আউটলাইন
+Cannot create the slot hole via the board outline, please use the following methods: = বোর্ড আউটলাইনের মাধ্যমে স্লট হোল তৈরি করা যাবে না, নিম্নলিখিত পদ্ধতিগুলি ব্যবহার করুন:
+Use the solid region and set its type as Board Cutout = সলিড অঞ্চল ব্যবহার করুন এবং এর ধরন বোর্ড কাটআউট হিসাবে সেট করুন
+Select a Track/Arc, right-click to use the "Convert to Board Cutout" = একটি ট্র্যাক/আর্ক নির্বাচন করুন, "বোর্ড কাটআউটে রূপান্তর" ব্যবহার করতে রাইট-ক্লিক করুন
+Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" = সমস্ত বন্ধ ট্র্যাক/আর্ক নির্বাচন করুন, "বোর্ড কাটআউটে রূপান্তর" ব্যবহার করতে রাইট-ক্লিক করুন
+The more information please refer at = আরও তথ্যের জন্য দেখুন
+Save "{0}" success! = "{0}" সফলভাবে সংরক্ষিত!
+Save "{0}" failed! = "{0}" সংরক্ষণ ব্যর্থ!
+Invalid Size = অবৈধ সাইজ
+Processing = প্রক্রিয়াকরণ
+NetFlag GND = নেটফ্ল্যাগ GND
+NetFlag VCC = নেটফ্ল্যাগ VCC
+NetFlag +5v = নেটফ্ল্যাগ +5v
+No Useful Data! = কোন কার্যকর ডেটা নেই!
+SVG Preview = SVG প্রিভিউ
+Prefix contains not supported charater(s) ! = প্রিফিক্সে অসমর্থিত অক্ষর রয়েছে!
+Name contains not supported charater(s) ! = নামে অসমর্থিত অক্ষর রয়েছে!
+Create Grid Path = গ্রিড পাথ তৈরি করুন
+Please Input Name = নাম ইনপুট করুন
+Building Copper Area = কপার এরিয়া তৈরি করা হচ্ছে
+Processing = প্রক্রিয়াকরণ
+Opening File = ফাইল খোলা হচ্ছে
+Update from Library = লাইব্রেরি থেকে আপডেট
+Update Footprint = ফুটপ্রিন্ট আপডেট
+Update 3D Model = 3D মডেল আপডেট
+Find footprint(s) have been updated, do you want to update? = ফুটপ্রিন্ট(গুলি) আপডেট হয়েছে, আপডেট করতে চান?
+3D File: = 3D ফাইল:
+Model List = মডেল তালিকা
+Are you sure merge net {0} and net {1}? = আপনি কি নিশ্চিত নেট {0} এবং নেট {1} মার্জ করতে চান?
+Display Footprint = ফুটপ্রিন্ট প্রদর্শন
+Display Footprint Name While Placing Component = কম্পোনেন্ট স্থাপনের সময় ফুটপ্রিন্ট নাম প্রদর্শন
+Annotate Prefix Automatically After Placing Component = কম্পোনেন্ট স্থাপনের পর স্বয়ংক্রিয়ভাবে প্রিফিক্স যোগ করুন
+Program Error, Please Contact Technical Support! = প্রোগ্রাম ত্রুটি, প্রযুক্তিগত সহায়তার সাথে যোগাযোগ করুন!
+Search Engine = সার্চ ইঞ্জিন
+Keyword to Filter = ফিল্টারের জন্য কিওয়ার্ড
+Normal Mode = সাধারণ মোড
+Expand Mode = প্রসারিত মোড
+3D Model Manager = 3D মডেল ম্যানেজার
+3D Model Preview = 3D মডেল প্রিভিউ
+3D Model = 3D মডেল
+3DModel = 3DModel
+Document = ডকুমেন্ট
+
+[pcblayer]
+3DModel = 3DModel
+Document = ডকুমেন্ট
+[/pcblayer]
+
+Adjustment = অ্যাডজাস্টমেন্ট
+View Larger Image = বড় ছবি দেখুন
+Previous = পূর্ববর্তী
+Previous Image = পূর্ববর্তী ছবি
+Next Image = পরবর্তী ছবি
+Notice: For reference only, please refer to the real product = নোটিশ: শুধুমাত্র রেফারেন্সের জন্য, প্রকৃত পণ্যটি দেখুন
+It's under designing, please wait. = এটি ডিজাইনের অধীনে আছে, অনুগ্রহ করে অপেক্ষা করুন।
+The width of track/arc/circle cannot be less than 0.1mil! = ট্র্যাক/আর্ক/বৃত্তের প্রস্থ 0.1mil এর কম হতে পারে না!
+Clone success ! = ক্লোন সফল!
+Footprint Naming Reference = ফুটপ্রিন্ট নামকরণ রেফারেন্স
+3D Model Manager = 3D মডেল ম্যানেজার
+Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = লিচুয়াং ওপেন সোর্স হার্ডওয়্যার প্ল্যাটফর্মে (OSHWHub.com) তথ্য উন্নত এবং শেয়ার করতে জাম্প করবে। চালিয়ে যেতে চান?
+Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = EasyEDA ওপেন সোর্স হার্ডওয়্যার প্ল্যাটফর্মে (OSHWLab.com) তথ্য উন্নত এবং শেয়ার করতে জাম্প করবে। চালিয়ে যেতে চান?
+The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = প্রকল্প কন্টেন্ট পৃষ্ঠা খুলবে। একটি বর্ণনা যোগ করে এবং প্রকল্পটি সর্বজনীন করার পরে, শেয়ার লিঙ্ক পেতে শেয়ার বোতামে ক্লিক করুন।
+This project is not public, can not view homepage! = এই প্রকল্পটি সর্বজনীন নয়, হোমপেজ দেখা যাবে না!
+
+[grid]
+None = কোনটিই নয়
+[/grid]
+
+#lib verify and mounted
+This component is verified = এই কম্পোনেন্টটি যাচাইকৃত
+This component is unmounted = এই কম্পোনেন্টটি মাউন্ট করা হয়নি
+
+#find component
+Find Next = পরবর্তী খুঁজুন
+Pin not found = পিন পাওয়া যায়নি
+Pad not found = প্যাড পাওয়া যায়নি
+Object not found = অবজেক্ট পাওয়া যায়নি
+
+#offset Elements
+Offset X = অফসেট X
+Offset Y = অফসেট Y
+Offset = অফসেট
+Absolute Offset = পরম অফসেট
+Relative Offset = আপেক্ষিক অফসেট
+Absolute Offset... = পরম অফসেট...
+Relative Offset... = আপেক্ষিক অফসেট...
+Reference Point X = রেফারেন্স পয়েন্ট X
+Reference Point Y = রেফারেন্স পয়েন্ট Y
+
+#Inner Plane layer
+Rebuild Plane = প্লেন পুনর্নির্মাণ
+PlaneZone Properties = প্লেনজোন বৈশিষ্ট্য
+Change to a plane layer is not allowed during track routing. = ট্র্যাক রাউটিং চলাকালীন প্লেন লেয়ারে পরিবর্তন অনুমোদিত নয়।
+#pcblib rect
+Fill = ফিল
+Fill Type = ফিল টাইপ
+[PlaneZone]
+Solid = সলিড
+[/PlaneZone]
+
+Solid Region do not allow self-intersection! = সলিড রিজিয়ন স্ব-ছেদন অনুমতি দেয় না!
+
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. = প্রিফিক্স বা নাম বা টেক্সট ফুটপ্রিন্ট থেকে অনেক দূরে, যদি আপনি এটি দেখাতে না চান তাহলে লুকিয়ে রাখুন।
+The prefixes are not allowed to repeat! = প্রিফিক্সগুলি পুনরাবৃত্তি করা অনুমোদিত নয়!
+Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = সংরক্ষণ ব্যর্থ! ক্যানভাসের উৎপত্তি গ্রাফিক্সে নেই! স্বয়ংক্রিয়ভাবে উৎপত্তি সেট করবেন?
+The origin of the canvas has been set in the graphics now, you can save again. = ক্যানভাসের উৎপত্তি এখন গ্রাফিক্সে সেট করা হয়েছে, আবার সংরক্ষণ করতে পারেন।
+Backup Project = প্রকল্প ব্যাকআপ
+Open Project Directory = প্রকল্প ডিরেক্টরি খুলুন
+
+{0} items updated = {0} আইটেম আপডেট হয়েছে
+
+The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = বর্তমান ফাইল {0} এর একটি আপডেট সংস্করণ রয়েছে। আপনি কি এটি ওভাররাইট করতে চান? সর্বশেষ সংস্করণ খুলতে চাইলে, বর্তমান ফাইলটি বন্ধ করে আবার খুলুন।
+Yes, Overwrite It = হ্যাঁ, ওভাররাইট করুন
+No, Keep It = না, রাখুন
+
+Download Client = ক্লায়েন্ট ডাউনলোড
+
+Search tutorial, open source projects etc. = টিউটোরিয়াল, ওপেন সোর্স প্রকল্প ইত্যাদি অনুসন্ধান করুন
+[search]
+Tutorials = টিউটোরিয়াল
+OSHWLAB = OSHWLAB
+[/search]
+
+Go to LCSC and search for = LCSC-তে যান এবং অনুসন্ধান করুন
+Go to LCSC = LCSC-তে যান
+
+Hide Ratline Layer and Keep the Component Prefix When Paste Objects = অবজেক্ট পেস্ট করার সময় র‍্যাটলাইন লেয়ার লুকান এবং কম্পোনেন্ট প্রিফিক্স রাখুন
+
+ALL.layer = সকল.লেয়ার
+Copper.layer = কপার.লেয়ার
+Non-Copper.layer = নন-কপার.লেয়ার
+Other.layer = অন্যান্য.লেয়ার
+
+Please enter at least 2 characters! = অন্তত ২টি অক্ষর লিখুন!
+View Datasheet = ডেটাশিট দেখুন
+View Datasheet... = ডেটাশিট দেখুন...
+
+The corresponding package or network could not be found in the currently open PCB document = বর্তমানে খোলা PCB ডকুমেন্টে সংশ্লিষ্ট প্যাকেজ বা নেটওয়ার্ক পাওয়া যায়নি
+delete fail = মুছে ফেলা ব্যর্থ
+
+[crashRecovery]
+Libraries = লাইব্রেরিসমূহ
+[/crashRecovery]
+Canvas origin anomaly! = ক্যানভাস উৎপত্তি অস্বাভাবিক!
+
+Component's Name = কম্পোনেন্টের নাম
+Component's Prefix = কম্পোনেন্টের প্রিফিক্স
+Component's Footprint = কম্পোনেন্টের ফুটপ্রিন্ট
+
+[findlib]
+Clear = পরিষ্কার করুন
+Apply Filters = ফিল্টার প্রয়োগ
+Result = ফলাফল
+Place = স্থাপন
+Prev = পূর্ববর্তী
+Next = পরবর্তী
+Total {count} Count = মোট {count} গণনা
+About = সম্পর্কে
+Items = আইটেমসমূহ
+Apply New Part = নতুন পার্ট প্রয়োগ
+No Part Yet = এখনো কোন পার্ট নেই
+[/findlib]
+
+Object = অবজেক্ট
+Layers and Objects = লেয়ার এবং অবজেক্টসমূহ
+All = সকল
+
+Add custom = কাস্টম যোগ করুন
+
+Connections = সংযোগসমূহ
+Attempted: = চেষ্টা করা হয়েছে:
+Completed: = সম্পন্ন:
+Failed: = ব্যর্থ:
+Total Vias: = মোট ভায়াস:
+
+Please confirm moving option = সরানোর অপশন নিশ্চিত করুন
+Only this pad = শুধুমাত্র এই প্যাড
+For this component = এই কম্পোনেন্টের জন্য
+View Owner = মালিক দেখুন
+View Detail = বিস্তারিত দেখুন
+
+
+#place batch vias
+Place Vias = ভায়াস স্থাপন
+Placing Vias = ভায়াস স্থাপন করা হচ্ছে
+Removing Vias = ভায়াস অপসারণ করা হচ্ছে
+Batch Vias for Copper = কপারের জন্য ব্যাচ ভায়াস
+Add/Remove Vias = ভায়াস যোগ/অপসারণ
+Diameter = ব্যাস
+Drill Diameter = ড্রিল ব্যাস
+Column Spacing = কলাম স্পেসিং
+Row Spacing = রো স্পেসিং
+Multiple vias have been placed, do you want to rebuild the copper area? = একাধিক ভায়াস স্থাপন করা হয়েছে, কপার এরিয়া পুনর্নির্মাণ করতে চান?
+Remove vias finish, do you want to rebuild the copper area? = ভায়াস অপসারণ সম্পন্ন, কপার এরিয়া পুনর্নির্মাণ করতে চান?
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = ট্র্যাক/আর্ক/বৃত্তের প্রস্থ 0.051mm/2mil/0.002inch এর কম হতে পারে না!
+Save fail! Please try again! = সংরক্ষণ ব্যর্থ! আবার চেষ্টা করুন!
+Please select a copper outline = একটি কপার আউটলাইন নির্বাচন করুন
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. = অন্যান্য লেয়ারে কপার এরিয়া খুঁজে পাওয়া যায়নি, প্রথমে অন্য লেয়ারে একই নেট সহ কপার এরিয়া যোগ করুন।
+
+Add favorite success! = প্রিয় তালিকায় যোগ করা সফল!
+Remove favorite success! = প্রিয় থেকে অপসারণ করা হয়েছে!
+Remove favorite failed! = প্রিয় থেকে অপসারণ ব্যর্থ হয়েছে!
+Whether if remove favorite? = প্রিয় থেকে অপসারণ করবেন?
+Split by ';' for multi tags = মাল্টি ট্যাগের জন্য ';' দিয়ে বিভক্ত করুন
+
+This size is the determined size! = এই সাইজটি নির্ধারিত সাইজ!
+The associated pad has been locked = সংশ্লিষ্ট প্যাড লক করা হয়েছে
+Split by space or , for multi tags = মাল্টি ট্যাগের জন্য স্পেস বা , দিয়ে বিভক্ত করুন
+
+Rotation X = রোটেশন X
+Rotation Y = রোটেশন Y
+Rotation Z = রোটেশন Z
+
+Some fields are filled invalid data = কিছু ক্ষেত্রে অবৈধ ডেটা ভরা হয়েছে
+start time should be earlier than stop time = শুরুর সময় শেষের সময়ের চেয়ে আগে হওয়া উচিত
+Number of points should be less than 100 in octave variation = অক্টেভ ভ্যারিয়েশনে পয়েন্টের সংখ্যা ১০০ এর কম হওয়া উচিত
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = শুরুর ফ্রিকোয়েন্সি শেষের ফ্রিকোয়েন্সির চেয়ে কম হওয়া উচিত। প্রত্যয় meg মানে মেগা, m মানে মিলি
+Get historical records fail! = ঐতিহাসিক রেকর্ড পেতে ব্যর্থ!
+This 3D model didn't create the outlines successfully, please import it again or contact with us. = এই 3D মডেলটি সফলভাবে আউটলাইন তৈরি করতে পারেনি, অনুগ্রহ করে আবার ইমপোর্ট করুন বা আমাদের সাথে যোগাযোগ করুন।
+There is No Tag! = কোন ট্যাগ নেই!
+Assign successful! = অ্যাসাইন সফল!
+Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = ফুটপ্রিন্টের প্যাড নম্বর স্কিম্যাটিক কম্পোনেন্টের পিন নম্বরের সাথে মিলছে না, প্যাড নম্বর সংশোধন করে আবার চেষ্টা করুন!
+Update Property = প্রোপার্টি আপডেট
+Update Properties = প্রোপার্টিসমূহ আপডেট
+Please fill in at least 5 words. = অন্তত ৫টি শব্দ পূরণ করুন।
+Mouse hovering over the track to highlight the entire network = সম্পূর্ণ নেটওয়ার্ক হাইলাইট করতে ট্র্যাকের উপর মাউস ঘোরান
+Net Highlighting While Cursor Hover the Track = ট্র্যাকের উপর কার্সার ঘোরানোর সময় নেট হাইলাইটিং
+When circle set as "Yes", the Pin length must be more than 6 = যখন বৃত্ত "হ্যাঁ" সেট করা হয়, পিনের দৈর্ঘ্য ৬ এর বেশি হতে হবে
+Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = হাই, আমি আপনার লাইব্রেরিতে একটি সমস্যা পেয়েছি, এই লাইব্রেরিটি ভুল মনে হচ্ছে।\nশিরোনাম:{title}\nধরন:{type}\nলিঙ্ক:{link}\n{content}\nধন্যবাদ!
+
+Logout fail! Please try again! = লগআউট ব্যর্থ! আবার চেষ্টা করুন!
+Logout success! We look forward you to use JLCEDA again! = লগআউট সফল! আমরা আশা করি আপনি আবার JLCEDA ব্যবহার করবেন!
+Logout success! We look forward you to use EasyEDA again! = লগআউট সফল! আমরা আশা করি আপনি আবার EasyEDA ব্যবহার করবেন!
+Click to Preview 3D = 3D প্রিভিউ করতে ক্লিক করুন
+[logoutDialog]
+Logout = লগআউট
+[/logoutDialog]
+
+[findlibTag]
+All = সকল
+[/findlibTag]
+
+Export Pick and Place File = পিক অ্যান্ড প্লেস ফাইল এক্সপোর্ট
+Mirror the bottom components' coordinate (JLCPCB doesn't need) = নিচের কম্পোনেন্টগুলির কোঅর্ডিনেট মিরর করুন (JLCPCB এর প্রয়োজন নেই)
+Mirror coordinate Y = Y কোঅর্ডিনেট মিরর
+Mirror coordinate X = X কোঅর্ডিনেট মিরর
+Work Space = ওয়ার্ক স্পেস
+Include panelized components' coordinates(JLCPCB doesn't need) = প্যানেলাইজড কম্পোনেন্টগুলির কোঅর্ডিনেট অন্তর্ভুক্ত করুন (JLCPCB এর প্রয়োজন নেই)
+Personal Workspace = ব্যক্তিগত ওয়ার্কস্পেস
+Work Space - {name} = ওয়ার্ক স্পেস - {name}
+Work Space - Personal = ওয়ার্ক স্পেস - ব্যক্তিগত
+Cloning = ক্লোনিং
+
+Project Owner = প্রকল্পের মালিক
+Clone Project = প্রকল্প ক্লোন
+Homepage = হোমপেজ
+Apply for Education Edition = শিক্ষা সংস্করণের জন্য আবেদন
+Load Organization failed = সংস্থা লোড ব্যর্থ
+Joined = যোগদান করেছে
+Favorite = প্রিয়
+This operation will unfavorite this project, do you want to continue? = এই অপারেশনটি এই প্রকল্পটিকে প্রিয় তালিকা থেকে সরিয়ে দেবে, আপনি কি চালিয়ে যেতে চান?
+View Homepage = হোমপেজ দেখুন
+Private Project = ব্যক্তিগত প্রকল্প
+3-7 days = ৩-৭ দিন
+Close Tab = ট্যাব বন্ধ করুন
+Close Other Tabs = অন্যান্য ট্যাব বন্ধ করুন
+Close All Tabs = সকল ট্যাব বন্ধ করুন
+Open in New Window = নতুন উইন্ডোতে খুলুন
+Cursor Snap to Component's Origin or Pad Center While Dragging Component = কম্পোনেন্ট টেনে নেওয়ার সময় কার্সর কম্পোনেন্টের উৎপত্তি বা প্যাড কেন্দ্রে স্ন্যাপ করুন
+Undefined = অনির্ধারিত
+Input = ইনপুট
+Model Unit = মডেল ইউনিট
+File Unit = ফাইল ইউনিট
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = এই পার্টে সাবপার্ট রয়েছে, ত্রুটি রিপোর্ট করার আগে অন্যান্য সাবপার্ট পরীক্ষা করেছেন কিনা নিশ্চিত করুন, আপনি কি চালিয়ে যেতে চান?
+
+[saveAs]
+Power = পাওয়ার
+[/saveAs]
+
+Assign LCSC Part# = LCSC Part# অ্যাসাইন করুন
+Unexpected error while converting. Perhaps unsupported file type or program bug. = রূপান্তরের সময় অপ্রত্যাশিত ত্রুটি। সম্ভবত অসমর্থিত ফাইল ধরন বা প্রোগ্রাম বাগ।
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = ডুপ্লিকেট কম্পোনেন্ট ID পাওয়া গেছে, স্বয়ংক্রিয়ভাবে কম্পোনেন্ট ID পুনর্নির্ধারণ করতে "ঠিক আছে" ক্লিক করুন, তারপর ডকুমেন্ট সংরক্ষণ করে আবার চেষ্টা করুন।
+
+Format = ফরম্যাট
+View = দেখুন
+Design = ডিজাইন
+Simulation = সিমুলেশন
+Advanced = উন্নত
+Fabrication = তৈরিকরণ
+Check DRC = DRC পরীক্ষা করুন
+Simulation Setting = সিমুলেশন সেটিং
+BOM = BOM
+PCB Fabrication File(Gerber) = PCB তৈরিকরণ ফাইল(গারবার)
+Pick and Place File = পিক অ্যান্ড প্লেস ফাইল
+Parts Order = পার্টস অর্ডার
+PCB Order = PCB অর্ডার
+One-click Order Parts = ওয়ান-ক্লিক পার্টস অর্ডার
+One-click Order PCB/SMT = ওয়ান-ক্লিক PCB/SMT অর্ডার
+JLCPCB Layout Service = JLCPCB লেআউট সেবা
+SIM = SIM
+STD = STD
+WaveForm = তরঙ্গরূপ
+
+Place Module = মডিউল স্থাপন
+Please enter identification letters: = শনাক্তকরণ অক্ষর লিখুন:
+Only support English letters, up to 5. = শুধুমাত্র ইংরেজি অক্ষর সমর্থিত, সর্বোচ্চ ৫টি।
+
+Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = মডিউলে কম্পোনেন্ট(গুলি) এর জন্য প্রিফিক্স অ্যানোটেট করা নেই, প্রথমে কম্পোনেন্ট(গুলি) এর জন্য অনন্য প্রিফিক্স(গুলি) সম্পাদনা ও অ্যানোটেট করুন।
+Opening = খোলা হচ্ছে
+
+Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = ট্র্যাকের নেটও আপডেট করুন (শুধুমাত্র সেই পরিস্থিতিতে প্রযোজ্য যেখানে প্রিফিক্স/নেটলেবেল পরিবর্তন হয় এবং কোন কম্পোনেন্ট/তার যোগ বা অপসারণ করা হয় না)
+
+#desktop client error feedback
+Cannot open online documents on Project Offline mode. = প্রকল্প অফলাইন মোডে অনলাইন ডকুমেন্ট খোলা যায় না।
+
+Please select a project = একটি প্রকল্প নির্বাচন করুন
+Opened Projects = খোলা প্রকল্পসমূহ
+Open Project = প্রকল্প খুলুন
+Close Project = প্রকল্প বন্ধ করুন
+Open All Projects = সকল প্রকল্প খুলুন
+Close All Projects = সকল প্রকল্প বন্ধ করুন
+Select Owner = মালিক নির্বাচন করুন
+Select Folder = ফোল্ডার নির্বাচন করুন
+Select Owner or Folder = মালিক বা ফোল্ডার নির্বাচন করুন
+Select Project = প্রকল্প নির্বাচন করুন
+Folder = ফোল্ডার
+New Folder = নতুন ফোল্ডার
+New Sub Folder = নতুন সাব ফোল্ডার
+Delete Folder = ফোল্ডার ডিলিট করুন
+Move Project = প্রকল্প সরান
+Move Folder = ফোল্ডার সরান
+#Rename Folder
+Please input the folder name = ফোল্ডারের নাম ইনপুট করুন
+Invalid folder name = অবৈধ ফোল্ডার নাম
+Are you sure to delete this folder? = আপনি কি নিশ্চিত এই ফোল্ডারটি ডিলিট করতে চান?
+All projects in this folder will be moved to the root directory. = এই ফোল্ডারের সমস্ত প্রকল্প রুট ডিরেক্টরিতে সরানো হবে।
+Create new folder successfully = নতুন ফোল্ডার সফলভাবে তৈরি
+Failed to create new folder = নতুন ফোল্ডার তৈরি ব্যর্থ
+Delete folder successfully = ফোল্ডার সফলভাবে ডিলিট
+Failed to delete folder = ফোল্ডার ডিলিট ব্যর্থ
+Rename folder successfully = ফোল্ডার সফলভাবে নামকরণ
+Failed to rename folder = ফোল্ডার নামকরণ ব্যর্থ
+Move folder successfully = ফোল্ডার সফলভাবে সরানো
+Failed to move folder = ফোল্ডার সরানো ব্যর্থ
+Move project successfully = প্রকল্প সফলভাবে সরানো
+Failed to move project = প্রকল্প সরানো ব্যর্থ
+The folder depth must not exceed {0} levels = ফোল্ডারের গভীরতা {0} স্তরের বেশি হওয়া উচিত নয়
+Failed to add project to folder = ফোল্ডারে প্রকল্প যোগ করা ব্যর্থ
+
+Doesn't support SMT = SMT সাপোর্ট করে না
+JLCPCB SMT Stock: {0} = JLCPCB SMT স্টক: {0}
+
+Reset failed! There are duplicate component prefixes in the current schematic: = রিসেট ব্যর্থ! বর্তমান স্কিম্যাটিকে ডুপ্লিকেট কম্পোনেন্ট প্রিফিক্স রয়েছে:
+Reset failed! There are duplicate component prefixes in the current PCB: = রিসেট ব্যর্থ! বর্তমান PCB-তে ডুপ্লিকেট কম্পোনেন্ট প্রিফিক্স রয়েছে:
+Please modify the component prefixes first to ensure that the component prefix is unique. = কম্পোনেন্ট প্রিফিক্স অনন্য তা নিশ্চিত করতে প্রথমে কম্পোনেন্ট প্রিফিক্সগুলি সংশোধন করুন।
+
+JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA(YALONG সংস্করণ) - একটি সহজ এবং শক্তিশালী ইলেকট্রনিক সার্কিট ডিজাইন টুল
+JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA(স্ট্যান্ডার্ড) - একটি সহজ এবং শক্তিশালী ইলেকট্রনিক সার্কিট ডিজাইন টুল
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(স্ট্যান্ডার্ড) - একটি সহজ এবং শক্তিশালী ইলেকট্রনিক সার্কিট ডিজাইন টুল
+
+#Dialog for Package Custom Data
+Please input the data title = ডেটা শিরোনাম ইনপুট করুন
+Data title duplicated = ডেটা শিরোনাম ডুপ্লিকেট
+Cannot be more than {0} characters! = {0} অক্ষরের বেশি হতে পারে না!
+Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = শুধুমাত্র ল্যাটিন বর্ণমালা, সংখ্যা, আন্ডারস্কোর(_) এবং হাইফেন(-) অনুমোদিত।
+Invalid value of item {0} = আইটেম {0} এর অবৈধ মান
+Update DFM = DFM আপডেট
+Custom DFM Data = কাস্টম DFM ডেটা
+Saved custom data successfully! = কাস্টম ডেটা সফলভাবে সংরক্ষিত!
+Save custom data failed! = কাস্টম ডেটা সংরক্ষণ ব্যর্থ!
+Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = বর্তমান ডকুমেন্টের গ্রাফিক্স এবং কাস্টম ডেটা প্রতিস্থাপন করবে, ইমপোর্টের পর 3D মডেল সামঞ্জস্য করুন। চালিয়ে যাবেন কি না?
+Open footprint "Custom Data" dialog = ফুটপ্রিন্ট "কাস্টম ডেটা" ডায়ালগ খুলুন
+
+#Create lead shape
+Create Lead Shape = লিড শেপ তৈরি করুন
+Base on Pad Center = প্যাড কেন্দ্রের উপর ভিত্তি করে
+Base on Canvas Origin = ক্যানভাস উৎপত্তির উপর ভিত্তি করে
+Lead shape = লিড শেপ
+Footprint Type = ফুটপ্রিন্ট টাইপ
+From pad shape = প্যাড শেপ থেকে
+Lead length = লিড দৈর্ঘ্য
+Lead width = লিড প্রস্থ
+Lead diameter = লিড ব্যাস
+Scaling ratio = স্কেলিং অনুপাত
+Leads creating direction = লিড তৈরির দিক
+Auto = স্বয়ংক্রিয়
+Horizontal = অনুভূমিক
+Vertical = উলম্ব
+Canvas origin to lead edge = ক্যানভাস উৎপত্তি থেকে লিড প্রান্ত
+Canvas origin to body edge = ক্যানভাস উৎপত্তি থেকে বডি প্রান্ত
+Lead soldering length = লিড সোল্ডারিং দৈর্ঘ্য
+Lead soldering part diameter = লিড সোল্ডারিং অংশের ব্যাস
+Component shape object doesn't overlap lead shape object, please check carefully. = কম্পোনেন্ট শেপ অবজেক্ট লিড শেপ অবজেক্টের সাথে ওভারল্যাপ করে না, অনুগ্রহ করে সতর্কতার সাথে চেক করুন।
+The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. = প্যাড ({0},{1}) এর সোল্ডার মাস্ক সম্প্রসারণে ছোট ক্লিয়ারেন্স আছে (০.০৮mm এর কম), এটি সোল্ডারিং খুব ছোট করবে, অনুগ্রহ করে সংশোধন করুন।
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. = প্যাড ({0},{1}) এর পেস্ট মাস্ক সম্প্রসারণ বা কাস্টম পেস্ট মাস্ক লেয়ার অবজেক্টে ছোট ক্লিয়ারেন্স আছে (০.১৫mm এর কম), এটি স্টেনসিল তৈরি ব্যর্থ করবে, অনুগ্রহ করে সংশোধন করুন।
+System footprint must have pad number 1 or A1, please modify the pad number. = সিস্টেম ফুটপ্রিন্টে অবশ্যই প্যাড নম্বর ১ বা A1 থাকতে হবে, অনুগ্রহ করে প্যাড নম্বর সংশোধন করুন।
+System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = সিস্টেম ফুটপ্রিন্ট দুই বা তার বেশি প্যাড নম্বর ১ বা A1 হতে দেয় না, অনুগ্রহ করে প্যাড নম্বর সংশোধন করুন।
+Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = ডকুমেন্ট লেয়ারে বৃত্ত অবজেক্ট আছে, কিন্তু jlcPara এর পোলারিটি ০, অনুগ্রহ করে কাস্টম ডেটা চেক করুন।
+There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = পুনরাবৃত্ত প্যাড নাম্বার রয়েছে: {padNumber}, অনুগ্রহ করে চেক করুন, যদি সঠিক হয় তবে এটি উপেক্ষা করুন।
+Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = কম্পোনেন্ট মার্কিং লেয়ারে বৃত্ত খুঁজে পাওয়া যাচ্ছে না, অথবা এই বৃত্তটি ১ম প্যাডের সাথে একই চতুর্ভাগে নেই, অনুগ্রহ করে চেক করুন যে এটি সঠিক কিনা।
+This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. = এই ফুটপ্রিন্টটি LED, CASE বা DIO টাইপ, অনুগ্রহ করে চেক করুন যে পোলারিটি মার্কিং (বা বিশেষ পোলারিটি মার্কিং) আঁকতে হবে কিনা, যদি পোলারিটি মার্কিং থাকে তবে এই বার্তাটি উপেক্ষা করুন।
+This footprint is DIP type, please check if haven't place multi-layer pads. = এই ফুটপ্রিন্টটি DIP টাইপ, অনুগ্রহ করে চেক করুন যে মাল্টি-লেয়ার প্যাড রাখা হয়নি কিনা।
+This footprint is SMD type, please check if haven't placed single-layer pads. = এই ফুটপ্রিন্টটি SMD টাইপ, অনুগ্রহ করে চেক করুন যে সিঙ্গেল-লেয়ার প্যাড রাখা হয়নি কিনা।
+
+ROUND = গোলাকার
+RECTANGLE = আয়তাকার
+OCTAGONAL = অষ্টভুজাকার
+Upper left = উপরের বাম
+Lower left = নিচের বাম
+Center of Pads = প্যাডের কেন্দ্র
+First Pin = প্রথম পিন
+Package Name = প্যাকেজের নাম
+Pins Number = পিনের সংখ্যা
+Rows Of Pin = পিনের সারি
+Columns Of Pin = পিনের কলাম
+Polarity = পোলারিটি
+Pad Shape = প্যাডের আকার
+Body Diameter = বডির ব্যাস
+Lead Span = লিড স্প্যান
+Lead Vertical Span = লিড উল্লম্ব স্প্যান
+Body Length = বডির দৈর্ঘ্য
+Body Width = বডির প্রস্থ
+Pin Diameter = পিনের ব্যাস
+Pin Length = পিনের দৈর্ঘ্য
+Pin Height = পিনের উচ্চতা
+Pin Solid Width = পিন সলিড প্রস্থ
+Pin Solid Height = পিন সলিড উচ্চতা
+Pin Spacing = পিনের ব্যবধান
+Pin Horizontal Spacing = পিনের অনুভূমিক ব্যবধান
+Pin Vertical Spacing = পিনের উল্লম্ব ব্যবধান
+ThermalPad = থার্মাল প্যাড
+Pad Expansion = প্যাড সম্প্রসারণ
+Custom PasteMask = কাস্টম পেস্ট মাস্ক
+Fabrication Tolerance = ফ্যাব্রিকেশন টলারেন্স
+Placement Tolerance = প্লেসমেন্ট টলারেন্স
+FirstPin Position = প্রথম পিনের অবস্থান
+Package Origin = প্যাকেজের উৎস
+Expansion Size = সম্প্রসারণের আকার
+Corner = কোণা
+Angle = কোণ
+Fillet = ফিলেট
+Chamfer = চ্যামফার
+Update Preview = প্রিভিউ আপডেট করুন
+Number of pins (left and right) = পিনের সংখ্যা (বাম এবং দান)
+Number of pins (up and down) = পিনের সংখ্যা (উপর এবং নিচ)
+Reference Use Cases = রেফারেন্স ব্যবহারের ক্ষেত্র
+Package Type = প্যাকেজের ধরন
+Capacitance = ক্যাপাসিট্যান্স
+Resistance = রেজিস্ট্যান্স
+Bidirectional Diode = দ্বিমুখী ডায়োড
+Inductance = ইনডাক্ট্যান্স
+Crystal Oscillator = ক্রিস্টাল অসিলেটর
+Diode = ডায়োড
+LED = LED
+Fuse = ফিউজ
+Entity height = এনটিটির উচ্চতা
+Lead Overhang = লিড ওভারহ্যাং
+Lead Thickness = লিডের বেধ
+Unknown mistake = অজানা ভুল
+Has ThermalVias = থার্মাল ভায়াস আছে
+Polar Capacitance = পোলার ক্যাপাসিট্যান্স
+
+Create Component Marking = কম্পোনেন্ট মার্কিং তৈরি করুন
+Create component marking successfully! = কম্পোনেন্ট মার্কিং সফলভাবে তৈরি হয়েছে!
+No elements on component shape layer! = কম্পোনেন্ট শেপ লেয়ারে কোন এলিমেন্ট নেই!
+No elements on lead shape layer! = লিড শেপ লেয়ারে কোন এলিমেন্ট নেই!
+No pad of number 1 or A1, please modify the pad number. = ১ বা A1 নাম্বারের কোন প্যাড নেই, অনুগ্রহ করে প্যাড নাম্বার পরিবর্তন করুন।
+Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = সেভ ব্যর্থ! কম্পোনেন্ট মার্কিং বৃত্ত অক্ষে রয়েছে। আপনি কি কম্পোনেন্ট মার্কিং পুনরায় তৈরি করতে চান?
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: FreeRouting, Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = যদি অটোরাউট ব্যর্থ হয়, আপনি অটোরাউট ফাইল (DSN) তৃতীয় পক্ষের অটোরাউটার টুলে (যেমন: FreeRouting, Konekt Electra, Eremex TopoR ইত্যাদি) এক্সপোর্ট করতে পারেন, এবং অটোরাউট শেষ হওয়ার পর সেশন ফাইল (SES) এক্সপোর্ট করতে পারেন, এবং তারপর PCB তে ইমপোর্ট করতে পারেন।
+Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = অটো রুট ব্যর্থ! অস্বাভাবিক প্যাড(গুলি) ডেটা পাওয়া গেছে, অনুগ্রহ করে প্যাডের প্রস্থ এবং উচ্চতা পরিবর্তন করুন:
+Select Properties = বৈশিষ্ট্য নির্বাচন করুন
+Combine the same parts' prefixes in one row = একই অংশের প্রিফিক্সগুলি একটি সারিতে একত্রিত করুন
+Please check at least one item! = অনুগ্রহ করে অন্তত একটি আইটেম চেক করুন!
+Pins = পিনস
+Check component latest version when open schematic = স্কিম্যাটিক খোলার সময় কম্পোনেন্টের সর্বশেষ সংস্করণ চেক করুন
+Only show updated components = শুধুমাত্র আপডেট হওয়া কম্পোনেন্ট দেখান
+Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = নোট: যখন একটি PCB পরিবর্তন ইমপোর্ট করে, PCB ফুটপ্রিন্ট সংস্করণ অনুযায়ী আপডেট হয় যার সাথে স্কিম্যাটিক আবদ্ধ।
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. = বাইনারি ফরম্যাট DXF ইমপোর্ট করা সমর্থিত নয়, অনুগ্রহ করে ASCII ফরম্যাট DXF ইমপোর্ট করুন।
+
+Find System Similar Footprint = সিস্টেম অনুরূপ ফুটপ্রিন্ট খুঁজুন
+Download fingerprint data = ফিঙ্গারপ্রিন্ট ডেটা ডাউনলোড করুন
+Found similar footprints at system library, it is recommended to use them first. = সিস্টেম লাইব্রেরিতে অনুরূপ ফুটপ্রিন্ট পাওয়া গেছে, প্রথমে সেগুলি ব্যবহার করার পরামর্শ দেওয়া হচ্ছে।
+Copy Title = শিরোনাম কপি করুন
+Check system similar footprint = সিস্টেম অনুরূপ ফুটপ্রিন্ট চেক করুন
+Can't find the Similar Footprint = অনুরূপ ফুটপ্রিন্ট খুঁজে পাওয়া যায়নি
+Search failed! = অনুসন্ধান ব্যর্থ!
+No package information! = কোন প্যাকেজ তথ্য নেই!
+Find Parameters = প্যারামিটার খুঁজুন
+Find Results = ফলাফল খুঁজুন
+
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = বিল অফ ম্যাটেরিয়াল (BOM) আপলোড সম্পন্ন, অনুগ্রহ করে চালিয়ে যেতে "OK" ক্লিক করুন।
+Bill of material(BOM) upload failed! = বিল অফ ম্যাটেরিয়াল (BOM) আপলোড ব্যর্থ!
+
+All pads = সব প্যাড
+All holes = সব ছিদ্র
+Single layer pads = একক লেয়ার প্যাড
+Multi-layer pads = মাল্টি-লেয়ার প্যাড
+Same X pads = একই X প্যাড
+Same Y pads = একই Y প্যাড
+Same Y and clearance pads = একই Y এবং ক্লিয়ারেন্স প্যাড
+Same X and clearance pads = একই X এবং ক্লিয়ারেন্স প্যাড
+Same X and clearance pads' clearance = একই X এবং ক্লিয়ারেন্স প্যাডের ক্লিয়ারেন্স
+Same Y and clearance pads' clearance = একই Y এবং ক্লিয়ারেন্স প্যাডের ক্লিয়ারেন্স
+Pad's hole diameter(max) = প্যাডের ছিদ্রের ব্যাস (সর্বোচ্চ)
+Pad's hole diameter(min) = প্যাডের ছিদ্রের ব্যাস (সর্বনিম্ন)
+Pad's hole diameter(aver) = প্যাডের ছিদ্রের ব্যাস (গড়)
+
+Try Pro Edition = প্রো সংস্করণ চেষ্টা করুন
+
+Generate Solid Region by Objects Outline = অবজেক্টের আউটলাইন দ্বারা সলিড অঞ্চল তৈরি করুন
+Generate Polygon Pad by Objects Outline = অবজেক্টের আউটলাইন দ্বারা পলিগন প্যাড তৈরি করুন
+Select the objects that cannot be generated = যে অবজেক্টগুলি তৈরি করা যায় না তা নির্বাচন করুন
+
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = অনুগ্রহ করে স্কিম্যাটিক এবং PCB একটি জিপ ফাইল হিসেবে কম্প্রেস করুন এবং তারপর ইমপোর্ট করুন, যদি আপনি শুধুমাত্র স্কিম্যাটিক ইমপোর্ট করেন তবে আপনাকে ম্যানুয়ালি ফুটপ্রিন্টের সাথে বাইন্ডিং করতে হবে।
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = অনুগ্রহ করে ASCII ফরম্যাটে স্কিম্যাটিক এবং PCB একটি জিপ ফাইল হিসেবে কম্প্রেস করুন এবং তারপর ইমপোর্ট করুন, যদি আপনি শুধুমাত্র স্কিম্যাটিক ইমপোর্ট করেন তবে আপনাকে ম্যানুয়ালি ফুটপ্রিন্টের সাথে বাইন্ডিং করতে হবে।
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = ইমপোর্ট ব্যর্থ! ইমপোর্ট করা ফাইলগুলি ASCII ফরম্যাটে ছিল না, অনুগ্রহ করে প্রথমে Altium Designer এ ফাইলগুলিকে "Advanced Schematic ascii(*.SchDoc)" বা "PCB ASCII File(*.PcbDoc)" হিসেবে সেভ করুন, এবং তারপর ইমপোর্ট করুন।
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = অনুগ্রহ করে প্রথমে Altium Designer এ ফাইলগুলিকে "Advanced Schematic ascii(*.SchDoc)" বা "PCB ASCII File(*.PcbDoc)" হিসেবে সেভ করুন, এবং তারপর ইমপোর্ট করুন।
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. = PCB টেক্সট এডিটরের নতুন ফন্ট ফ্যামিলি ব্যবহার করবে, টেক্সটটি সামান্য বিচ্যুত দেখাতে পারে।
+Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. = বিভিন্ন ফাইল ফরম্যাট এবং এলিমেন্ট ডিজাইনের কারণে, ইমপোর্ট করা এলিমেন্টে কিছু পার্থক্য থাকতে পারে, অনুগ্রহ করে সাবধানে চেক করুন। আরো তথ্যের জন্য অনুগ্রহ করে টিউটোরিয়াল দেখুন।
+EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. = ফরম্যাট রূপান্তরের পার্থক্যের কারণে সৃষ্ট কোনো ক্ষতির জন্য EasyEDA দায়ী নয়, যদি আপনি সম্মত না হন, অনুগ্রহ করে ইমপোর্ট করবেন না।
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = অনুগ্রহ করে নিশ্চিত করুন যে EAGLE ফাইলটি EAGLE v6.0 এবং উচ্চতর সংস্করণে সেভ করা হয়েছে।
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = অনুগ্রহ করে KiCad5 দ্বারা স্কিম্যাটিক এবং PCB একটি জিপ ফাইল হিসেবে কম্প্রেস করুন এবং তারপর ইমপোর্ট করুন, যদি আপনি শুধুমাত্র স্কিম্যাটিক ইমপোর্ট করেন তবে আপনাকে ম্যানুয়ালি ফুটপ্রিন্টের সাথে বাইন্ডিং করতে হবে।
+Please make sure the Protel file is exported as ASCII format file. = অনুগ্রহ করে নিশ্চিত করুন যে Protel ফাইলটি ASCII ফরম্যাট ফাইল হিসেবে এক্সপোর্ট করা হয়েছে।
+Please compress the schematic and corresponding symbols as a zip file and then import it. = অনুগ্রহ করে স্কিম্যাটিক এবং সংশ্লিষ্ট সিম্বলগুলি একটি জিপ ফাইল হিসেবে কম্প্রেস করুন এবং তারপর ইমপোর্ট করুন।
+Tips = টিপস
+
+Exists incomplete connection = অসম্পূর্ণ সংযোগ বিদ্যমান
+Found that the board has incomplete connection, please check the nets and ratlines = বোর্ডে অসম্পূর্ণ সংযোগ পাওয়া গেছে, অনুগ্রহ করে নেট এবং র্যাটলাইন চেক করুন
+
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = অনুগ্রহ করে প্রথমে Altium Designer এ ফাইলগুলিকে "Advanced Schematic ascii(*.SchDoc)" বা "PCB ASCII File(*.PcbDoc)" হিসেবে সেভ করুন, এবং তারপর ইমপোর্ট করুন।
+Tips = টিপস
+Exists incomplete connection = অসম্পূর্ণ সংযোগ বিদ্যমান
+Found that the board has incomplete connection, please check the nets and ratlines = বোর্ডে অসম্পূর্ণ সংযোগ পাওয়া গেছে, অনুগ্রহ করে নেট এবং র্যাটলাইন চেক করুন
+
+You are not logged in or the login status is invalid, please login and try again. = আপনি লগইন করেননি বা লগইন স্ট্যাটাস অবৈধ, অনুগ্রহ করে লগইন করুন এবং আবার চেষ্টা করুন।
+
+Display Board Cutout = বোর্ড কাটআউট প্রদর্শন করুন
+
+Apply New Part = নতুন অংশ প্রয়োগ করুন
+Apply New Parts for Free = বিনামূল্যে নতুন অংশ প্রয়োগ করুন
+
+Migrate to Pro Edition... = প্রো সংস্করণে মাইগ্রেট করুন...
+Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: = প্রো সংস্করণে স্ট্যান্ডার্ড সংস্করণের প্রকল্প মাইগ্রেট করার পরামর্শ দেওয়া হচ্ছে, প্রো সংস্করণ আরো শক্তিশালী বৈশিষ্ট্যসম্পন্ন এবং আরো মসৃণ। কিভাবে মাইগ্রেট করবেন:
+1. Download and login the Pro edition. = ১. প্রো সংস্করণ ডাউনলোড করুন এবং লগইন করুন।
+2. Via: Top Menu - File - Migrate Standard... = ২. উপায়: শীর্ষ মেনু - ফাইল - স্ট্যান্ডার্ড মাইগ্রেট...
+3. Select the projects or libraries to migrate. = ৩. মাইগ্রেট করার জন্য প্রকল্প বা লাইব্রেরি নির্বাচন করুন।
+4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). = ৪. যদি আপনার প্রকল্প স্থানীয়ভাবে সংরক্ষিত থাকে, আপনি স্কিম্যাটিক এবং PCB একটি জিপ ফাইল হিসেবে কম্প্রেস করতে পারেন, এবং তারপর প্রো সংস্করণে ইমপোর্ট করতে পারেন। উপায়: শীর্ষ মেনু - ফাইল - ইমপোর্ট - EasyEDA(Standard)।
+Open Pro Edition = প্রো সংস্করণ খুলুন
+Feedback = ফিডব্যাক
+
+Datasheet Extract Wizard = ডেটাশিট এক্সট্র্যাক্ট উইজার্ড
+Or double click here to add image(<5MB) = অথবা ইমেজ যোগ করতে এখানে ডাবল ক্লিক করুন (<৫MB)
+Pins Information = পিনের তথ্য
+Next Step = পরবর্তী ধাপ
+Drop graphic files here = গ্রাফিক ফাইল এখানে ড্রপ করুন
+Please drag graphic file = অনুগ্রহ করে গ্রাফিক ফাইল ড্র্যাগ করুন
+Click to cancel loading = লোডিং বাতিল করতে ক্লিক করুন
+Use rolling wheels to zoom preview screen = প্রিভিউ স্ক্রিন জুম করতে রোলিং হুইল ব্যবহার করুন
+Please add pin information first = অনুগ্রহ করে প্রথমে পিনের তথ্য যোগ করুন
+The current environment does not support the paste content from the clipboard = বর্তমান পরিবেশ ক্লিপবোর্ড থেকে পেস্ট কন্টেন্ট সমর্থন করে না
+The current environment does not read the permissions of the clipboard = বর্তমান পরিবেশ ক্লিপবোর্ডের অনুমতি পড়তে পারে না
+Please copy a picture and paste the paste = অনুগ্রহ করে একটি ছবি কপি করুন এবং পেস্ট করুন
+Image compression failure = ইমেজ কম্প্রেশন ব্যর্থ
+Please drag or paste image at here = অনুগ্রহ করে এখানে ইমেজ ড্র্যাগ বা পেস্ট করুন
+Pins Data without extraction = এক্সট্র্যাকশন ছাড়া পিনের ডেটা
+Please make sure the editor is connect with internet, the extraction need some time, please wait a while = অনুগ্রহ করে নিশ্চিত করুন যে এডিটর ইন্টারনেটের সাথে সংযুক্ত, এক্সট্র্যাকশনের জন্য কিছু সময় প্রয়োজন, অনুগ্রহ করে একটু অপেক্ষা করুন
+Add image failed, please add an image which small than 5MB = ইমেজ যোগ করা ব্যর্থ, অনুগ্রহ করে ৫MB এর চেয়ে ছোট একটি ইমেজ যোগ করুন
+The image size cannot be more than 2 MB = ইমেজের আকার ২ MB এর বেশি হতে পারে না
+Image Type = ইমেজের ধরন
+SOP type = SOP ধরন
+QFN type = QFN ধরন
+Table type = টেবিল ধরন
+Clear = পরিষ্কার
+Side = পাশ
+No permission, please contact project manager to enable permission, after enable please refresh the project list and try again = কোন অনুমতি নেই, অনুগ্রহ করে অনুমতি সক্ষম করতে প্রকল্প ম্যানেজারের সাথে যোগাযোগ করুন, সক্ষম করার পর অনুগ্রহ করে প্রকল্প তালিকা রিফ্রেশ করুন এবং আবার চেষ্টা করুন
+During the exam, cross -engineering paste = পরীক্ষার সময়, ক্রস-ইঞ্জিনিয়ারিং পেস্ট
+The exam has ended and cannot be edited = পরীক্ষা শেষ হয়েছে এবং সম্পাদনা করা যাবে না
+Exam remaining time = পরীক্ষার বাকি সময়
+Exam is over = পরীক্ষা শেষ
+The exam is over and the test papers are being corrected = পরীক্ষা শেষ এবং পরীক্ষার কাগজ সংশোধন করা হচ্ছে
+Quit out = প্রস্থান করুন
+The current account does not belong to the current engineering member and cannot create a new documentation = বর্তমান অ্যাকাউন্ট বর্তমান ইঞ্জিনিয়ারিং সদস্যের নয় এবং নতুন ডকুমেন্টেশন তৈরি করতে পারে না
+
+The generated pads size will little bigger than input size, good for welding = উৎপন্ন প্যাডের আকার ইনপুট আকারের চেয়ে সামান্য বড় হবে, সোল্ডারিংয়ের জন্য ভালো
+
+The project has been published, but after editing, the project becomes unpublished. Do you want to continue? = প্রকল্পটি প্রকাশিত হয়েছে, কিন্তু সম্পাদনার পর, প্রকল্পটি অপ্রকাশিত হয়ে যায়। আপনি কি চালিয়ে যেতে চান?
+You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? = আপনি লাইব্রেরি থেকে কম্পোনেন্ট আপডেট করার চেষ্টা করছেন, অনুগ্রহ করে আপডেটের আগে পার্থক্য চেক করুন, যদি ক্যানভাসে ফ্লিপ করা (মিরর করা) কম্পোনেন্ট(গুলি) আপডেট হয়, সেগুলি মূল অবস্থায় রিসেট হবে, অনুগ্রহ করে লক্ষ্য করুন। আপনি কি চালিয়ে যেতে চান?
+{value}{unit-name}, need more than DRC({drc-value}{unit-name}) = {value}{unit-name}, DRC({drc-value}{unit-name}) এর চেয়ে বেশি প্রয়োজন
+{value}{unit-name}, need less than DRC({drc-value}{unit-name}) = {value}{unit-name}, DRC({drc-value}{unit-name}) এর চেয়ে কম প্রয়োজন
+Need more than DRC({drc-value}{unit-name}) = DRC({drc-value}{unit-name}) এর চেয়ে বেশি প্রয়োজন
+Need less than DRC({drc-value}{unit-name}) = DRC({drc-value}{unit-name}) এর চেয়ে কম প্রয়োজন
+Incomplete Connection = অসম্পূর্ণ সংযোগ
+Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? = বোর্ড আউটলাইন থেকে দূরে কিছু অবজেক্ট পাওয়া গেছে। ভালভাবে সামঞ্জস্য করতে এগুলোকে বোর্ডের নিচের ডান কোণে সরিয়ে নেবেন?
+
+Auto Pin Placement = অটো পিন প্লেসমেন্ট
+About the Library Files Note = লাইব্রেরি ফাইল নোট সম্পর্কে
+
+# upgrade notice
+New project notice = নতুন প্রকল্প নোটিশ
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. = EasyEDA Pro কয়েক বছর আগে প্রকাশিত হয়েছে এবং সম্পূর্ণরূপে EasyEDA Std প্রতিস্থাপন করতে পারে।
+1. The features are more comprehensive and powerful. = ১. বৈশিষ্ট্যগুলি আরও ব্যাপক এবং শক্তিশালী।
+2. Better performance and no pressure on large designs. = ২. ভালো পারফরম্যান্স এবং বড় ডিজাইনে কোনো চাপ নেই।
+3. The feature is constantly updated, making drawing more efficient. = ৩. বৈশিষ্ট্যগুলি ক্রমাগত আপডেট করা হয়, যা অঙ্কনকে আরও দক্ষ করে তোলে।
+4. Support the batch migration of EasyEDA Std libraries and projects. = ৪. EasyEDA Std লাইব্রেরি এবং প্রকল্পের ব্যাচ মাইগ্রেশন সমর্থন করে।
+5. Support on premise hosting for enterprise. = ৫. এন্টারপ্রাইজের জন্য অন-প্রিমাইস হোস্টিং সমর্থন করে।
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  = এখন থেকে প্রকল্প তৈরির জন্য ধীরে ধীরে EasyEDA Pro-তে স্থানান্তর করার সুপারিশ করা হচ্ছে।
+The EasyEDA Std will no longer add new features, and enter maintenance phase. = EasyEDA Std আর নতুন বৈশিষ্ট্য যোগ করবে না এবং রক্ষণাবেক্ষণ পর্যায়ে প্রবেশ করবে।
+Features comparison = বৈশিষ্ট্য তুলনা
+Projects migration tutorials. = প্রকল্প মাইগ্রেশন টিউটোরিয়াল।
+Apply trial for free = বিনামূল্যে ট্রায়ালের জন্য আবেদন করুন
+Migration Assistance Group = মাইগ্রেশন সহায়তা গ্রুপ
+Don't show this notice again today. = আজ এই নোটিশ আর দেখাবেন না।
+New Pro Project = নতুন Pro প্রকল্প
+New Std Project = নতুন Std প্রকল্প

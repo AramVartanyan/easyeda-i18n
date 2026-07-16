@@ -1016,6 +1016,8 @@ Filter nets =
 Design Rule Checking =
 Board Outline =
 Plane Zone =
+Non-Plated =
+Non-Plated Pad =
 [drcRule]
 Width = Szerokość
 DRC Width =
@@ -1027,6 +1029,7 @@ Diameter = Średnica
 DRC Diameter =
 Object =
 DRC Clearance =
+Clearance =
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. =
@@ -1038,6 +1041,7 @@ The diameter is less than Design Rule Checking (DRC) diameter =
 The drill diameter is less than Design Rule Checking (DRC) drill diameter =
 The track length is longer than Design Rule Checking (DRC) track length =
 The track width is less than Design Rule Checking (DRC) track width =
+The pad is non-plated. Please check whether it is correct. =
 
 #Dialog Simulation
 Show your simulation report = Pokaż raport Twojej symulacji
@@ -1681,7 +1685,7 @@ Please select its parent node = wybierz jego węzeł nadrzędny
 Libraries can not be exported as active project pdf. = Bibliotek nie można eksportować jako aktywnego projektu pdf.
 Error:No GND =
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. =
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. =
 Probe can not connect with ground(GND)! =
 Spice symbols's properties can't be empty. =
 Error:No Spice Symbol =
@@ -1728,7 +1732,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = Nie można pobrać plików z serwera. Sprawdź połączenie sieciowe i spróbuj ponownie
 Please open a schematic first! =
 Can not find the schematic of this PCB = Nie mogę znaleźć schematu do tego PCB
-invalid points! = nieprawidłowe punkty!
+Invalid points! = nieprawidłowe punkty!
 This file does not support this operation. = Ten plik nie wspiera tej operacji.
 Net Name Conflict = Konflikt nazwy sieci
 Net name = Nazwa sieci
@@ -1843,8 +1847,8 @@ SCR =
 Triac = Triak
 Transform(US) = Transformator(US)
 Transform(EU) = Transformator(EU)
-Transfrom(NEUTRAL-CTR TAP)(US) = Transformator(Środkowy odczep neutralny)(US)
-Transfrom(NEUTRAL-CTR TAP)(EU) = Transformator(Środkowy odczep neutralny)(EU)
+Transform(NEUTRAL-CTR TAP)(US) = Transformator(Środkowy odczep neutralny)(US)
+Transform(NEUTRAL-CTR TAP)(EU) = Transformator(Środkowy odczep neutralny)(EU)
 Mutual Inductors = Indukcyjność wspólna
 Mutual Inductors2 = Indukcyjność wspólna2
 Or Gate = Bramka Or
@@ -1868,7 +1872,7 @@ Fuse = Bezpiecznik
 Speaker = Głośnik
 XTAL = Kwarc
 5pin Operational Amplifier = Wzmacniacz operacyjny 5pin
-3pin Operational amplifier = Wzmacniacz operacyjny 3pin
+3pin Operational Amplifier = Wzmacniacz operacyjny 3pin
 Transmission Line = Linia transmisyjna
 Voltmeter = Woltomierz
 Ammeter = Amperomierz
@@ -2042,7 +2046,7 @@ Download = Pobierz
 Start =
 You have unsaved files, are you sure you want to log out without saving the files? =
 Please use the web version to run this function. = Do uruchomienia tej funkcji proszę wybrać wersję webową.
-Please save this file to you project! = Proszę zapisać ten plik w swoim projekcie.
+Please save this file to your project! = Proszę zapisać ten plik w swoim projekcie.
 Nothing changed = brak zmian
 Delete Node = Usuń węzeł
 This layer is invisible. = Ta warstwa nie jest wyświetlana
@@ -2734,19 +2738,19 @@ Routing Rules =
 Track Length Tuning... =
 Tracks with different net or non-track found in current targets. =
 Please select the signal tracks to be tuning. =
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? =
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? =
 45° Angle =
 90° Angle =
-DRC Track Length : =
-Current Length : =
-Additional Length : =
+DRC Track Length: =
+Current Length: =
+Additional Length: =
 Target Length: =
 Current Length: =
 Adjust Type =
 Double Side =
 Single Side =
 
-can not connect to the server =
+Cannot connect to the server =
 
 #Dialog Copper Area Manager
 Copper Area Manager... =
@@ -2921,7 +2925,11 @@ No, Keep It =
 
 Download Client =
 
-Search tutorial、open source projects etc. =
+Search tutorial, open source projects etc. =
+[search]
+Tutorials =
+OSHWLAB =
+[/search]
 
 Go to LCSC and search for =
 Go to LCSC =
@@ -3395,3 +3403,22 @@ Incomplete Connection =
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
 
 Auto Pin Placement =
+About the Library Files Note =
+
+# upgrade notice
+New project notice =
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
+1. The features are more comprehensive and powerful. =
+2. Better performance and no pressure on large designs. =
+3. The feature is constantly updated, making drawing more efficient. =
+4. Support the batch migration of EasyEDA Std libraries and projects. =
+5. Support on premise hosting for enterprise. =
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
+The EasyEDA Std will no longer add new features, and enter maintenance phase. =
+Features comparison =
+Projects migration tutorials. =
+Apply trial for free =
+Migration Assistance Group =
+Don't show this notice again today. =
+New Pro Project =
+New Std Project =

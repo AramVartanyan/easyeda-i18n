@@ -1017,6 +1017,8 @@ Filter nets = Filter spojov
 Design Rule Checking = Kontrola pravidla dizajnu
 Board Outline = Hranica Dosky
 Plane Zone =
+Non-Plated =
+Non-Plated Pad =
 [drcRule]
 Width = Šírka
 DRC Width = Šírka DRC
@@ -1028,6 +1030,7 @@ Diameter = Priemer
 DRC Diameter = Priemer DRC
 Object = Objekt
 DRC Clearance = Ochranná oblasť DRC
+Clearance = Ochranná oblasť
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Vo vedení sa nachádza viac ako jeden netlabel, skontrolujte to prosím či je to správne, ak to navrhujete zámerne, ignorujte toto upozornenie.
@@ -1039,6 +1042,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = Priemer je menš
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Priemer vrtáka je menší ako priemer vrtáka pri kontrole Ptavidla dizajnu (DRC)
 The track length is longer than Design Rule Checking (DRC) track length = Dĺžka vedenia je dhšia ako dĺžka vedenia pri kontrole Pravdla dizajnu (DRC)
 The track width is less than Design Rule Checking (DRC) track width = Šírka vedenia je menšia ako šírka vedenia pri kontrole Pravidla dizajnu (DRC)
+The pad is non-plated. Please check whether it is correct. =
 
 #Dialog Simulation
 Show your simulation report = Zobraziť správu simulácie
@@ -1682,7 +1686,7 @@ Please select its parent node = Vyberte prosím nadriadený uzol
 Libraries can not be exported as active project pdf. = Knižnice nie je možné exportovať ako aktivny projekt pdf.
 Error:No GND = Chyba: Nie je GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Tento obvod nemá GND. Ak chcete pridať do obvodu GND, vyberte ho prosím v nástroji obvodu.
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Prúdový obvod nemá symbol zdroja napätia alebo zdroja prúdu, umiestnite ho najskôr na ľavú stranu EElib alebo Spice Library.
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = Prúdový obvod nemá symbol zdroja napätia alebo zdroja prúdu, umiestnite ho najskôr na ľavú stranu EElib alebo Spice Library.
 Probe can not connect with ground(GND)! = Sonda sa nedá spojiť so zemou (GND)!
 Spice symbols's properties can't be empty. = Atrinúty symbolos Spice nie sú prázdne
 Error:No Spice Symbol = Chyba: Spice Symbol
@@ -1729,7 +1733,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = Nemôžem získať súbory zo servera, skontrolujte prosím  nastavenie siete a skúste znova.
 Please open a schematic first! = Najprv prosím otvorte schému!
 Can not find the schematic of this PCB = Nemôžem nájsť schému DPS
-invalid points! = neplatné body!
+Invalid points! = neplatné body!
 This file does not support this operation. = Tento súbor nepodporuje danú operáciu.
 Net Name Conflict = Konflikt v názvu spoja
 Net name = Názov spoja
@@ -1844,8 +1848,8 @@ SCR = SCR
 Triac = Triac
 Transform(US) = Menič(US)
 Transform(EU) = Menič(EU)
-Transfrom(NEUTRAL-CTR TAP)(US) = Menič(NEUTRAL-CTR TAP)(US)
-Transfrom(NEUTRAL-CTR TAP)(EU) = Menič(NEUTRAL-CTR TAP)(EU)
+Transform(NEUTRAL-CTR TAP)(US) = Menič(NEUTRAL-CTR TAP)(US)
+Transform(NEUTRAL-CTR TAP)(EU) = Menič(NEUTRAL-CTR TAP)(EU)
 Mutual Inductors = Vzájomné induktory
 Mutual Inductors2 = Vzájomné induktory2
 Or Gate = Brána OR
@@ -1869,7 +1873,7 @@ Fuse = Poistka
 Speaker = Reproduktor
 XTAL = XTAL
 5pin Operational Amplifier = Operačný zosilňovač 5pin
-3pin Operational amplifier = Operačný zosilňovač 3pin
+3pin Operational Amplifier = Operačný zosilňovač 3pin
 Transmission Line = Prenosové vedenie
 Voltmeter = Voltmeter
 Ammeter = Ampérmeter
@@ -2042,7 +2046,7 @@ Download = Stiahnúť
 Start = Zahájiť
 You have unsaved files, are you sure you want to log out without saving the files? = Máte neuložené súbory, chcete sa odhlásiť bez uloženia súborov?
 Please use the web version to run this function. = Ak chcete spustiť túto funkciu, použite prosím webovú verziu.
-Please save this file to you project! = Uložte súbor prosím do projektu!
+Please save this file to your project! = Uložte súbor prosím do projektu!
 Nothing changed = Žiadna zmena
 Delete Node = Odstrániť uzol
 This layer is invisible. = Táto vrstva je neplatná.
@@ -2734,19 +2738,19 @@ Routing Rules = Pravidlá ciest
 Track Length Tuning... =
 Tracks with different net or non-track found in current targets. =
 Please select the signal tracks to be tuning. =
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? =
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? =
 45° Angle = 45° Uhol
 90° Angle = 90° Uhol
-DRC Track Length : = DRC dĺžka vedenia :
-Current Length : = Aktuálna dĺžka :
-Additional Length : = Dodatočná dĺžka :
+DRC Track Length: = DRC dĺžka vedenia :
+Current Length: = Aktuálna dĺžka :
+Additional Length: = Dodatočná dĺžka :
 Target Length: = Cieľová dĺžka
 Current Length: = Aktuálna dĺžka
 Adjust Type = Upraviť typ
 Double Side = Obojstranná
 Single Side = Jednostranná
 
-can not connect to the server = nemôže sa pripojiť k serveru
+Cannot connect to the server = nemôže sa pripojiť k serveru
 
 #Dialog Copper Area Manager
 Copper Area Manager... = Správca oblasti medi...
@@ -2921,7 +2925,11 @@ No, Keep It = Nie, ponechať to
 
 Download Client = Stiahnúť klienta
 
-Search tutorial、open source projects etc. = Hľadaj návod, projekty s otvoreným zdrojom atď.
+Search tutorial, open source projects etc. = Hľadaj návod, projekty s otvoreným zdrojom atď.
+[search]
+Tutorials =
+OSHWLAB =
+[/search]
 
 Go to LCSC and search for = Prejdite na LCSC a vyhľadajte
 Go to LCSC = Prejdite na LCSC
@@ -3395,3 +3403,22 @@ Incomplete Connection =
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
 
 Auto Pin Placement =
+About the Library Files Note =
+
+# upgrade notice
+New project notice =
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
+1. The features are more comprehensive and powerful. =
+2. Better performance and no pressure on large designs. =
+3. The feature is constantly updated, making drawing more efficient. =
+4. Support the batch migration of EasyEDA Std libraries and projects. =
+5. Support on premise hosting for enterprise. =
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
+The EasyEDA Std will no longer add new features, and enter maintenance phase. =
+Features comparison =
+Projects migration tutorials. =
+Apply trial for free =
+Migration Assistance Group =
+Don't show this notice again today. =
+New Pro Project =
+New Std Project =

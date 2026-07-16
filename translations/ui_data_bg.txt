@@ -1016,6 +1016,8 @@ Filter nets = Филтриране на вериги
 Design Rule Checking = Проверка на правила за проектиране
 Board Outline = Очертания на платка
 Plane Zone = Планарна зона
+Non-Plated =
+Non-Plated Pad =
 [drcRule]
 Width = Ширина
 DRC Width = ППП ширина
@@ -1027,6 +1029,7 @@ Diameter = Диаметър
 DRC Diameter = ППП диаметър
 Object = Обект
 DRC Clearance = ППП светло разстояние
+Clearance = Светло разстояние
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue? = Ще отнеме време, докато се премахне опроводяването на тази верига, желаете ли да продължи?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Повече от един етикет на верига е открит за този проводник, моля проверете дали това е правилно, ако това е зададено умишлено, може да игнорирате предупреждението.
@@ -1038,6 +1041,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = Диаметър
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Диаметърът на свредлото е по-малък от посоченият в Проверка на Правилата за Проектиране (ППП)
 The track length is longer than Design Rule Checking (DRC) track length = Дължината на пистата е по-голяма от посочената в Проверка на Правилата за Проектиране (ППП)
 The track width is less than Design Rule Checking (DRC) track width = Ширината на пистата е по-голяма от посочената в Проверка на Правилата за Проектиране (ППП)
+The pad is non-plated. Please check whether it is correct. =
 
 #Dialog Simulation
 Show your simulation report = Показване на доклад за симулиция
@@ -1682,7 +1686,7 @@ Please select its parent node = Моля изберете по-главен въ
 Libraries can not be exported as active project pdf. = Библиотеките не могат да бъдат извличани като pdf активни проекти.
 Error:No GND = Грешка: Няма GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Тази схема няма GND. Моля изберете GND от инструментите за да добавите заземяване към схемата.
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Токовата верига не съдържа символ за източник на напрежение или източник на ток, моля поставете го, като го изберете от лявата страна на библиотеката EElib или библиотеката Spice.
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = Токовата верига не съдържа символ за източник на напрежение или източник на ток, моля поставете го, като го изберете от лявата страна на библиотеката EElib или библиотеката Spice.
 Probe can not connect with ground(GND)! = Сондата не може да се свърже към земя (GND)!
 Spice symbols's properties can't be empty. = Свойствата на Spice символът не може да са празни.
 Error:No Spice Symbol = Грешка: Липсва Spice символ
@@ -1729,7 +1733,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = Файловете не могат да бъдат изтеглени от сървъра, моля проверете вашата връзка с мрежата и опитайте отново
 Please open a schematic first! = Моля първо отверете схема!
 Can not find the schematic of this PCB = Не може да бъде открита схемата на тази печатна платка
-invalid points! = невалидни точки!
+Invalid points! = невалидни точки!
 This file does not support this operation. = Файлът не поддържа това действие.
 Net Name Conflict = Конфликт на имена на вериги
 Net name = Име на верига
@@ -1844,8 +1848,8 @@ SCR =
 Triac =
 Transform(US) =
 Transform(EU) =
-Transfrom(NEUTRAL-CTR TAP)(US) =
-Transfrom(NEUTRAL-CTR TAP)(EU) =
+Transform(NEUTRAL-CTR TAP)(US) =
+Transform(NEUTRAL-CTR TAP)(EU) =
 Mutual Inductors =
 Mutual Inductors2 =
 Or Gate =
@@ -1869,7 +1873,7 @@ Fuse = Предпазител
 Speaker = Говорител
 XTAL = Кварцов резонатор
 5pin Operational Amplifier = 5изводен Операционен Усилвател
-3pin Operational amplifier = 3изводен Операционен Усилвател
+3pin Operational Amplifier = 3изводен Операционен Усилвател
 Transmission Line = Предавателна линия
 Voltmeter = Волтметър
 Ammeter = Амперметър
@@ -2042,7 +2046,7 @@ Download = Сваляне
 Start = Старт
 You have unsaved files, are you sure you want to log out without saving the files? = Имате незаписани файлове. Сигурни ли сте, че желаете да напуснете, без да направите запис?
 Please use the web version to run this function. = Моля използвайте web версията за да стартирате тази функция.
-Please save this file to you project! = Моля запишете този файл към вашия проект!
+Please save this file to your project! = Моля запишете този файл към вашия проект!
 Nothing changed = Нищо не е променено
 Delete Node = Изтриване на възел
 This layer is invisible. = Този слой е невидим.
@@ -2734,19 +2738,19 @@ Routing Rules = Правила за опроводяване
 Track Length Tuning... = Настройка за дължина на писта
 Tracks with different net or non-track found in current targets. = Писти от различни вериги или не са открити писти в текущите цели.
 Please select the signal tracks to be tuning. = Моля изберете сигналните писти, които да бъдат настроени.
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = Цялата дължина надвишава заложените в Проверката на Правилата за Проектиране (ППП) граници, Продължаване?
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? = Цялата дължина надвишава заложените в Проверката на Правилата за Проектиране (ППП) граници, Продължаване?
 45° Angle = Ъгъл 45°
 90° Angle = Ъгъл 90°
-DRC Track Length : = ППП дължина на пистата
-Current Length : = Текуща дължина:
-Additional Length : = Допълнителна дължина:
+DRC Track Length: = ППП дължина на пистата
+Current Length: = Текуща дължина:
+Additional Length: = Допълнителна дължина:
 Target Length: = Целева дължина:
 Current Length: = Текуща дължина:
 Adjust Type = Настройка на тип
 Double Side = Двустранна
 Single Side = Едностранна
 
-can not connect to the server = не може да се свърже със сървъра
+Cannot connect to the server = не може да се свърже със сървъра
 
 #Dialog Copper Area Manager
 Copper Area Manager... = Управление на медна площ...
@@ -2921,7 +2925,11 @@ No, Keep It = Да, Запази го
 
 Download Client = Изтегляне на потребител
 
-Search tutorial、open source projects etc. = Търсене на упътване, проект с отворен код и др.
+Search tutorial, open source projects etc. = Търсене на упътване, проект с отворен код и др.
+[search]
+Tutorials =
+OSHWLAB =
+[/search]
 
 Go to LCSC and search for = Отидете в LCSC и търсете за
 Go to LCSC = Отидете в LCSC
@@ -3395,3 +3403,22 @@ Incomplete Connection =
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
 
 Auto Pin Placement =
+About the Library Files Note =
+
+# upgrade notice
+New project notice =
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
+1. The features are more comprehensive and powerful. =
+2. Better performance and no pressure on large designs. =
+3. The feature is constantly updated, making drawing more efficient. =
+4. Support the batch migration of EasyEDA Std libraries and projects. =
+5. Support on premise hosting for enterprise. =
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
+The EasyEDA Std will no longer add new features, and enter maintenance phase. =
+Features comparison =
+Projects migration tutorials. =
+Apply trial for free =
+Migration Assistance Group =
+Don't show this notice again today. =
+New Pro Project =
+New Std Project =

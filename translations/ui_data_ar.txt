@@ -1016,6 +1016,8 @@ Filter nets = تصفية النيتس
 Design Rule Checking = تدقيق قواعد التصميم
 Board Outline = حدود البورد الخارجية
 Plane Zone = المساحة الفارغة
+Non-Plated =
+Non-Plated Pad =
 [drcRule]
 Width = العرض
 DRC Width = العرض لتدقيق قواعد التصميم
@@ -1027,6 +1029,7 @@ Diameter = القطر
 DRC Diameter = القطر لتدقيق قواعد التصميم
 Object = الجسم
 DRC Clearance = الفراغ لتدقيق قواعد التصميم
+Clearance = تباعد
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue? = سوف نستغرق بعض الوقت لأزالة هذا التسليك .؟ عادي ناخذ من وقتك
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = اكثر من ملصق اسم وجد في هذا السلك, اذا كنت متقصداً لهذا التصميم الرجاء تجاهل هذا التحذير
@@ -1038,6 +1041,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = القطر أق�
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = قطر التثقيب أقل من المسموح به في تدقيق قواعد التصميم
 The track length is longer than Design Rule Checking (DRC) track length = طول المسار أكثر من المسموح به في تدقيق قواعد التصميم
 The track width is less than Design Rule Checking (DRC) track width = عرض المسار أقل من المسموح به في تدقيق قواعد التصميم
+The pad is non-plated. Please check whether it is correct. =
 
 #Dialog Simulation
 Show your simulation report = أعرض تقرير المحاكاة
@@ -1681,7 +1685,7 @@ Please select its parent node = الرجاء أختيار العقدة الأم
 Libraries can not be exported as active project pdf. = لا يمكن أستيراد المكتبات كملفات PDF
 Error:No GND = خطأ , لا يوجد خط أرضي سالب GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = الدائرة لا تحتوي على خط بارد/سالب الرجاء قم بأضافة GND من القائمة
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = الدائرة الرئيسية لا تحتوي على مصدر فولتية او تيار, الرجاء الأضافة من EElib or Spice Library
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = الدائرة الرئيسية لا تحتوي على مصدر فولتية او تيار, الرجاء الأضافة من EElib or Spice Library
 Probe can not connect with ground(GND)! = لا يمكن ربط الفاحص بالخط الأرضي
 Spice symbols's properties can't be empty. = حقل خصائص رمز سبايس لا يمكن ان تبقى فارغة
 Error:No Spice Symbol = خطأ : لا يوجد رمز سبايس
@@ -1728,7 +1732,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = لا يمكن تنزيل الملفات من الخادم/السيرفر, الرجاء التأكد من الأتصال بالأنترنت و  المحاولة من جديد
 Please open a schematic first! = الرجاء قم بفتح مخطط أولاً
 Can not find the schematic of this PCB = لا يمكن أيجاد المخطط الخاص بهذه الخريطة المطبوعة
-invalid points! = نقطة غير صالحة (الله يهديها)
+Invalid points! = نقطة غير صالحة (الله يهديها)
 This file does not support this operation. = هذا الملف لا يدعم هذه العملية
 Net Name Conflict = تضارب في أسم النقطة
 Net name = أسم النقطة
@@ -1843,8 +1847,8 @@ SCR =
 Triac = تراياك Triac
 Transform(US) =(US) محول
 Transform(EU) =(EU) محول
-Transfrom(NEUTRAL-CTR TAP)(US) =
-Transfrom(NEUTRAL-CTR TAP)(EU) =
+Transform(NEUTRAL-CTR TAP)(US) =
+Transform(NEUTRAL-CTR TAP)(EU) =
 Mutual Inductors =
 Mutual Inductors2 =
 Or Gate = Or بوابة الجمع المنطقي
@@ -1868,7 +1872,7 @@ Fuse = فيوز
 Speaker = سماعة
 XTAL =
 5pin Operational Amplifier =
-3pin Operational amplifier =
+3pin Operational Amplifier =
 Transmission Line = خط نقل
 Voltmeter = مقياس فولطية
 Ammeter = مقياس تيار
@@ -2041,7 +2045,7 @@ Download = تنزيل
 Start =البدء
 You have unsaved files, are you sure you want to log out without saving the files? = لديك ملفات غير محفوظة, هل أنت متأكد من تسجيل الخروج بدون حفظ ملفاتك
 Please use the web version to run this function. = الرجاء أستخدام أصدار الأونلاين من البرنامج لتشغيل هذه الخاصية
-Please save this file to you project! =الرجاء قم بخزن هذا الملف الى مشروعك
+Please save this file to your project! =الرجاء قم بخزن هذا الملف الى مشروعك
 Nothing changed = لم يتغير شيء
 Delete Node = أمسح العقدة
 This layer is invisible. = الطبقة مخفية
@@ -2733,19 +2737,19 @@ Routing Rules = قوانين التسليك
 Track Length Tuning... = تعديل طول المسار
 Tracks with different net or non-track found in current targets. =  تم أيجاد توصيلات مختلفة أو بدون مسارات
 Please select the signal tracks to be tuning. = الرجاء أختر مسار الأشارة لتعديله
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = الطول الكلي أكثر من قيمة تدقيق قوانين التصميم ! المتابعة ؟
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? = الطول الكلي أكثر من قيمة تدقيق قوانين التصميم ! المتابعة ؟
 45° Angle = زاوية 45
 90° Angle =زاوية 90
-DRC Track Length : = طول المسار في تدقيق قوانين التصميم
-Current Length : =الطول الحالي
-Additional Length : = الطول الأضافي
+DRC Track Length: = طول المسار في تدقيق قوانين التصميم
+Current Length: =الطول الحالي
+Additional Length: = الطول الأضافي
 Target Length: = طول الهدف
 Current Length: = الطول الحالي
 Adjust Type = تعديل النوع
 Double Side = مزدوج الوجه
 Single Side = أحادي الوجه
 
-can not connect to the server = لا يمكن الأتصال بالخادم/السيرفر !
+Cannot connect to the server = لا يمكن الأتصال بالخادم/السيرفر !
 
 #Dialog Copper Area Manager
 Copper Area Manager... = مدير مساحة النحاس
@@ -2920,7 +2924,11 @@ No, Keep It = لا , أبقه كما هو
 
 Download Client = زبون التنزيل
 
-Search tutorial、open source projects etc. = أبحث في الدروس , مشاريع مفتوحة المصادر , الخ
+Search tutorial, open source projects etc. = أبحث في الدروس , مشاريع مفتوحة المصادر , الخ
+[search]
+Tutorials =
+OSHWLAB =
+[/search]
 
 Go to LCSC and search for =LCSC  أبحث في
 Go to LCSC =LCSC  أذهب لـ
@@ -3394,3 +3402,22 @@ Incomplete Connection =
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
 
 Auto Pin Placement =
+About the Library Files Note =
+
+# upgrade notice
+New project notice =
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
+1. The features are more comprehensive and powerful. =
+2. Better performance and no pressure on large designs. =
+3. The feature is constantly updated, making drawing more efficient. =
+4. Support the batch migration of EasyEDA Std libraries and projects. =
+5. Support on premise hosting for enterprise. =
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
+The EasyEDA Std will no longer add new features, and enter maintenance phase. =
+Features comparison =
+Projects migration tutorials. =
+Apply trial for free =
+Migration Assistance Group =
+Don't show this notice again today. =
+New Pro Project =
+New Std Project =

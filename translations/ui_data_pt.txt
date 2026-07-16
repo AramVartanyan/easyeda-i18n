@@ -1016,6 +1016,8 @@ Filter nets = Redes de filtro
 Design Rule Checking = Checagem de Regras de Design
 Board Outline = Contorno da Placa
 Plane Zone =
+Non-Plated =
+Non-Plated Pad =
 [drcRule]
 Width = Largura
 DRC Width = Largura DRC
@@ -1027,6 +1029,7 @@ Diameter = Diâmetro
 DRC Diameter = Diâmetro DRC
 Object = Objeto
 DRC Clearance = Autorização DRC
+Clearance = Afastamento
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Mais de um rótulo de rede encontrado no fio, por favor verifique se isto está correto. Caso tenha projetado assim de propósito, ignore este aviso.
@@ -1038,6 +1041,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = O diâmetro é m
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = O diâmetro do furo é menor do que aquele definido pelas Regras de Verificação de Design (DRC)
 The track length is longer than Design Rule Checking (DRC) track length = O comprimento da trilha é maior do que aquele definido pelas Regras de Verificação de Design (DRC)
 The track width is less than Design Rule Checking (DRC) track width = A largura da trilha é maior do que aquela definida pelas Regras de Verificação de Design (DRC)
+The pad is non-plated. Please check whether it is correct. =
 
 #Dialog Simulation
 Show your simulation report = Mostrar seu relatório de simulação
@@ -1681,7 +1685,7 @@ Please select its parent node = Por favor, selecione seu nó pai
 Libraries can not be exported as active project pdf. = Bibliotecas não podem ser exportadas como projeto ativo pdf.
 Error:No GND =
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Este circuito não possui GND. Por favor, selecione GND a partir das ferramentas de circuito para adicioná-lo ao circuito.
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = O circuito atual não possui símbolos de Fonte de Tensão ou de Fonte de Corrente. Por favor, coloque ao menos um deles antes utilizando EElib ou Biblioteca Spice à esquerda da janela.
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = O circuito atual não possui símbolos de Fonte de Tensão ou de Fonte de Corrente. Por favor, coloque ao menos um deles antes utilizando EElib ou Biblioteca Spice à esquerda da janela.
 Probe can not connect with ground(GND)! = Sonda não pode ser conectada ao ground(GND)
 Spice symbols's properties can't be empty. =
 Error:No Spice Symbol =
@@ -1728,7 +1732,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = Não é possível recuperar arquivos do servidor, verifique sua rede e tente novamente
 Please open a schematic first! = Por favor, abra um esquema primeiro!
 Can not find the schematic of this PCB = Não é possível encontrar o esquema deste PCB
-invalid points! = pontos inválidos!
+Invalid points! = pontos inválidos!
 This file does not support this operation. = Este arquivo não suporta esta operação.
 Net Name Conflict = Conflito de nome de rede
 Net name = Nome da rede
@@ -1843,8 +1847,8 @@ SCR = SCR
 Triac = Triac
 Transform(US) = Transformador (US)
 Transform(EU) = Transformador (UE)
-Transfrom(NEUTRAL-CTR TAP)(US) = Transfromador (NEUTRAL-CTR TAP) (US)
-Transfrom(NEUTRAL-CTR TAP)(EU) = Transfromador (NEUTRAL-CTR TAP) (EU)
+Transform(NEUTRAL-CTR TAP)(US) = Transformador (NEUTRAL-CTR TAP) (US)
+Transform(NEUTRAL-CTR TAP)(EU) = Transformador (NEUTRAL-CTR TAP) (EU)
 Mutual Inductors = Indutores Mútuos
 Mutual Inductors2 = Indutores Mútuos2
 Or Gate = Porta Or
@@ -1868,7 +1872,7 @@ Fuse = Fusível
 Speaker = Speaker
 XTAL = XTAL
 5pin Operational Amplifier = Amplificador Operacional de 5 pinos
-3pin Operational amplifier = Amplificador operacional de 3 pinos
+3pin Operational Amplifier = Amplificador operacional de 3 pinos
 Transmission Line = Linha de Transmissão
 Voltmeter = Voltímetro
 Ammeter = Amperímetro
@@ -2042,7 +2046,7 @@ Download = Download
 Start = Início
 You have unsaved files, are you sure you want to log out without saving the files? = Você tem arquivos não salvos, tem certeza de que deseja sair sem salvar os arquivos?
 Please use the web version to run this function. = Por favor, use a versão web para executar esta função.
-Please save this file to you project! = Por favor, salve este arquivo para o seu projeto!
+Please save this file to your project! = Por favor, salve este arquivo para o seu projeto!
 Nothing changed = Nada mudou
 Delete Node = Excluir nó
 This layer is invisible. = Essa camada é invisível.
@@ -2734,19 +2738,19 @@ Routing Rules = Regras de Roteamento
 Track Length Tuning... = Ajuste do Comprimento da Trilha…
 Tracks with different net or non-track found in current targets. = Faixas com rede ou não rastreio diferentes encontradas nos destinos atuais.
 Please select the signal tracks to be tuning. = Por favor, selecione as faixas de sinal para sintonizar.
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = O comprimento total excede a restrição das Regras de Checkagem de Design (DRC). Continuar?
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? = O comprimento total excede a restrição das Regras de Checkagem de Design (DRC). Continuar?
 45° Angle = Ângulo de 45 °
 90° Angle = Ângulo de 90 °
-DRC Track Length : = Comprimento da faixa DRC:
-Current Length : = Comprimento Atual:
-Additional Length : = Comprimento Adicional:
+DRC Track Length: = Comprimento da faixa DRC:
+Current Length: = Comprimento Atual:
+Additional Length: = Comprimento Adicional:
 Target Length: = Comprimento Alvo:
 Current Length: = Comprimento Atual:
 Adjust Type =
 Double Side =
 Single Side =
 
-can not connect to the server = não pode conectar-se ao servidor
+Cannot connect to the server = não pode conectar-se ao servidor
 
 #Dialog Copper Area Manager
 Copper Area Manager... = Gerenciamento da Área de Cobre…
@@ -2921,7 +2925,11 @@ No, Keep It = Não, Manter
 
 Download Client = Baixar Cliente
 
-Search tutorial、open source projects etc. = Procure por tutoriais、projetos de código aberto etc.
+Search tutorial, open source projects etc. = Procure por tutoriais、projetos de código aberto etc.
+[search]
+Tutorials =
+OSHWLAB =
+[/search]
 
 Go to LCSC and search for = Ir para LCSC e pesquisar por
 Go to LCSC = Ir para LCSC
@@ -3395,3 +3403,22 @@ Incomplete Connection =
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
 
 Auto Pin Placement =
+About the Library Files Note =
+
+# upgrade notice
+New project notice =
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
+1. The features are more comprehensive and powerful. =
+2. Better performance and no pressure on large designs. =
+3. The feature is constantly updated, making drawing more efficient. =
+4. Support the batch migration of EasyEDA Std libraries and projects. =
+5. Support on premise hosting for enterprise. =
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
+The EasyEDA Std will no longer add new features, and enter maintenance phase. =
+Features comparison =
+Projects migration tutorials. =
+Apply trial for free =
+Migration Assistance Group =
+Don't show this notice again today. =
+New Pro Project =
+New Std Project =

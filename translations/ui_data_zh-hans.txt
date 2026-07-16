@@ -1017,6 +1017,8 @@ Filter nets = 筛选网络
 Design Rule Checking = 设计规则检查
 Board Outline = 边框
 Plane Zone = 内电层
+Non-Plated = 非金属化
+Non-Plated Pad = 非金属化焊盘
 [drcRule]
 Width = 宽
 DRC Width = DRC宽
@@ -1028,6 +1030,7 @@ Diameter = 孔外径
 DRC Diameter = DRC孔外径
 Object = 元素
 DRC Clearance = DRC间距
+Clearance = 间距
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue? = 清除布线可能要多花一些时间，确定要继续吗？
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = 该导线存在多个网络标签，请注意是否正常，若是设计需要，可忽略当前警告。
@@ -1039,6 +1042,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = 孔外径小于�
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = 孔内径小于设计规则(DRC)的孔内径
 The track length is longer than Design Rule Checking (DRC) track length = 导线总长度大于设计规则(DRC)的线长
 The track width is less than Design Rule Checking (DRC) track width = 导线宽度不能小于设计规则(DRC)的线宽
+The pad is non-plated. Please check whether it is correct. = 该焊盘金属化为否，请注意检查该设置是否正确
 
 #Dialog Simulation
 Show your simulation report = 显示仿真报告
@@ -1682,7 +1686,7 @@ Please select its parent node = 请选择它的父节点
 Libraries can not be exported as active project pdf. =库文件不能作为工程PDF文件导出
 Error:No GND = 错误：没有GND(地)
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = 该电路没有GND(地)，请从电路工具中选取GND(地)加入到电路中。
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = 当前电路没有电压源或电流源符号，请先在左侧基础库或仿真库放置。
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = 当前电路没有电压源或电流源符号，请先在左侧基础库或仿真库放置。
 Probe can not connect with ground(GND)! = 探针不能与地(GND)连接！
 Spice symbols's properties can't be empty. = 请完善仿真器件参数。
 Error:No Spice Symbol = 没有仿真模型
@@ -1729,7 +1733,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = 不能从服务器端获取文档, 检查网络后重试
 Please open a schematic first! = 请先打开一个原理图.
 Can not find the schematic of this PCB = 不能找到该PCB对应的原理图
-invalid points! = 含有无效坐标点
+Invalid points! = 含有无效坐标点
 This file does not support this operation. = 该文档不支持该操作
 Net Name Conflict = 网络名冲突
 Net name = 网络名
@@ -1844,8 +1848,8 @@ SCR = 可控硅
 Triac = 双向晶闸管
 Transform(US) = 变压器(美式)
 Transform(EU) = 变压器(欧式)
-Transfrom(NEUTRAL-CTR TAP)(US) = 中心抽头变压器(美式)
-Transfrom(NEUTRAL-CTR TAP)(EU) = 中心抽头变压器(欧式)
+Transform(NEUTRAL-CTR TAP)(US) = 中心抽头变压器(美式)
+Transform(NEUTRAL-CTR TAP)(EU) = 中心抽头变压器(欧式)
 Mutual Inductors = 互感
 Mutual Inductors2 = 互感2
 Or Gate = 或门
@@ -1869,7 +1873,7 @@ Fuse = 保险丝
 Speaker = 喇叭
 XTAL = 晶振
 5pin Operational Amplifier = 5端运放
-3pin Operational amplifier = 3端运放
+3pin Operational Amplifier = 3端运放
 Transmission Line = 传输线
 Voltmeter = 电压表
 Ammeter = 电流表
@@ -2042,7 +2046,7 @@ Download = 下载
 Start = 开始
 You have unsaved files, are you sure you want to log out without saving the files? = 还有未保存的文件，是否忽略它们并退出登录？
 Please use the web version to run this function. = 请在网页版中使用该功能
-Please save this file to you project! = 请保存文档到工程中
+Please save this file to your project! = 请保存文档到工程中
 Nothing changed = 没有任何改变
 Delete Node = 删除节点
 This layer is invisible. = 该层为不可见状态
@@ -2734,19 +2738,19 @@ Routing Rules = 布线规则
 Track Length Tuning... = 线长调整...
 Tracks with different net or non-track found in current targets. = 当前目标中存在不同网络的导线或非导线。
 Please select the signal tracks to be tuning. = 请选择要调整的信号层导线。
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = 总长度超过了设计规则(DRC)限制，是否继续？
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? = 总长度超过了设计规则(DRC)限制，是否继续？
 45° Angle = 45° 角
 90° Angle = 90°角
-DRC Track Length : = DRC导线长度 :
-Current Length : = 当前长度 :
-Additional Length : = 要增加的长度 :
+DRC Track Length: = DRC导线长度 :
+Current Length: = 当前长度 :
+Additional Length: = 要增加的长度 :
 Target Length: = 目标长度:
 Current Length: = 当前长度:
 Adjust Type = 调整类型
 Double Side = 双边
 Single Side = 单边
 
-can not connect to the server = 无法连接服务器
+Cannot connect to the server = 无法连接服务器
 
 #Dialog Copper Area Manager
 Copper Area Manager... = 铺铜管理器...
@@ -2921,7 +2925,11 @@ No, Keep It = 否，保留
 
 Download Client = 下载客户端
 
-Search tutorial、open source projects etc. = 搜索教程、开源工程等
+Search tutorial, open source projects etc. = 搜索教程、开源工程等
+[search]
+Tutorials = 教程
+OSHWLAB = 开源
+[/search]
 
 Go to LCSC and search for = 去立创商城搜索
 Go to LCSC = 去立创商城
@@ -3395,3 +3403,22 @@ Incomplete Connection = 未完成连接
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? = 发现有图元偏离板框较远，是否将这些图元移动在板子右下角以便调整？
 
 Auto Pin Placement = 自动引脚布局
+About the Library Files Note = 关于库文件的提示
+
+# upgrade notice
+New project notice = 新建工程提示
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. = 嘉立创EDA专业版已发布多年，已可完全替代标准版。
+1. The features are more comprehensive and powerful. = 1、功能更丰富强大。
+2. Better performance and no pressure on large designs. = 2、性能更好，大图无压力。
+3. The feature is constantly updated, making drawing more efficient. = 3、功能持续更新，画图更高效。
+4. Support the batch migration of EasyEDA Std libraries and projects. = 4、支持批量迁移标准版的库和工程。
+5. Support on premise hosting for enterprise. = 5、支持企业私有部署，满足企业安全需要。
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  = 建议即日起逐步转移到专业版进行创建工程。
+The EasyEDA Std will no longer add new features, and enter maintenance phase. = 标准版已不再添加新功能，进入维护阶段。
+Features comparison = 功能对比
+Projects migration tutorials. = 迁移教程
+Apply trial for free = 申请免费试用
+Migration Assistance Group = 转专业版协助群
+Don't show this notice again today. = 今天不再提示
+New Pro Project = 新建专业版工程
+New Std Project = 新建标准版工程

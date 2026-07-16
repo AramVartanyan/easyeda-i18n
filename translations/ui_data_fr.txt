@@ -1017,6 +1017,8 @@ Filter nets =
 Design Rule Checking = Vérification des règles de conception
 Board Outline = Countour de la carte
 Plane Zone =
+Non-Plated =
+Non-Plated Pad =
 [drcRule]
 Width = Largeur
 DRC Width =
@@ -1028,6 +1030,7 @@ Diameter = Diamètre
 DRC Diameter =
 Object =
 DRC Clearance =
+Clearance =
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Plus d'un netlabel est trouvé dans le fil, veuillez vérifier si c'est correct. Si c'est voulu, veuillez ignorer cet avertissement.
@@ -1039,6 +1042,7 @@ The diameter is less than Design Rule Checking (DRC) diameter =
 The drill diameter is less than Design Rule Checking (DRC) drill diameter =
 The track length is longer than Design Rule Checking (DRC) track length =
 The track width is less than Design Rule Checking (DRC) track width =
+The pad is non-plated. Please check whether it is correct. =
 
 #Dialog Simulation
 Show your simulation report = Afficher le rapport de simulation
@@ -1682,7 +1686,7 @@ Please select its parent node = Sélectionnez le noeud supérieur
 Libraries can not be exported as active project pdf. = Les librairies ne peuvent être exportées en pdf.
 Error:No GND = Erreur : pas de GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Ce circuit n'a pas de GND. Veuillez sélectionner GND dans l'outil de circuit pour l'ajouter au circuit.
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. =
 Probe can not connect with ground(GND)! = La sonde ne peut pas se connecter à la masse (GND) !
 Spice symbols's properties can't be empty. = Les propriétés des symboles Spices ne peuvent pas être vides.
 Error:No Spice Symbol = Erreur : Aucun symbole Spice
@@ -1729,7 +1733,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = Impossible de récupérer les fichiers du serveur. Vérifiez votre connexion et réessayez.
 Please open a schematic first! = Ouvrez d'abord un schéma !
 Can not find the schematic of this PCB =
-invalid points! = points invalides !
+Invalid points! = points invalides !
 This file does not support this operation. = Ce fichier ne supporte pas cette opération.
 Net Name Conflict =
 Net name =
@@ -1844,8 +1848,8 @@ SCR = Thyristor
 Triac = Triac
 Transform(US) = Tranformateur (US)
 Transform(EU) = Tranformateur (EU)
-Transfrom(NEUTRAL-CTR TAP)(US) = Tranformateur avec neutre (US)
-Transfrom(NEUTRAL-CTR TAP)(EU) = Tranformateur avec neutre (EU)
+Transform(NEUTRAL-CTR TAP)(US) = Tranformateur avec neutre (US)
+Transform(NEUTRAL-CTR TAP)(EU) = Tranformateur avec neutre (EU)
 Mutual Inductors = Inductance mutuelle
 Mutual Inductors2 = Inductance mutuelle-2
 Or Gate = Opérateur OU
@@ -1869,7 +1873,7 @@ Fuse = Fusible
 Speaker = Haut Parleur
 XTAL = Quartz
 5pin Operational Amplifier = AIL 5 broches
-3pin Operational amplifier = AIL 3 broches
+3pin Operational Amplifier = AIL 3 broches
 Transmission Line = Ligne de transmission
 Voltmeter = Voltmètre
 Ammeter = Ampèremètre
@@ -2042,7 +2046,7 @@ Download = Télécharger
 Start = Commencer
 You have unsaved files, are you sure you want to log out without saving the files? = Vous avez des fichiers non sauvegardés, êtes-vous sûr de vouloir vous déconnecter sans les sauvegarder?
 Please use the web version to run this function. = Veuillez utiliser la version web pour utiliser cette fonction.
-Please save this file to you project! = Veuillez enregistrer ce fichier dans votre projet !
+Please save this file to your project! = Veuillez enregistrer ce fichier dans votre projet !
 Nothing changed = Rien n'a changé
 Delete Node = Supprimer le noeud
 This layer is invisible. = Cette couche est invisble
@@ -2734,19 +2738,19 @@ Routing Rules = Règles de routage
 Track Length Tuning... =
 Tracks with different net or non-track found in current targets. =
 Please select the signal tracks to be tuning. =
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? =
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? =
 45° Angle =
 90° Angle =
-DRC Track Length : =
-Current Length : =
-Additional Length : =
+DRC Track Length: =
+Current Length: =
+Additional Length: =
 Target Length: =
 Current Length: =
 Adjust Type =
 Double Side =
 Single Side =
 
-can not connect to the server = ne peut pas se connecter au serveur
+Cannot connect to the server = ne peut pas se connecter au serveur
 
 #Dialog Copper Area Manager
 Copper Area Manager... =
@@ -2921,7 +2925,11 @@ No, Keep It = Non, gardez-le.
 
 Download Client = Client de téléchargement
 
-Search tutorial、open source projects etc. = Recherche de tutoriels、projets open source, etc.
+Search tutorial, open source projects etc. = Recherche de tutoriels、projets open source, etc.
+[search]
+Tutorials =
+OSHWLAB =
+[/search]
 
 Go to LCSC and search for = Allez sur LCSC et cherchez
 Go to LCSC = Allez sur LCSC
@@ -3395,3 +3403,22 @@ Incomplete Connection =
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
 
 Auto Pin Placement =
+About the Library Files Note =
+
+# upgrade notice
+New project notice =
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
+1. The features are more comprehensive and powerful. =
+2. Better performance and no pressure on large designs. =
+3. The feature is constantly updated, making drawing more efficient. =
+4. Support the batch migration of EasyEDA Std libraries and projects. =
+5. Support on premise hosting for enterprise. =
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
+The EasyEDA Std will no longer add new features, and enter maintenance phase. =
+Features comparison =
+Projects migration tutorials. =
+Apply trial for free =
+Migration Assistance Group =
+Don't show this notice again today. =
+New Pro Project =
+New Std Project =

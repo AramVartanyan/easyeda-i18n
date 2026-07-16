@@ -1017,6 +1017,8 @@ Filter nets = Фильтр соединений
 Design Rule Checking = Проверка правил проектирования
 Board Outline = Граница печатной платы
 Plane Zone = Область разделения
+Non-Plated =
+Non-Plated Pad =
 [drcRule]
 Width = Ширина
 DRC Width = Программа контроля проектных норм Ширина
@@ -1028,6 +1030,7 @@ Diameter = Диаметр
 DRC Diameter = Программа контроля проектных норм Диаметр
 Object = Объект
 DRC Clearance = Программа контроля проектных норм Зазор
+Clearance = Зазор
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Одно или более имя соединения соответствует этому проводнику. Пожалуйста, проверьте, правильно ли это. Если это вами задумано, то проигнорируйте это предупреждение.
@@ -1039,6 +1042,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = Диаметр �
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Диаметр сверловки меньше, чем определено правилами проверки (DRC) для диаметра сверловки
 The track length is longer than Design Rule Checking (DRC) track length = Длина дорожки больше, чем определено правилами проверки (DRC) для длиныы дорожки
 The track width is less than Design Rule Checking (DRC) track width = Ширина дорожки меньше, чем определено правилами проверки (DRC) для ширины дорожки
+The pad is non-plated. Please check whether it is correct. =
 
 #Dialog Simulation
 Show your simulation report = Показать отчёт о симуляции
@@ -1682,7 +1686,7 @@ Please select its parent node = Выбирите родительский узе
 Libraries can not be exported as active project pdf. = Библиотеки нельзя экспортировать как активный проект в формате pdf.
 Error:No GND = Ошибка: Нет GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Эта схема не содержит GND. Пожалуйста выберите GND из инструментов для доавления в схему.
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Текущая схема не содержит символа источника напряжения или источника тока, пожалуйста, разместите его, выбрав его в левой части библиотеки EElib или библиотеки Spice.
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = Текущая схема не содержит символа источника напряжения или источника тока, пожалуйста, разместите его, выбрав его в левой части библиотеки EElib или библиотеки Spice.
 Probe can not connect with ground(GND)! = Пробник не подключен к земле (GND)!
 Spice symbols's properties can't be empty. = Свойство символа Spice не может быть пустым.
 Error:No Spice Symbol = Ошибка: Не существует символа Spice
@@ -1729,7 +1733,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = Не удалось получить файлы с сервера, пожалуйста, проверьте ваше сетевое подключение и повторите попытку
 Please open a schematic first! = Пожалуйста, сначала откройте схему!
 Can not find the schematic of this PCB = Не удалось найти схему для этой печатной платы
-invalid points! = недопустимые координаты!
+Invalid points! = недопустимые координаты!
 This file does not support this operation. = Этот файл не поддерживает эту операцию.
 Net Name Conflict = Конфликт имён Цепей
 Net name = Имя Цепи
@@ -1844,8 +1848,8 @@ SCR = Тиристор
 Triac = Симистор
 Transform(US) = Трансформатор (США)
 Transform(EU) = Трансформатор (ЕС)
-Transfrom(NEUTRAL-CTR TAP)(US) = Transfrom(NEUTRAL-CTR TAP)(US)
-Transfrom(NEUTRAL-CTR TAP)(EU) = Transfrom(NEUTRAL-CTR TAP)(EU)
+Transform(NEUTRAL-CTR TAP)(US) = Transform(NEUTRAL-CTR TAP)(US)
+Transform(NEUTRAL-CTR TAP)(EU) = Transform(NEUTRAL-CTR TAP)(EU)
 Mutual Inductors = Взаимные катушки индуктивности
 Mutual Inductors2 = Взаимные катушки индуктивности2
 Or Gate = ИЛИ
@@ -1869,7 +1873,7 @@ Fuse = Предохранитель
 Speaker = Динамик
 XTAL = Кварцевый резонатор
 5pin Operational Amplifier = 5 контактный операционный усилитель
-3pin Operational amplifier = 3 контактный операционный усилитель
+3pin Operational Amplifier = 3 контактный операционный усилитель
 Transmission Line = Линии передачи
 Voltmeter = Вольтметр
 Ammeter = Амперметр
@@ -2042,7 +2046,7 @@ Download = Скачать
 Start = Начать
 You have unsaved files, are you sure you want to log out without saving the files? = У вас есть несохраненные файлы. Вы уверены, что хотите выйти без сохранения файлов?
 Please use the web version to run this function. = Пожалуйста, используйте веб-версию, чтобы использовать эту функцию.
-Please save this file to you project! = Пожалуйста, сохраните этот файл в ваш проект!
+Please save this file to your project! = Пожалуйста, сохраните этот файл в ваш проект!
 Nothing changed = Нет изменений
 Delete Node = Удалить узел
 This layer is invisible. = Этот слой невидимый.
@@ -2734,19 +2738,19 @@ Routing Rules = Правила трассировки
 Track Length Tuning... = Настройка длины дорожки...
 Tracks with different net or non-track found in current targets. = В текущей позиции обнаружены дорожки из другой Цепи или без трассировки.
 Please select the signal tracks to be tuning. = Выберите сигнальные дорожки для настройки.
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = Общая длина превышает ограничение правил трассировки (DRC), продолжить?
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? = Общая длина превышает ограничение правил трассировки (DRC), продолжить?
 45° Angle = угол 45°
 90° Angle = угол 90°
-DRC Track Length : = Длина дорожки DRC:
-Current Length : = Текущая длина:
-Additional Length : = Дополнительная длина:
+DRC Track Length: = Длина дорожки DRC:
+Current Length: = Текущая длина:
+Additional Length: = Дополнительная длина:
 Target Length: = Целевая длина:
 Current Length: = Текущая длина:
 Adjust Type = Настроить тип
 Double Side = С двух сторон
 Single Side = С одной стороны
 
-can not connect to the server = невозможно соединиться с сервером
+Cannot connect to the server = невозможно соединиться с сервером
 
 #Dialog Copper Area Manager
 Copper Area Manager... = Управление медными областями...
@@ -2921,7 +2925,11 @@ No, Keep It = Нет, сохранить
 
 Download Client = Скачать Клиент
 
-Search tutorial、open source projects etc. = Руководство по поиску, проекты с открытым исходным кодом и т. д.
+Search tutorial, open source projects etc. = Руководство по поиску, проекты с открытым исходным кодом и т. д.
+[search]
+Tutorials =
+OSHWLAB =
+[/search]
 
 Go to LCSC and search for = Перейти на LCSC и найти
 Go to LCSC = Перейти на LCSC
@@ -3395,3 +3403,22 @@ Incomplete Connection =
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
 
 Auto Pin Placement =
+About the Library Files Note =
+
+# upgrade notice
+New project notice =
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
+1. The features are more comprehensive and powerful. =
+2. Better performance and no pressure on large designs. =
+3. The feature is constantly updated, making drawing more efficient. =
+4. Support the batch migration of EasyEDA Std libraries and projects. =
+5. Support on premise hosting for enterprise. =
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
+The EasyEDA Std will no longer add new features, and enter maintenance phase. =
+Features comparison =
+Projects migration tutorials. =
+Apply trial for free =
+Migration Assistance Group =
+Don't show this notice again today. =
+New Pro Project =
+New Std Project =
